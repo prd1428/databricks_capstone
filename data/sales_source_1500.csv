@@ -1,0 +1,1501 @@
+order_id,order_date,customer_id,customer_name,city,state,product_id,product_name,category,quantity,unit_price,discount_pct,gross_amount,discount_amount,net_amount,payment_method,order_status
+ORD00001,2026-02-27,C011,Ravi,Visakhapatnam,Andhra Pradesh,P002,Smartphone,Electronics,1,26740.16,20,26740.16,5348.03,21392.13,Credit Card,Completed
+ORD00002,2026-01-08,C011,Ravi,Visakhapatnam,Andhra Pradesh,P009,Backpack,Accessories,1,2165.65,15,2165.65,324.85,1840.8,Debit Card,Completed
+ORD00003,2026-07-03,C004,Sneha,Mumbai,Maharashtra,P009,Backpack,Accessories,5,2226.95,0,11134.75,0.0,11134.75,Cash,Returned
+ORD00004,2026-08-11,C007,Kiran,Kolkata,West Bengal,P004,Monitor,Electronics,4,13378.93,15,53515.72,8027.36,45488.36,Debit Card,Completed
+ORD00005,2026-07-15,C012,Neha,Gurugram,Haryana,P007,Office Chair,Furniture,3,7914.32,5,23742.96,1187.15,22555.81,Credit Card,Completed
+ORD00006,2026-06-04,C002,Priya,Bengaluru,Karnataka,P007,Office Chair,Furniture,1,9090.74,5,9090.74,454.54,8636.2,Credit Card,Completed
+ORD00007,2026-04-07,C012,Neha,Gurugram,Haryana,P008,Desk,Furniture,5,13135.48,0,65677.4,0.0,65677.4,Cash,Completed
+ORD00008,2026-01-18,C005,Vikram,Pune,Maharashtra,P010,Tablet,Electronics,3,22522.99,15,67568.97,10135.35,57433.62,Debit Card,Completed
+ORD00009,2026-04-27,C005,Vikram,Pune,Maharashtra,P002,Smartphone,Electronics,2,27328.71,0,54657.42,0.0,54657.42,UPI,Returned
+ORD00010,2026-06-29,C003,Rahul,Chennai,Tamil Nadu,P006,Mouse,Accessories,3,930.63,0,2791.89,0.0,2791.89,Credit Card,Returned
+ORD00011,2026-04-29,C010,Divya,Kochi,Kerala,P003,Headphones,Electronics,5,2372.41,20,11862.05,2372.41,9489.64,UPI,Completed
+ORD00012,2026-07-16,C011,Ravi,Visakhapatnam,Andhra Pradesh,P009,Backpack,Accessories,2,2122.68,20,4245.36,849.07,3396.29,Debit Card,Completed
+ORD00013,2026-08-22,C001,Arjun,Hyderabad,Telangana,P006,Mouse,Accessories,4,821.91,5,3287.64,164.38,3123.26,UPI,Cancelled
+ORD00014,2026-03-09,C004,Sneha,Mumbai,Maharashtra,P008,Desk,Furniture,4,11901.24,20,47604.96,9520.99,38083.97,Debit Card,Completed
+ORD00015,2026-04-20,C012,Neha,Gurugram,Haryana,P009,Backpack,Accessories,5,2308.69,5,11543.45,577.17,10966.28,Net Banking,Cancelled
+ORD00016,2026-07-13,C006,Anita,Delhi,Delhi,P004,Monitor,Electronics,2,13981.84,15,27963.68,4194.55,23769.13,Credit Card,Completed
+ORD00017,2026-04-08,C003,Rahul,Chennai,Tamil Nadu,P003,Headphones,Electronics,4,2281.76,15,9127.04,1369.06,7757.98,Net Banking,Cancelled
+ORD00018,2026-01-30,C009,Suresh,Jaipur,Rajasthan,P005,Keyboard,Accessories,5,1864.9,0,9324.5,0.0,9324.5,Cash,Returned
+ORD00019,2026-04-27,C005,Vikram,Pune,Maharashtra,P006,Mouse,Accessories,1,888.26,5,888.26,44.41,843.85,UPI,Completed
+ORD00020,2026-03-18,C009,Suresh,Jaipur,Rajasthan,P003,Headphones,Electronics,5,2685.26,0,13426.3,0.0,13426.3,Cash,Returned
+ORD00021,2026-05-19,C010,Divya,Kochi,Kerala,P004,Monitor,Electronics,2,14735.03,5,29470.06,1473.5,27996.56,Credit Card,Cancelled
+ORD00022,2026-04-03,C010,Divya,Kochi,Kerala,P006,Mouse,Accessories,4,830.14,0,3320.56,0.0,3320.56,Debit Card,Completed
+ORD00023,2026-05-05,C001,Arjun,Hyderabad,Telangana,P004,Monitor,Electronics,5,12839.83,0,64199.15,0.0,64199.15,Cash,Completed
+ORD00024,2026-05-16,C003,Rahul,Chennai,Tamil Nadu,P003,Headphones,Electronics,4,2332.56,15,9330.24,1399.54,7930.7,Net Banking,Cancelled
+ORD00025,2026-06-21,C004,Sneha,Mumbai,Maharashtra,P009,Backpack,Accessories,2,2117.16,20,4234.32,846.86,3387.46,UPI,Returned
+ORD00026,2026-01-17,C008,Meena,Ahmedabad,Gujarat,P009,Backpack,Accessories,4,2089.08,0,8356.32,0.0,8356.32,Credit Card,Completed
+ORD00027,2026-01-19,C010,Divya,Kochi,Kerala,P009,Backpack,Accessories,2,2076.9,15,4153.8,623.07,3530.73,Credit Card,Returned
+ORD00028,2026-03-02,C004,Sneha,Mumbai,Maharashtra,P002,Smartphone,Electronics,1,25596.8,5,25596.8,1279.84,24316.96,Net Banking,Completed
+ORD00029,2026-05-27,C004,Sneha,Mumbai,Maharashtra,P009,Backpack,Accessories,2,2391.63,20,4783.26,956.65,3826.61,Net Banking,Cancelled
+ORD00030,2026-06-18,C004,Sneha,Mumbai,Maharashtra,P008,Desk,Furniture,4,11026.38,0,44105.52,0.0,44105.52,UPI,Completed
+ORD00031,2026-06-17,C007,Kiran,Kolkata,West Bengal,P007,Office Chair,Furniture,4,7742.09,20,30968.36,6193.67,24774.69,Credit Card,Returned
+ORD00032,2026-02-18,C001,Arjun,Hyderabad,Telangana,P007,Office Chair,Furniture,3,8072.72,0,24218.16,0.0,24218.16,Net Banking,Cancelled
+ORD00033,2026-08-12,C003,Rahul,Chennai,Tamil Nadu,P007,Office Chair,Furniture,2,8436.47,5,16872.94,843.65,16029.29,Net Banking,Completed
+ORD00034,2026-08-03,C009,Suresh,Jaipur,Rajasthan,P002,Smartphone,Electronics,1,30795.98,20,30795.98,6159.2,24636.78,Credit Card,Completed
+ORD00035,2026-08-10,C004,Sneha,Mumbai,Maharashtra,P003,Headphones,Electronics,4,2490.68,10,9962.72,996.27,8966.45,Credit Card,Completed
+ORD00036,2026-07-20,C003,Rahul,Chennai,Tamil Nadu,P007,Office Chair,Furniture,1,8100.85,10,8100.85,810.09,7290.76,UPI,Completed
+ORD00037,2026-02-25,C007,Kiran,Kolkata,West Bengal,P009,Backpack,Accessories,4,2063.56,0,8254.24,0.0,8254.24,Cash,Completed
+ORD00038,2026-01-13,C012,Neha,Gurugram,Haryana,P009,Backpack,Accessories,1,2117.99,20,2117.99,423.6,1694.39,Net Banking,Cancelled
+ORD00039,2026-01-21,C009,Suresh,Jaipur,Rajasthan,P009,Backpack,Accessories,2,2402.74,0,4805.48,0.0,4805.48,Credit Card,Completed
+ORD00040,2026-08-16,C010,Divya,Kochi,Kerala,P002,Smartphone,Electronics,2,25871.37,10,51742.74,5174.27,46568.47,Debit Card,Cancelled
+ORD00041,2026-06-18,C010,Divya,Kochi,Kerala,P010,Tablet,Electronics,1,21993.52,15,21993.52,3299.03,18694.49,Cash,Cancelled
+ORD00042,2026-03-22,C009,Suresh,Jaipur,Rajasthan,P006,Mouse,Accessories,3,930.55,0,2791.65,0.0,2791.65,UPI,Completed
+ORD00043,2026-07-12,C007,Kiran,Kolkata,West Bengal,P003,Headphones,Electronics,3,2408.09,10,7224.27,722.43,6501.84,Credit Card,Completed
+ORD00044,2026-02-24,C008,Meena,Ahmedabad,Gujarat,P010,Tablet,Electronics,5,21951.65,0,109758.25,0.0,109758.25,UPI,Cancelled
+ORD00045,2026-02-10,C003,Rahul,Chennai,Tamil Nadu,P006,Mouse,Accessories,1,876.51,0,876.51,0.0,876.51,Cash,Completed
+ORD00046,2026-06-20,C012,Neha,Gurugram,Haryana,P005,Keyboard,Accessories,5,1810.42,20,9052.1,1810.42,7241.68,UPI,Cancelled
+ORD00047,2026-01-28,C011,Ravi,Visakhapatnam,Andhra Pradesh,P002,Smartphone,Electronics,2,25846.4,5,51692.8,2584.64,49108.16,Cash,Returned
+ORD00048,2026-03-29,C003,Rahul,Chennai,Tamil Nadu,P005,Keyboard,Accessories,3,1695.83,15,5087.49,763.12,4324.37,UPI,Completed
+ORD00049,2026-04-19,C009,Suresh,Jaipur,Rajasthan,P008,Desk,Furniture,3,11021.52,0,33064.56,0.0,33064.56,Credit Card,Completed
+ORD00050,2026-02-11,C001,Arjun,Hyderabad,Telangana,P006,Mouse,Accessories,2,986.36,20,1972.72,394.54,1578.18,Net Banking,Returned
+ORD00051,2026-08-30,C009,Suresh,Jaipur,Rajasthan,P007,Office Chair,Furniture,5,7840.19,0,39200.95,0.0,39200.95,Debit Card,Returned
+ORD00052,2026-04-21,C009,Suresh,Jaipur,Rajasthan,P001,Laptop,Electronics,3,55577.78,15,166733.34,25010.0,141723.34,Credit Card,Completed
+ORD00053,2026-03-05,C005,Vikram,Pune,Maharashtra,P006,Mouse,Accessories,1,847.81,5,847.81,42.39,805.42,Credit Card,Returned
+ORD00054,2026-08-25,C006,Anita,Delhi,Delhi,P009,Backpack,Accessories,4,2309.77,15,9239.08,1385.86,7853.22,Debit Card,Completed
+ORD00055,2026-03-27,C003,Rahul,Chennai,Tamil Nadu,P007,Office Chair,Furniture,1,8902.16,0,8902.16,0.0,8902.16,Debit Card,Completed
+ORD00056,2026-08-08,C005,Vikram,Pune,Maharashtra,P003,Headphones,Electronics,1,2686.08,10,2686.08,268.61,2417.47,Debit Card,Completed
+ORD00057,2026-08-12,C004,Sneha,Mumbai,Maharashtra,P008,Desk,Furniture,3,12769.29,5,38307.87,1915.39,36392.48,Debit Card,Completed
+ORD00058,2026-01-18,C001,Arjun,Hyderabad,Telangana,P004,Monitor,Electronics,4,13380.09,5,53520.36,2676.02,50844.34,UPI,Completed
+ORD00059,2026-05-18,C011,Ravi,Visakhapatnam,Andhra Pradesh,P009,Backpack,Accessories,4,2411.71,20,9646.84,1929.37,7717.47,Credit Card,Completed
+ORD00060,2026-03-09,C002,Priya,Bengaluru,Karnataka,P005,Keyboard,Accessories,2,1966.51,15,3933.02,589.95,3343.07,Credit Card,Completed
+ORD00061,2026-04-22,C010,Divya,Kochi,Kerala,P007,Office Chair,Furniture,3,8986.93,20,26960.79,5392.16,21568.63,Cash,Cancelled
+ORD00062,2026-07-01,C002,Priya,Bengaluru,Karnataka,P007,Office Chair,Furniture,5,8083.03,0,40415.15,0.0,40415.15,Credit Card,Completed
+ORD00063,2026-08-31,C009,Suresh,Jaipur,Rajasthan,P009,Backpack,Accessories,2,2169.77,5,4339.54,216.98,4122.56,UPI,Returned
+ORD00064,2026-05-10,C010,Divya,Kochi,Kerala,P006,Mouse,Accessories,1,972.01,20,972.01,194.4,777.61,Net Banking,Completed
+ORD00065,2026-04-18,C006,Anita,Delhi,Delhi,P007,Office Chair,Furniture,3,7866.39,15,23599.17,3539.88,20059.29,Net Banking,Returned
+ORD00066,2026-05-21,C011,Ravi,Visakhapatnam,Andhra Pradesh,P003,Headphones,Electronics,5,2400.47,15,12002.35,1800.35,10202.0,UPI,Completed
+ORD00067,2026-03-24,C005,Vikram,Pune,Maharashtra,P004,Monitor,Electronics,4,14298.65,15,57194.6,8579.19,48615.41,Net Banking,Completed
+ORD00068,2026-07-23,C008,Meena,Ahmedabad,Gujarat,P004,Monitor,Electronics,5,14822.46,10,74112.3,7411.23,66701.07,Debit Card,Returned
+ORD00069,2026-06-08,C011,Ravi,Visakhapatnam,Andhra Pradesh,P002,Smartphone,Electronics,3,28917.58,15,86752.74,13012.91,73739.83,Credit Card,Completed
+ORD00070,2026-01-12,C004,Sneha,Mumbai,Maharashtra,P005,Keyboard,Accessories,2,1673.05,0,3346.1,0.0,3346.1,Net Banking,Completed
+ORD00071,2026-05-28,C010,Divya,Kochi,Kerala,P002,Smartphone,Electronics,4,30162.37,10,120649.48,12064.95,108584.53,Net Banking,Completed
+ORD00072,2026-01-02,C008,Meena,Ahmedabad,Gujarat,P007,Office Chair,Furniture,2,8765.3,0,17530.6,0.0,17530.6,Net Banking,Completed
+ORD00073,2026-03-05,C004,Sneha,Mumbai,Maharashtra,P003,Headphones,Electronics,5,2275.11,10,11375.55,1137.56,10237.99,Net Banking,Completed
+ORD00074,2026-07-13,C003,Rahul,Chennai,Tamil Nadu,P008,Desk,Furniture,5,12229.09,15,61145.45,9171.82,51973.63,Cash,Completed
+ORD00075,2026-02-10,C012,Neha,Gurugram,Haryana,P009,Backpack,Accessories,4,2176.2,15,8704.8,1305.72,7399.08,Net Banking,Returned
+ORD00076,2026-07-19,C008,Meena,Ahmedabad,Gujarat,P005,Keyboard,Accessories,2,1719.83,20,3439.66,687.93,2751.73,Net Banking,Cancelled
+ORD00077,2026-03-15,C011,Ravi,Visakhapatnam,Andhra Pradesh,P004,Monitor,Electronics,3,12816.95,10,38450.85,3845.09,34605.76,UPI,Completed
+ORD00078,2026-03-01,C006,Anita,Delhi,Delhi,P006,Mouse,Accessories,5,834.91,0,4174.55,0.0,4174.55,Debit Card,Completed
+ORD00079,2026-05-19,C012,Neha,Gurugram,Haryana,P004,Monitor,Electronics,1,13741.28,10,13741.28,1374.13,12367.15,Net Banking,Completed
+ORD00080,2026-05-30,C001,Arjun,Hyderabad,Telangana,P004,Monitor,Electronics,4,15133.55,10,60534.2,6053.42,54480.78,Credit Card,Returned
+ORD00081,2026-03-18,C010,Divya,Kochi,Kerala,P007,Office Chair,Furniture,4,9252.66,0,37010.64,0.0,37010.64,Net Banking,Completed
+ORD00082,2026-03-11,C009,Suresh,Jaipur,Rajasthan,P009,Backpack,Accessories,5,2194.82,0,10974.1,0.0,10974.1,Net Banking,Completed
+ORD00083,2026-04-14,C001,Arjun,Hyderabad,Telangana,P007,Office Chair,Furniture,3,8804.54,20,26413.62,5282.72,21130.9,Debit Card,Returned
+ORD00084,2026-04-11,C008,Meena,Ahmedabad,Gujarat,P003,Headphones,Electronics,5,2263.48,15,11317.4,1697.61,9619.79,Cash,Cancelled
+ORD00085,2026-08-10,C011,Ravi,Visakhapatnam,Andhra Pradesh,P001,Laptop,Electronics,1,54214.74,20,54214.74,10842.95,43371.79,Debit Card,Completed
+ORD00086,2026-03-25,C001,Arjun,Hyderabad,Telangana,P005,Keyboard,Accessories,4,1696.2,5,6784.8,339.24,6445.56,Net Banking,Completed
+ORD00087,2026-07-11,C005,Vikram,Pune,Maharashtra,P007,Office Chair,Furniture,3,8449.52,0,25348.56,0.0,25348.56,Credit Card,Cancelled
+ORD00088,2026-01-08,C006,Anita,Delhi,Delhi,P004,Monitor,Electronics,1,12712.72,20,12712.72,2542.54,10170.18,Debit Card,Completed
+ORD00089,2026-06-21,C001,Arjun,Hyderabad,Telangana,P010,Tablet,Electronics,2,22205.86,0,44411.72,0.0,44411.72,Cash,Completed
+ORD00090,2026-06-05,C004,Sneha,Mumbai,Maharashtra,P008,Desk,Furniture,3,11202.69,5,33608.07,1680.4,31927.67,Credit Card,Returned
+ORD00091,2026-03-21,C003,Rahul,Chennai,Tamil Nadu,P005,Keyboard,Accessories,1,1629.24,15,1629.24,244.39,1384.85,Net Banking,Cancelled
+ORD00092,2026-06-10,C007,Kiran,Kolkata,West Bengal,P004,Monitor,Electronics,1,14533.72,15,14533.72,2180.06,12353.66,Credit Card,Completed
+ORD00093,2026-05-25,C012,Neha,Gurugram,Haryana,P005,Keyboard,Accessories,5,1906.64,0,9533.2,0.0,9533.2,UPI,Completed
+ORD00094,2026-03-29,C009,Suresh,Jaipur,Rajasthan,P007,Office Chair,Furniture,3,8510.13,0,25530.39,0.0,25530.39,Net Banking,Completed
+ORD00095,2026-08-01,C008,Meena,Ahmedabad,Gujarat,P002,Smartphone,Electronics,4,28759.28,5,115037.12,5751.86,109285.26,Debit Card,Completed
+ORD00096,2026-07-26,C007,Kiran,Kolkata,West Bengal,P003,Headphones,Electronics,5,2385.04,20,11925.2,2385.04,9540.16,Net Banking,Cancelled
+ORD00097,2026-03-04,C008,Meena,Ahmedabad,Gujarat,P007,Office Chair,Furniture,5,8197.92,5,40989.6,2049.48,38940.12,UPI,Completed
+ORD00098,2026-04-08,C008,Meena,Ahmedabad,Gujarat,P004,Monitor,Electronics,4,14308.93,15,57235.72,8585.36,48650.36,Credit Card,Completed
+ORD00099,2026-07-24,C008,Meena,Ahmedabad,Gujarat,P006,Mouse,Accessories,2,848.18,10,1696.36,169.64,1526.72,UPI,Completed
+ORD00100,2026-08-31,C005,Vikram,Pune,Maharashtra,P010,Tablet,Electronics,3,21648.73,15,64946.19,9741.93,55204.26,Credit Card,Completed
+ORD00101,2026-06-26,C004,Sneha,Mumbai,Maharashtra,P007,Office Chair,Furniture,4,8938.88,15,35755.52,5363.33,30392.19,Net Banking,Completed
+ORD00102,2026-06-27,C008,Meena,Ahmedabad,Gujarat,P001,Laptop,Electronics,1,51937.56,5,51937.56,2596.88,49340.68,UPI,Completed
+ORD00103,2026-03-30,C011,Ravi,Visakhapatnam,Andhra Pradesh,P010,Tablet,Electronics,3,24256.67,10,72770.01,7277.0,65493.01,Cash,Completed
+ORD00104,2026-03-01,C006,Anita,Delhi,Delhi,P006,Mouse,Accessories,4,865.19,5,3460.76,173.04,3287.72,Debit Card,Completed
+ORD00105,2026-02-25,C006,Anita,Delhi,Delhi,P002,Smartphone,Electronics,5,26236.84,20,131184.2,26236.84,104947.36,Net Banking,Returned
+ORD00106,2026-01-26,C005,Vikram,Pune,Maharashtra,P010,Tablet,Electronics,5,22958.39,15,114791.95,17218.79,97573.16,UPI,Completed
+ORD00107,2026-05-17,C004,Sneha,Mumbai,Maharashtra,P006,Mouse,Accessories,2,812.55,5,1625.1,81.25,1543.85,UPI,Completed
+ORD00108,2026-02-02,C001,Arjun,Hyderabad,Telangana,P001,Laptop,Electronics,5,57171.59,5,285857.95,14292.9,271565.05,Net Banking,Returned
+ORD00109,2026-04-23,C002,Priya,Bengaluru,Karnataka,P001,Laptop,Electronics,5,54663.37,5,273316.85,13665.84,259651.01,Debit Card,Completed
+ORD00110,2026-04-13,C001,Arjun,Hyderabad,Telangana,P005,Keyboard,Accessories,4,1915.96,0,7663.84,0.0,7663.84,Credit Card,Completed
+ORD00111,2026-08-31,C010,Divya,Kochi,Kerala,P001,Laptop,Electronics,2,58422.56,0,116845.12,0.0,116845.12,Credit Card,Completed
+ORD00112,2026-07-22,C004,Sneha,Mumbai,Maharashtra,P002,Smartphone,Electronics,5,28595.38,10,142976.9,14297.69,128679.21,Debit Card,Cancelled
+ORD00113,2026-05-31,C009,Suresh,Jaipur,Rajasthan,P007,Office Chair,Furniture,4,8155.5,10,32622.0,3262.2,29359.8,UPI,Completed
+ORD00114,2026-01-26,C010,Divya,Kochi,Kerala,P010,Tablet,Electronics,1,26208.52,15,26208.52,3931.28,22277.24,Debit Card,Completed
+ORD00115,2026-01-20,C005,Vikram,Pune,Maharashtra,P002,Smartphone,Electronics,2,26173.36,0,52346.72,0.0,52346.72,Credit Card,Completed
+ORD00116,2026-03-01,C007,Kiran,Kolkata,West Bengal,P008,Desk,Furniture,5,11499.02,10,57495.1,5749.51,51745.59,UPI,Completed
+ORD00117,2026-03-09,C012,Neha,Gurugram,Haryana,P008,Desk,Furniture,1,11360.22,20,11360.22,2272.04,9088.18,Cash,Returned
+ORD00118,2026-06-15,C011,Ravi,Visakhapatnam,Andhra Pradesh,P004,Monitor,Electronics,4,14124.77,0,56499.08,0.0,56499.08,UPI,Completed
+ORD00119,2026-06-02,C003,Rahul,Chennai,Tamil Nadu,P002,Smartphone,Electronics,1,29638.72,0,29638.72,0.0,29638.72,Cash,Returned
+ORD00120,2026-06-29,C005,Vikram,Pune,Maharashtra,P008,Desk,Furniture,1,12452.83,10,12452.83,1245.28,11207.55,UPI,Completed
+ORD00121,2026-01-11,C009,Suresh,Jaipur,Rajasthan,P009,Backpack,Accessories,4,2015.39,10,8061.56,806.16,7255.4,UPI,Completed
+ORD00122,2026-06-22,C010,Divya,Kochi,Kerala,P005,Keyboard,Accessories,1,1702.41,0,1702.41,0.0,1702.41,Cash,Cancelled
+ORD00123,2026-02-14,C001,Arjun,Hyderabad,Telangana,P005,Keyboard,Accessories,5,1894.72,0,9473.6,0.0,9473.6,Cash,Completed
+ORD00124,2026-04-22,C011,Ravi,Visakhapatnam,Andhra Pradesh,P008,Desk,Furniture,3,13192.67,0,39578.01,0.0,39578.01,Net Banking,Returned
+ORD00125,2026-06-21,C002,Priya,Bengaluru,Karnataka,P008,Desk,Furniture,3,11599.94,10,34799.82,3479.98,31319.84,Debit Card,Completed
+ORD00126,2026-04-13,C006,Anita,Delhi,Delhi,P007,Office Chair,Furniture,4,8776.39,5,35105.56,1755.28,33350.28,Credit Card,Cancelled
+ORD00127,2026-07-17,C008,Meena,Ahmedabad,Gujarat,P002,Smartphone,Electronics,3,27010.33,5,81030.99,4051.55,76979.44,Cash,Completed
+ORD00128,2026-05-13,C001,Arjun,Hyderabad,Telangana,P009,Backpack,Accessories,4,2003.85,10,8015.4,801.54,7213.86,Cash,Completed
+ORD00129,2026-02-03,C008,Meena,Ahmedabad,Gujarat,P008,Desk,Furniture,1,11440.93,0,11440.93,0.0,11440.93,Net Banking,Completed
+ORD00130,2026-06-05,C012,Neha,Gurugram,Haryana,P008,Desk,Furniture,1,13135.55,0,13135.55,0.0,13135.55,Debit Card,Completed
+ORD00131,2026-02-27,C005,Vikram,Pune,Maharashtra,P009,Backpack,Accessories,1,2159.52,15,2159.52,323.93,1835.59,Net Banking,Completed
+ORD00132,2026-06-30,C002,Priya,Bengaluru,Karnataka,P003,Headphones,Electronics,4,2395.93,20,9583.72,1916.74,7666.98,Net Banking,Completed
+ORD00133,2026-04-09,C008,Meena,Ahmedabad,Gujarat,P008,Desk,Furniture,2,12123.04,10,24246.08,2424.61,21821.47,Cash,Completed
+ORD00134,2026-08-07,C009,Suresh,Jaipur,Rajasthan,P003,Headphones,Electronics,1,2636.34,5,2636.34,131.82,2504.52,UPI,Completed
+ORD00135,2026-08-03,C009,Suresh,Jaipur,Rajasthan,P005,Keyboard,Accessories,1,1881.38,5,1881.38,94.07,1787.31,Cash,Cancelled
+ORD00136,2026-03-30,C011,Ravi,Visakhapatnam,Andhra Pradesh,P008,Desk,Furniture,2,12092.59,10,24185.18,2418.52,21766.66,Cash,Completed
+ORD00137,2026-06-28,C009,Suresh,Jaipur,Rajasthan,P007,Office Chair,Furniture,4,9128.32,5,36513.28,1825.66,34687.62,Cash,Completed
+ORD00138,2026-05-02,C007,Kiran,Kolkata,West Bengal,P004,Monitor,Electronics,4,13490.89,0,53963.56,0.0,53963.56,Net Banking,Returned
+ORD00139,2026-06-01,C007,Kiran,Kolkata,West Bengal,P003,Headphones,Electronics,4,2313.12,0,9252.48,0.0,9252.48,Credit Card,Completed
+ORD00140,2026-02-06,C008,Meena,Ahmedabad,Gujarat,P002,Smartphone,Electronics,5,25285.95,10,126429.75,12642.98,113786.77,Debit Card,Completed
+ORD00141,2026-04-12,C002,Priya,Bengaluru,Karnataka,P008,Desk,Furniture,3,12295.82,5,36887.46,1844.37,35043.09,Credit Card,Returned
+ORD00142,2026-08-16,C006,Anita,Delhi,Delhi,P009,Backpack,Accessories,4,2255.79,5,9023.16,451.16,8572.0,Cash,Completed
+ORD00143,2026-08-24,C001,Arjun,Hyderabad,Telangana,P010,Tablet,Electronics,1,24629.57,0,24629.57,0.0,24629.57,Debit Card,Completed
+ORD00144,2026-06-30,C012,Neha,Gurugram,Haryana,P002,Smartphone,Electronics,4,29458.07,0,117832.28,0.0,117832.28,Net Banking,Completed
+ORD00145,2026-01-15,C003,Rahul,Chennai,Tamil Nadu,P005,Keyboard,Accessories,1,1736.77,0,1736.77,0.0,1736.77,UPI,Completed
+ORD00146,2026-05-25,C006,Anita,Delhi,Delhi,P007,Office Chair,Furniture,2,8552.98,0,17105.96,0.0,17105.96,Debit Card,Returned
+ORD00147,2026-06-08,C003,Rahul,Chennai,Tamil Nadu,P003,Headphones,Electronics,1,2685.42,15,2685.42,402.81,2282.61,Debit Card,Returned
+ORD00148,2026-03-07,C008,Meena,Ahmedabad,Gujarat,P010,Tablet,Electronics,2,23813.52,0,47627.04,0.0,47627.04,UPI,Completed
+ORD00149,2026-02-10,C011,Ravi,Visakhapatnam,Andhra Pradesh,P001,Laptop,Electronics,4,56953.72,5,227814.88,11390.74,216424.14,Net Banking,Completed
+ORD00150,2026-06-26,C006,Anita,Delhi,Delhi,P010,Tablet,Electronics,3,26217.74,20,78653.22,15730.64,62922.58,Net Banking,Completed
+ORD00151,2026-04-08,C005,Vikram,Pune,Maharashtra,P004,Monitor,Electronics,4,12898.63,10,51594.52,5159.45,46435.07,UPI,Cancelled
+ORD00152,2026-06-18,C010,Divya,Kochi,Kerala,P005,Keyboard,Accessories,3,1972.06,0,5916.18,0.0,5916.18,UPI,Completed
+ORD00153,2026-08-02,C001,Arjun,Hyderabad,Telangana,P010,Tablet,Electronics,1,25176.83,15,25176.83,3776.52,21400.31,Debit Card,Completed
+ORD00154,2026-03-06,C010,Divya,Kochi,Kerala,P006,Mouse,Accessories,2,844.22,20,1688.44,337.69,1350.75,Debit Card,Returned
+ORD00155,2026-01-09,C011,Ravi,Visakhapatnam,Andhra Pradesh,P002,Smartphone,Electronics,1,29616.22,5,29616.22,1480.81,28135.41,UPI,Cancelled
+ORD00156,2026-04-17,C012,Neha,Gurugram,Haryana,P003,Headphones,Electronics,1,2413.36,5,2413.36,120.67,2292.69,Debit Card,Completed
+ORD00157,2026-03-11,C003,Rahul,Chennai,Tamil Nadu,P009,Backpack,Accessories,3,2200.79,15,6602.37,990.36,5612.01,UPI,Completed
+ORD00158,2026-01-20,C008,Meena,Ahmedabad,Gujarat,P005,Keyboard,Accessories,3,1788.6,0,5365.8,0.0,5365.8,Debit Card,Completed
+ORD00159,2026-04-12,C011,Ravi,Visakhapatnam,Andhra Pradesh,P007,Office Chair,Furniture,5,7803.51,5,39017.55,1950.88,37066.67,UPI,Completed
+ORD00160,2026-06-22,C009,Suresh,Jaipur,Rajasthan,P002,Smartphone,Electronics,4,28967.84,5,115871.36,5793.57,110077.79,Cash,Completed
+ORD00161,2026-01-07,C007,Kiran,Kolkata,West Bengal,P006,Mouse,Accessories,1,852.09,20,852.09,170.42,681.67,Cash,Cancelled
+ORD00162,2026-07-30,C006,Anita,Delhi,Delhi,P010,Tablet,Electronics,2,21903.44,20,43806.88,8761.38,35045.5,UPI,Completed
+ORD00163,2026-01-10,C011,Ravi,Visakhapatnam,Andhra Pradesh,P007,Office Chair,Furniture,1,7727.09,0,7727.09,0.0,7727.09,Net Banking,Completed
+ORD00164,2026-04-27,C002,Priya,Bengaluru,Karnataka,P002,Smartphone,Electronics,2,25959.72,15,51919.44,7787.92,44131.52,Cash,Completed
+ORD00165,2026-08-02,C007,Kiran,Kolkata,West Bengal,P010,Tablet,Electronics,2,24743.63,10,49487.26,4948.73,44538.53,Cash,Completed
+ORD00166,2026-04-24,C007,Kiran,Kolkata,West Bengal,P005,Keyboard,Accessories,1,1753.39,20,1753.39,350.68,1402.71,Debit Card,Completed
+ORD00167,2026-06-15,C006,Anita,Delhi,Delhi,P002,Smartphone,Electronics,3,30249.5,15,90748.5,13612.27,77136.23,Credit Card,Completed
+ORD00168,2026-07-30,C007,Kiran,Kolkata,West Bengal,P005,Keyboard,Accessories,2,1961.64,0,3923.28,0.0,3923.28,Credit Card,Completed
+ORD00169,2026-03-27,C011,Ravi,Visakhapatnam,Andhra Pradesh,P004,Monitor,Electronics,5,12741.62,0,63708.1,0.0,63708.1,Debit Card,Completed
+ORD00170,2026-02-25,C010,Divya,Kochi,Kerala,P004,Monitor,Electronics,1,13180.04,15,13180.04,1977.01,11203.03,UPI,Completed
+ORD00171,2026-02-07,C003,Rahul,Chennai,Tamil Nadu,P010,Tablet,Electronics,1,25720.35,5,25720.35,1286.02,24434.33,Cash,Completed
+ORD00172,2026-02-03,C005,Vikram,Pune,Maharashtra,P003,Headphones,Electronics,1,2683.22,20,2683.22,536.64,2146.58,UPI,Completed
+ORD00173,2026-01-14,C004,Sneha,Mumbai,Maharashtra,P010,Tablet,Electronics,3,22436.38,0,67309.14,0.0,67309.14,Net Banking,Completed
+ORD00174,2026-04-03,C009,Suresh,Jaipur,Rajasthan,P002,Smartphone,Electronics,1,27710.34,10,27710.34,2771.03,24939.31,Cash,Cancelled
+ORD00175,2026-01-12,C002,Priya,Bengaluru,Karnataka,P008,Desk,Furniture,5,13069.0,0,65345.0,0.0,65345.0,Cash,Returned
+ORD00176,2026-08-05,C005,Vikram,Pune,Maharashtra,P008,Desk,Furniture,1,13196.61,0,13196.61,0.0,13196.61,Net Banking,Completed
+ORD00177,2026-01-19,C011,Ravi,Visakhapatnam,Andhra Pradesh,P002,Smartphone,Electronics,4,30294.32,20,121177.28,24235.46,96941.82,UPI,Completed
+ORD00178,2026-06-12,C010,Divya,Kochi,Kerala,P003,Headphones,Electronics,1,2387.51,0,2387.51,0.0,2387.51,Cash,Cancelled
+ORD00179,2026-04-27,C012,Neha,Gurugram,Haryana,P006,Mouse,Accessories,4,905.5,15,3622.0,543.3,3078.7,Cash,Cancelled
+ORD00180,2026-07-16,C007,Kiran,Kolkata,West Bengal,P002,Smartphone,Electronics,1,28845.13,20,28845.13,5769.03,23076.1,Debit Card,Cancelled
+ORD00181,2026-04-27,C007,Kiran,Kolkata,West Bengal,P008,Desk,Furniture,2,11613.44,10,23226.88,2322.69,20904.19,Net Banking,Completed
+ORD00182,2026-03-07,C012,Neha,Gurugram,Haryana,P002,Smartphone,Electronics,3,26950.13,10,80850.39,8085.04,72765.35,Debit Card,Completed
+ORD00183,2026-01-24,C011,Ravi,Visakhapatnam,Andhra Pradesh,P008,Desk,Furniture,1,12796.25,0,12796.25,0.0,12796.25,Credit Card,Completed
+ORD00184,2026-05-24,C012,Neha,Gurugram,Haryana,P006,Mouse,Accessories,2,820.8,15,1641.6,246.24,1395.36,UPI,Cancelled
+ORD00185,2026-08-29,C011,Ravi,Visakhapatnam,Andhra Pradesh,P002,Smartphone,Electronics,4,30092.2,5,120368.8,6018.44,114350.36,Credit Card,Completed
+ORD00186,2026-05-10,C005,Vikram,Pune,Maharashtra,P010,Tablet,Electronics,3,22097.28,5,66291.84,3314.59,62977.25,Debit Card,Completed
+ORD00187,2026-05-23,C011,Ravi,Visakhapatnam,Andhra Pradesh,P008,Desk,Furniture,2,11640.27,0,23280.54,0.0,23280.54,Credit Card,Completed
+ORD00188,2026-07-16,C005,Vikram,Pune,Maharashtra,P010,Tablet,Electronics,2,25656.74,10,51313.48,5131.35,46182.13,Cash,Cancelled
+ORD00189,2026-08-01,C011,Ravi,Visakhapatnam,Andhra Pradesh,P009,Backpack,Accessories,1,2388.8,15,2388.8,358.32,2030.48,UPI,Returned
+ORD00190,2026-08-24,C001,Arjun,Hyderabad,Telangana,P003,Headphones,Electronics,3,2631.2,20,7893.6,1578.72,6314.88,UPI,Completed
+ORD00191,2026-01-18,C001,Arjun,Hyderabad,Telangana,P003,Headphones,Electronics,2,2578.67,15,5157.34,773.6,4383.74,Credit Card,Completed
+ORD00192,2026-03-29,C002,Priya,Bengaluru,Karnataka,P009,Backpack,Accessories,2,2164.73,10,4329.46,432.95,3896.51,UPI,Completed
+ORD00193,2026-01-14,C005,Vikram,Pune,Maharashtra,P006,Mouse,Accessories,5,825.29,15,4126.45,618.97,3507.48,Debit Card,Completed
+ORD00194,2026-04-19,C010,Divya,Kochi,Kerala,P001,Laptop,Electronics,1,54374.24,5,54374.24,2718.71,51655.53,Cash,Completed
+ORD00195,2026-01-30,C008,Meena,Ahmedabad,Gujarat,P007,Office Chair,Furniture,3,8933.4,0,26800.2,0.0,26800.2,Net Banking,Completed
+ORD00196,2026-03-20,C002,Priya,Bengaluru,Karnataka,P005,Keyboard,Accessories,5,1809.7,10,9048.5,904.85,8143.65,Debit Card,Completed
+ORD00197,2026-08-31,C007,Kiran,Kolkata,West Bengal,P010,Tablet,Electronics,1,22581.23,0,22581.23,0.0,22581.23,Debit Card,Completed
+ORD00198,2026-07-11,C005,Vikram,Pune,Maharashtra,P005,Keyboard,Accessories,3,1622.78,0,4868.34,0.0,4868.34,Debit Card,Completed
+ORD00199,2026-05-24,C003,Rahul,Chennai,Tamil Nadu,P007,Office Chair,Furniture,5,8041.19,20,40205.95,8041.19,32164.76,UPI,Returned
+ORD00200,2026-08-24,C002,Priya,Bengaluru,Karnataka,P007,Office Chair,Furniture,1,7681.86,10,7681.86,768.19,6913.67,UPI,Completed
+ORD00201,2026-04-17,C010,Divya,Kochi,Kerala,P007,Office Chair,Furniture,5,8856.15,10,44280.75,4428.07,39852.68,Credit Card,Completed
+ORD00202,2026-06-08,C007,Kiran,Kolkata,West Bengal,P001,Laptop,Electronics,3,58314.54,0,174943.62,0.0,174943.62,UPI,Completed
+ORD00203,2026-04-13,C002,Priya,Bengaluru,Karnataka,P007,Office Chair,Furniture,1,8390.65,0,8390.65,0.0,8390.65,Credit Card,Cancelled
+ORD00204,2026-02-13,C007,Kiran,Kolkata,West Bengal,P005,Keyboard,Accessories,3,1739.9,0,5219.7,0.0,5219.7,Cash,Completed
+ORD00205,2026-07-18,C011,Ravi,Visakhapatnam,Andhra Pradesh,P002,Smartphone,Electronics,5,26285.86,15,131429.3,19714.39,111714.91,UPI,Completed
+ORD00206,2026-02-20,C012,Neha,Gurugram,Haryana,P003,Headphones,Electronics,2,2323.22,0,4646.44,0.0,4646.44,Cash,Completed
+ORD00207,2026-07-13,C003,Rahul,Chennai,Tamil Nadu,P002,Smartphone,Electronics,2,27967.06,20,55934.12,11186.82,44747.3,Cash,Cancelled
+ORD00208,2026-06-10,C008,Meena,Ahmedabad,Gujarat,P010,Tablet,Electronics,5,25748.38,5,128741.9,6437.1,122304.8,Debit Card,Completed
+ORD00209,2026-07-23,C008,Meena,Ahmedabad,Gujarat,P002,Smartphone,Electronics,4,28735.76,10,114943.04,11494.3,103448.74,Cash,Completed
+ORD00210,2026-04-26,C001,Arjun,Hyderabad,Telangana,P006,Mouse,Accessories,5,865.87,0,4329.35,0.0,4329.35,Credit Card,Completed
+ORD00211,2026-08-07,C006,Anita,Delhi,Delhi,P005,Keyboard,Accessories,1,1931.13,20,1931.13,386.23,1544.9,Cash,Completed
+ORD00212,2026-07-22,C010,Divya,Kochi,Kerala,P009,Backpack,Accessories,4,2235.34,10,8941.36,894.14,8047.22,Credit Card,Returned
+ORD00213,2026-05-09,C008,Meena,Ahmedabad,Gujarat,P010,Tablet,Electronics,2,24504.03,5,49008.06,2450.4,46557.66,Credit Card,Completed
+ORD00214,2026-06-15,C008,Meena,Ahmedabad,Gujarat,P002,Smartphone,Electronics,3,25672.24,20,77016.72,15403.34,61613.38,Credit Card,Completed
+ORD00215,2026-02-10,C004,Sneha,Mumbai,Maharashtra,P008,Desk,Furniture,4,12054.6,15,48218.4,7232.76,40985.64,UPI,Completed
+ORD00216,2026-01-14,C005,Vikram,Pune,Maharashtra,P007,Office Chair,Furniture,4,8804.13,5,35216.52,1760.83,33455.69,UPI,Returned
+ORD00217,2026-03-14,C002,Priya,Bengaluru,Karnataka,P006,Mouse,Accessories,1,932.11,15,932.11,139.82,792.29,Cash,Completed
+ORD00218,2026-08-23,C003,Rahul,Chennai,Tamil Nadu,P006,Mouse,Accessories,1,929.45,15,929.45,139.42,790.03,UPI,Completed
+ORD00219,2026-01-22,C011,Ravi,Visakhapatnam,Andhra Pradesh,P007,Office Chair,Furniture,2,8855.02,15,17710.04,2656.51,15053.53,Cash,Completed
+ORD00220,2026-08-31,C007,Kiran,Kolkata,West Bengal,P006,Mouse,Accessories,2,936.51,20,1873.02,374.6,1498.42,Cash,Returned
+ORD00221,2026-03-21,C002,Priya,Bengaluru,Karnataka,P007,Office Chair,Furniture,5,7680.99,5,38404.95,1920.25,36484.7,Debit Card,Completed
+ORD00222,2026-02-09,C006,Anita,Delhi,Delhi,P008,Desk,Furniture,2,13199.94,0,26399.88,0.0,26399.88,UPI,Completed
+ORD00223,2026-01-10,C002,Priya,Bengaluru,Karnataka,P009,Backpack,Accessories,5,2368.82,20,11844.1,2368.82,9475.28,UPI,Returned
+ORD00224,2026-02-16,C010,Divya,Kochi,Kerala,P003,Headphones,Electronics,5,2327.13,10,11635.65,1163.57,10472.08,Cash,Returned
+ORD00225,2026-07-04,C003,Rahul,Chennai,Tamil Nadu,P008,Desk,Furniture,1,11674.32,10,11674.32,1167.43,10506.89,Net Banking,Completed
+ORD00226,2026-03-21,C010,Divya,Kochi,Kerala,P005,Keyboard,Accessories,4,1812.24,0,7248.96,0.0,7248.96,Debit Card,Completed
+ORD00227,2026-07-19,C006,Anita,Delhi,Delhi,P010,Tablet,Electronics,4,25293.31,10,101173.24,10117.32,91055.92,Cash,Completed
+ORD00228,2026-02-05,C009,Suresh,Jaipur,Rajasthan,P007,Office Chair,Furniture,2,9012.14,0,18024.28,0.0,18024.28,Credit Card,Completed
+ORD00229,2026-07-02,C011,Ravi,Visakhapatnam,Andhra Pradesh,P008,Desk,Furniture,3,13042.3,15,39126.9,5869.03,33257.87,Credit Card,Cancelled
+ORD00230,2026-05-12,C005,Vikram,Pune,Maharashtra,P002,Smartphone,Electronics,2,27716.19,5,55432.38,2771.62,52660.76,Net Banking,Completed
+ORD00231,2026-04-17,C002,Priya,Bengaluru,Karnataka,P004,Monitor,Electronics,4,15205.32,5,60821.28,3041.06,57780.22,Net Banking,Completed
+ORD00232,2026-04-06,C009,Suresh,Jaipur,Rajasthan,P006,Mouse,Accessories,2,989.01,10,1978.02,197.8,1780.22,Credit Card,Completed
+ORD00233,2026-03-15,C006,Anita,Delhi,Delhi,P002,Smartphone,Electronics,3,25970.56,0,77911.68,0.0,77911.68,Debit Card,Completed
+ORD00234,2026-01-21,C012,Neha,Gurugram,Haryana,P008,Desk,Furniture,4,10812.6,15,43250.4,6487.56,36762.84,UPI,Completed
+ORD00235,2026-04-19,C004,Sneha,Mumbai,Maharashtra,P003,Headphones,Electronics,5,2554.44,20,12772.2,2554.44,10217.76,UPI,Completed
+ORD00236,2026-06-13,C004,Sneha,Mumbai,Maharashtra,P005,Keyboard,Accessories,1,1705.84,0,1705.84,0.0,1705.84,Net Banking,Cancelled
+ORD00237,2026-06-11,C002,Priya,Bengaluru,Karnataka,P002,Smartphone,Electronics,4,28201.9,15,112807.6,16921.14,95886.46,Cash,Cancelled
+ORD00238,2026-04-01,C004,Sneha,Mumbai,Maharashtra,P003,Headphones,Electronics,3,2250.78,10,6752.34,675.23,6077.11,Cash,Completed
+ORD00239,2026-01-18,C007,Kiran,Kolkata,West Bengal,P003,Headphones,Electronics,1,2737.33,15,2737.33,410.6,2326.73,Cash,Cancelled
+ORD00240,2026-05-01,C009,Suresh,Jaipur,Rajasthan,P009,Backpack,Accessories,5,2151.8,0,10759.0,0.0,10759.0,Net Banking,Completed
+ORD00241,2026-03-30,C006,Anita,Delhi,Delhi,P005,Keyboard,Accessories,1,1903.87,5,1903.87,95.19,1808.68,Credit Card,Completed
+ORD00242,2026-03-28,C010,Divya,Kochi,Kerala,P006,Mouse,Accessories,2,873.41,0,1746.82,0.0,1746.82,Debit Card,Returned
+ORD00243,2026-02-04,C011,Ravi,Visakhapatnam,Andhra Pradesh,P008,Desk,Furniture,4,11237.47,20,44949.88,8989.98,35959.9,Net Banking,Completed
+ORD00244,2026-08-15,C001,Arjun,Hyderabad,Telangana,P005,Keyboard,Accessories,2,1904.8,0,3809.6,0.0,3809.6,UPI,Completed
+ORD00245,2026-01-10,C005,Vikram,Pune,Maharashtra,P009,Backpack,Accessories,4,2188.3,15,8753.2,1312.98,7440.22,Debit Card,Returned
+ORD00246,2026-02-01,C005,Vikram,Pune,Maharashtra,P006,Mouse,Accessories,1,869.75,20,869.75,173.95,695.8,Net Banking,Completed
+ORD00247,2026-05-08,C007,Kiran,Kolkata,West Bengal,P008,Desk,Furniture,4,13136.94,5,52547.76,2627.39,49920.37,Net Banking,Returned
+ORD00248,2026-01-21,C006,Anita,Delhi,Delhi,P009,Backpack,Accessories,3,2299.92,0,6899.76,0.0,6899.76,Cash,Completed
+ORD00249,2026-03-25,C003,Rahul,Chennai,Tamil Nadu,P009,Backpack,Accessories,3,2025.14,5,6075.42,303.77,5771.65,UPI,Returned
+ORD00250,2026-06-26,C005,Vikram,Pune,Maharashtra,P008,Desk,Furniture,5,11822.68,20,59113.4,11822.68,47290.72,UPI,Completed
+ORD00251,2026-03-12,C008,Meena,Ahmedabad,Gujarat,P001,Laptop,Electronics,3,60479.66,15,181438.98,27215.85,154223.13,Credit Card,Returned
+ORD00252,2026-06-23,C002,Priya,Bengaluru,Karnataka,P007,Office Chair,Furniture,3,9011.86,15,27035.58,4055.34,22980.24,Credit Card,Completed
+ORD00253,2026-03-02,C003,Rahul,Chennai,Tamil Nadu,P010,Tablet,Electronics,4,22205.9,0,88823.6,0.0,88823.6,UPI,Returned
+ORD00254,2026-06-23,C006,Anita,Delhi,Delhi,P007,Office Chair,Furniture,5,8678.66,0,43393.3,0.0,43393.3,UPI,Completed
+ORD00255,2026-04-04,C006,Anita,Delhi,Delhi,P008,Desk,Furniture,1,11130.47,15,11130.47,1669.57,9460.9,UPI,Completed
+ORD00256,2026-02-17,C011,Ravi,Visakhapatnam,Andhra Pradesh,P005,Keyboard,Accessories,2,1629.33,0,3258.66,0.0,3258.66,Cash,Completed
+ORD00257,2026-06-30,C007,Kiran,Kolkata,West Bengal,P009,Backpack,Accessories,1,2320.98,5,2320.98,116.05,2204.93,Debit Card,Completed
+ORD00258,2026-08-07,C010,Divya,Kochi,Kerala,P005,Keyboard,Accessories,4,1664.15,0,6656.6,0.0,6656.6,Net Banking,Completed
+ORD00259,2026-03-23,C003,Rahul,Chennai,Tamil Nadu,P008,Desk,Furniture,1,13122.15,20,13122.15,2624.43,10497.72,UPI,Returned
+ORD00260,2026-03-18,C012,Neha,Gurugram,Haryana,P002,Smartphone,Electronics,5,26826.03,15,134130.15,20119.52,114010.63,Debit Card,Completed
+ORD00261,2026-07-22,C006,Anita,Delhi,Delhi,P009,Backpack,Accessories,2,2413.46,0,4826.92,0.0,4826.92,Debit Card,Completed
+ORD00262,2026-04-30,C008,Meena,Ahmedabad,Gujarat,P001,Laptop,Electronics,3,55795.05,15,167385.15,25107.77,142277.38,Debit Card,Cancelled
+ORD00263,2026-07-03,C010,Divya,Kochi,Kerala,P002,Smartphone,Electronics,1,27429.7,5,27429.7,1371.48,26058.22,Net Banking,Returned
+ORD00264,2026-03-23,C009,Suresh,Jaipur,Rajasthan,P007,Office Chair,Furniture,4,7775.38,15,31101.52,4665.23,26436.29,Credit Card,Returned
+ORD00265,2026-08-01,C008,Meena,Ahmedabad,Gujarat,P008,Desk,Furniture,5,11108.0,5,55540.0,2777.0,52763.0,Cash,Cancelled
+ORD00266,2026-01-15,C003,Rahul,Chennai,Tamil Nadu,P003,Headphones,Electronics,4,2705.36,15,10821.44,1623.22,9198.22,Cash,Completed
+ORD00267,2026-07-01,C003,Rahul,Chennai,Tamil Nadu,P005,Keyboard,Accessories,2,1736.16,0,3472.32,0.0,3472.32,UPI,Completed
+ORD00268,2026-05-22,C009,Suresh,Jaipur,Rajasthan,P005,Keyboard,Accessories,1,1690.67,5,1690.67,84.53,1606.14,Debit Card,Completed
+ORD00269,2026-06-14,C011,Ravi,Visakhapatnam,Andhra Pradesh,P005,Keyboard,Accessories,5,1653.63,15,8268.15,1240.22,7027.93,Cash,Completed
+ORD00270,2026-08-19,C010,Divya,Kochi,Kerala,P003,Headphones,Electronics,2,2562.24,20,5124.48,1024.9,4099.58,UPI,Cancelled
+ORD00271,2026-06-14,C010,Divya,Kochi,Kerala,P001,Laptop,Electronics,1,50000.08,0,50000.08,0.0,50000.08,UPI,Cancelled
+ORD00272,2026-01-08,C011,Ravi,Visakhapatnam,Andhra Pradesh,P004,Monitor,Electronics,5,14330.7,10,71653.5,7165.35,64488.15,Cash,Completed
+ORD00273,2026-06-25,C005,Vikram,Pune,Maharashtra,P005,Keyboard,Accessories,4,1909.69,0,7638.76,0.0,7638.76,UPI,Completed
+ORD00274,2026-05-04,C008,Meena,Ahmedabad,Gujarat,P002,Smartphone,Electronics,1,27661.79,0,27661.79,0.0,27661.79,Debit Card,Completed
+ORD00275,2026-03-23,C006,Anita,Delhi,Delhi,P010,Tablet,Electronics,2,25735.13,5,51470.26,2573.51,48896.75,UPI,Returned
+ORD00276,2026-03-23,C007,Kiran,Kolkata,West Bengal,P003,Headphones,Electronics,3,2530.83,15,7592.49,1138.87,6453.62,Net Banking,Completed
+ORD00277,2026-01-13,C002,Priya,Bengaluru,Karnataka,P005,Keyboard,Accessories,4,1670.72,0,6682.88,0.0,6682.88,Net Banking,Completed
+ORD00278,2026-08-28,C010,Divya,Kochi,Kerala,P007,Office Chair,Furniture,2,9032.91,0,18065.82,0.0,18065.82,UPI,Cancelled
+ORD00279,2026-08-14,C004,Sneha,Mumbai,Maharashtra,P003,Headphones,Electronics,4,2483.41,15,9933.64,1490.05,8443.59,Net Banking,Completed
+ORD00280,2026-03-03,C001,Arjun,Hyderabad,Telangana,P002,Smartphone,Electronics,4,27760.49,15,111041.96,16656.29,94385.67,Cash,Completed
+ORD00281,2026-08-14,C006,Anita,Delhi,Delhi,P001,Laptop,Electronics,1,54943.84,5,54943.84,2747.19,52196.65,Net Banking,Returned
+ORD00282,2026-08-14,C005,Vikram,Pune,Maharashtra,P009,Backpack,Accessories,1,2169.61,0,2169.61,0.0,2169.61,UPI,Completed
+ORD00283,2026-05-24,C007,Kiran,Kolkata,West Bengal,P006,Mouse,Accessories,1,819.21,10,819.21,81.92,737.29,UPI,Completed
+ORD00284,2026-07-15,C009,Suresh,Jaipur,Rajasthan,P005,Keyboard,Accessories,1,1801.53,10,1801.53,180.15,1621.38,UPI,Cancelled
+ORD00285,2026-04-11,C010,Divya,Kochi,Kerala,P010,Tablet,Electronics,1,26280.4,0,26280.4,0.0,26280.4,UPI,Completed
+ORD00286,2026-04-13,C009,Suresh,Jaipur,Rajasthan,P006,Mouse,Accessories,2,918.44,0,1836.88,0.0,1836.88,Credit Card,Cancelled
+ORD00287,2026-05-02,C001,Arjun,Hyderabad,Telangana,P001,Laptop,Electronics,2,53163.45,20,106326.9,21265.38,85061.52,Net Banking,Cancelled
+ORD00288,2026-06-06,C003,Rahul,Chennai,Tamil Nadu,P010,Tablet,Electronics,5,23174.24,0,115871.2,0.0,115871.2,Debit Card,Completed
+ORD00289,2026-08-01,C007,Kiran,Kolkata,West Bengal,P010,Tablet,Electronics,3,23214.59,15,69643.77,10446.57,59197.2,Cash,Cancelled
+ORD00290,2026-04-05,C008,Meena,Ahmedabad,Gujarat,P010,Tablet,Electronics,3,25515.59,10,76546.77,7654.68,68892.09,Credit Card,Completed
+ORD00291,2026-06-11,C007,Kiran,Kolkata,West Bengal,P010,Tablet,Electronics,3,25786.08,20,77358.24,15471.65,61886.59,Cash,Completed
+ORD00292,2026-01-14,C008,Meena,Ahmedabad,Gujarat,P005,Keyboard,Accessories,5,1701.92,15,8509.6,1276.44,7233.16,Net Banking,Cancelled
+ORD00293,2026-06-24,C003,Rahul,Chennai,Tamil Nadu,P009,Backpack,Accessories,5,2045.02,10,10225.1,1022.51,9202.59,Credit Card,Completed
+ORD00294,2026-04-18,C010,Divya,Kochi,Kerala,P002,Smartphone,Electronics,2,27669.82,0,55339.64,0.0,55339.64,Net Banking,Completed
+ORD00295,2026-08-24,C012,Neha,Gurugram,Haryana,P004,Monitor,Electronics,4,14769.92,15,59079.68,8861.95,50217.73,Credit Card,Completed
+ORD00296,2026-06-19,C012,Neha,Gurugram,Haryana,P003,Headphones,Electronics,5,2530.44,0,12652.2,0.0,12652.2,Cash,Completed
+ORD00297,2026-03-29,C007,Kiran,Kolkata,West Bengal,P006,Mouse,Accessories,2,974.18,10,1948.36,194.84,1753.52,UPI,Cancelled
+ORD00298,2026-03-05,C011,Ravi,Visakhapatnam,Andhra Pradesh,P005,Keyboard,Accessories,5,1689.22,10,8446.1,844.61,7601.49,Cash,Completed
+ORD00299,2026-06-26,C005,Vikram,Pune,Maharashtra,P004,Monitor,Electronics,3,14573.72,5,43721.16,2186.06,41535.1,Net Banking,Returned
+ORD00300,2026-07-23,C006,Anita,Delhi,Delhi,P008,Desk,Furniture,3,13040.88,15,39122.64,5868.4,33254.24,UPI,Returned
+ORD00301,2026-08-18,C005,Vikram,Pune,Maharashtra,P002,Smartphone,Electronics,5,28241.87,20,141209.35,28241.87,112967.48,UPI,Completed
+ORD00302,2026-01-21,C003,Rahul,Chennai,Tamil Nadu,P005,Keyboard,Accessories,1,1963.91,5,1963.91,98.2,1865.71,Net Banking,Completed
+ORD00303,2026-05-18,C011,Ravi,Visakhapatnam,Andhra Pradesh,P005,Keyboard,Accessories,4,1692.74,0,6770.96,0.0,6770.96,Cash,Completed
+ORD00304,2026-05-31,C012,Neha,Gurugram,Haryana,P005,Keyboard,Accessories,2,1841.64,0,3683.28,0.0,3683.28,Debit Card,Completed
+ORD00305,2026-01-26,C001,Arjun,Hyderabad,Telangana,P009,Backpack,Accessories,2,2082.45,20,4164.9,832.98,3331.92,UPI,Completed
+ORD00306,2026-01-02,C012,Neha,Gurugram,Haryana,P008,Desk,Furniture,1,12649.84,20,12649.84,2529.97,10119.87,Debit Card,Cancelled
+ORD00307,2026-03-15,C007,Kiran,Kolkata,West Bengal,P008,Desk,Furniture,4,11278.69,20,45114.76,9022.95,36091.81,UPI,Completed
+ORD00308,2026-05-17,C011,Ravi,Visakhapatnam,Andhra Pradesh,P001,Laptop,Electronics,1,55815.47,20,55815.47,11163.09,44652.38,Credit Card,Returned
+ORD00309,2026-04-12,C003,Rahul,Chennai,Tamil Nadu,P007,Office Chair,Furniture,2,9345.19,0,18690.38,0.0,18690.38,Debit Card,Completed
+ORD00310,2026-06-04,C012,Neha,Gurugram,Haryana,P005,Keyboard,Accessories,1,1727.42,0,1727.42,0.0,1727.42,UPI,Completed
+ORD00311,2026-08-29,C005,Vikram,Pune,Maharashtra,P008,Desk,Furniture,5,11985.39,15,59926.95,8989.04,50937.91,Cash,Completed
+ORD00312,2026-07-07,C008,Meena,Ahmedabad,Gujarat,P005,Keyboard,Accessories,2,1739.05,0,3478.1,0.0,3478.1,UPI,Completed
+ORD00313,2026-03-17,C012,Neha,Gurugram,Haryana,P003,Headphones,Electronics,1,2418.56,20,2418.56,483.71,1934.85,Debit Card,Cancelled
+ORD00314,2026-01-23,C003,Rahul,Chennai,Tamil Nadu,P010,Tablet,Electronics,4,24073.35,10,96293.4,9629.34,86664.06,Credit Card,Completed
+ORD00315,2026-01-02,C003,Rahul,Chennai,Tamil Nadu,P003,Headphones,Electronics,4,2717.91,5,10871.64,543.58,10328.06,Net Banking,Completed
+ORD00316,2026-07-05,C004,Sneha,Mumbai,Maharashtra,P008,Desk,Furniture,3,11524.67,5,34574.01,1728.7,32845.31,Credit Card,Cancelled
+ORD00317,2026-04-30,C005,Vikram,Pune,Maharashtra,P006,Mouse,Accessories,2,930.2,0,1860.4,0.0,1860.4,Debit Card,Completed
+ORD00318,2026-08-23,C007,Kiran,Kolkata,West Bengal,P009,Backpack,Accessories,3,2031.66,20,6094.98,1219.0,4875.98,UPI,Completed
+ORD00319,2026-04-27,C010,Divya,Kochi,Kerala,P004,Monitor,Electronics,2,13938.91,0,27877.82,0.0,27877.82,Cash,Returned
+ORD00320,2026-07-25,C006,Anita,Delhi,Delhi,P007,Office Chair,Furniture,5,8937.5,10,44687.5,4468.75,40218.75,Debit Card,Returned
+ORD00321,2026-06-30,C004,Sneha,Mumbai,Maharashtra,P010,Tablet,Electronics,1,23744.39,15,23744.39,3561.66,20182.73,Credit Card,Completed
+ORD00322,2026-02-21,C010,Divya,Kochi,Kerala,P002,Smartphone,Electronics,1,30256.17,15,30256.17,4538.43,25717.74,Cash,Cancelled
+ORD00323,2026-06-24,C003,Rahul,Chennai,Tamil Nadu,P003,Headphones,Electronics,3,2470.92,15,7412.76,1111.91,6300.85,Cash,Completed
+ORD00324,2026-04-27,C008,Meena,Ahmedabad,Gujarat,P002,Smartphone,Electronics,5,29728.68,10,148643.4,14864.34,133779.06,Cash,Completed
+ORD00325,2026-06-22,C007,Kiran,Kolkata,West Bengal,P008,Desk,Furniture,5,12141.11,0,60705.55,0.0,60705.55,Credit Card,Completed
+ORD00326,2026-01-19,C007,Kiran,Kolkata,West Bengal,P005,Keyboard,Accessories,1,1698.44,20,1698.44,339.69,1358.75,Net Banking,Completed
+ORD00327,2026-01-18,C006,Anita,Delhi,Delhi,P002,Smartphone,Electronics,5,30433.66,0,152168.3,0.0,152168.3,Credit Card,Completed
+ORD00328,2026-07-06,C005,Vikram,Pune,Maharashtra,P007,Office Chair,Furniture,2,8951.91,0,17903.82,0.0,17903.82,Net Banking,Returned
+ORD00329,2026-06-24,C006,Anita,Delhi,Delhi,P007,Office Chair,Furniture,4,8288.6,10,33154.4,3315.44,29838.96,Cash,Returned
+ORD00330,2026-04-11,C003,Rahul,Chennai,Tamil Nadu,P006,Mouse,Accessories,1,988.71,0,988.71,0.0,988.71,Debit Card,Cancelled
+ORD00331,2026-04-29,C012,Neha,Gurugram,Haryana,P004,Monitor,Electronics,1,15339.77,0,15339.77,0.0,15339.77,Cash,Returned
+ORD00332,2026-03-30,C007,Kiran,Kolkata,West Bengal,P009,Backpack,Accessories,4,2088.91,0,8355.64,0.0,8355.64,UPI,Completed
+ORD00333,2026-07-16,C004,Sneha,Mumbai,Maharashtra,P002,Smartphone,Electronics,1,27547.75,20,27547.75,5509.55,22038.2,Debit Card,Completed
+ORD00334,2026-06-03,C004,Sneha,Mumbai,Maharashtra,P002,Smartphone,Electronics,1,25388.03,15,25388.03,3808.2,21579.83,Credit Card,Returned
+ORD00335,2026-02-25,C004,Sneha,Mumbai,Maharashtra,P001,Laptop,Electronics,4,52077.73,10,208310.92,20831.09,187479.83,Debit Card,Completed
+ORD00336,2026-05-28,C009,Suresh,Jaipur,Rajasthan,P005,Keyboard,Accessories,2,1827.4,20,3654.8,730.96,2923.84,UPI,Cancelled
+ORD00337,2026-04-16,C004,Sneha,Mumbai,Maharashtra,P005,Keyboard,Accessories,2,1807.65,20,3615.3,723.06,2892.24,UPI,Completed
+ORD00338,2026-06-10,C001,Arjun,Hyderabad,Telangana,P009,Backpack,Accessories,5,2381.09,20,11905.45,2381.09,9524.36,Net Banking,Returned
+ORD00339,2026-06-21,C009,Suresh,Jaipur,Rajasthan,P008,Desk,Furniture,1,13059.81,5,13059.81,652.99,12406.82,Cash,Completed
+ORD00340,2026-02-17,C006,Anita,Delhi,Delhi,P007,Office Chair,Furniture,4,8159.81,0,32639.24,0.0,32639.24,Net Banking,Cancelled
+ORD00341,2026-04-29,C004,Sneha,Mumbai,Maharashtra,P004,Monitor,Electronics,3,13004.18,20,39012.54,7802.51,31210.03,Cash,Completed
+ORD00342,2026-03-04,C007,Kiran,Kolkata,West Bengal,P007,Office Chair,Furniture,5,7877.96,15,39389.8,5908.47,33481.33,Debit Card,Completed
+ORD00343,2026-07-05,C006,Anita,Delhi,Delhi,P002,Smartphone,Electronics,4,25717.8,5,102871.2,5143.56,97727.64,Credit Card,Completed
+ORD00344,2026-01-19,C005,Vikram,Pune,Maharashtra,P007,Office Chair,Furniture,5,7717.23,15,38586.15,5787.92,32798.23,Cash,Completed
+ORD00345,2026-08-21,C012,Neha,Gurugram,Haryana,P009,Backpack,Accessories,2,2071.91,10,4143.82,414.38,3729.44,UPI,Completed
+ORD00346,2026-07-13,C001,Arjun,Hyderabad,Telangana,P004,Monitor,Electronics,2,12928.49,20,25856.98,5171.4,20685.58,Debit Card,Completed
+ORD00347,2026-05-22,C012,Neha,Gurugram,Haryana,P010,Tablet,Electronics,2,25992.61,10,51985.22,5198.52,46786.7,UPI,Completed
+ORD00348,2026-03-08,C007,Kiran,Kolkata,West Bengal,P008,Desk,Furniture,5,11662.22,20,58311.1,11662.22,46648.88,Cash,Completed
+ORD00349,2026-08-03,C008,Meena,Ahmedabad,Gujarat,P008,Desk,Furniture,1,11926.78,20,11926.78,2385.36,9541.42,Debit Card,Completed
+ORD00350,2026-02-26,C006,Anita,Delhi,Delhi,P006,Mouse,Accessories,4,911.25,0,3645.0,0.0,3645.0,Debit Card,Returned
+ORD00351,2026-04-17,C001,Arjun,Hyderabad,Telangana,P005,Keyboard,Accessories,5,1828.49,15,9142.45,1371.37,7771.08,Debit Card,Completed
+ORD00352,2026-03-04,C004,Sneha,Mumbai,Maharashtra,P006,Mouse,Accessories,2,912.56,10,1825.12,182.51,1642.61,Cash,Completed
+ORD00353,2026-06-14,C011,Ravi,Visakhapatnam,Andhra Pradesh,P006,Mouse,Accessories,3,983.97,10,2951.91,295.19,2656.72,Net Banking,Returned
+ORD00354,2026-05-20,C008,Meena,Ahmedabad,Gujarat,P003,Headphones,Electronics,3,2319.98,0,6959.94,0.0,6959.94,Debit Card,Completed
+ORD00355,2026-01-20,C009,Suresh,Jaipur,Rajasthan,P001,Laptop,Electronics,5,58729.75,0,293648.75,0.0,293648.75,Credit Card,Returned
+ORD00356,2026-07-01,C001,Arjun,Hyderabad,Telangana,P007,Office Chair,Furniture,2,8043.44,20,16086.88,3217.38,12869.5,Credit Card,Completed
+ORD00357,2026-06-13,C004,Sneha,Mumbai,Maharashtra,P009,Backpack,Accessories,4,2006.6,5,8026.4,401.32,7625.08,Cash,Returned
+ORD00358,2026-04-16,C008,Meena,Ahmedabad,Gujarat,P008,Desk,Furniture,1,12077.31,0,12077.31,0.0,12077.31,Credit Card,Completed
+ORD00359,2026-07-28,C009,Suresh,Jaipur,Rajasthan,P005,Keyboard,Accessories,5,1626.17,5,8130.85,406.54,7724.31,Net Banking,Returned
+ORD00360,2026-02-19,C003,Rahul,Chennai,Tamil Nadu,P002,Smartphone,Electronics,1,26033.83,15,26033.83,3905.07,22128.76,Cash,Cancelled
+ORD00361,2026-04-14,C005,Vikram,Pune,Maharashtra,P006,Mouse,Accessories,3,824.22,10,2472.66,247.27,2225.39,Cash,Completed
+ORD00362,2026-01-21,C004,Sneha,Mumbai,Maharashtra,P004,Monitor,Electronics,3,14918.57,20,44755.71,8951.14,35804.57,Credit Card,Returned
+ORD00363,2026-01-15,C002,Priya,Bengaluru,Karnataka,P007,Office Chair,Furniture,4,8589.59,10,34358.36,3435.84,30922.52,Credit Card,Returned
+ORD00364,2026-06-15,C012,Neha,Gurugram,Haryana,P003,Headphones,Electronics,1,2672.66,10,2672.66,267.27,2405.39,Cash,Completed
+ORD00365,2026-08-11,C002,Priya,Bengaluru,Karnataka,P009,Backpack,Accessories,1,2073.02,0,2073.02,0.0,2073.02,Cash,Returned
+ORD00366,2026-03-13,C008,Meena,Ahmedabad,Gujarat,P005,Keyboard,Accessories,1,1866.39,0,1866.39,0.0,1866.39,Cash,Cancelled
+ORD00367,2026-02-23,C011,Ravi,Visakhapatnam,Andhra Pradesh,P001,Laptop,Electronics,2,49672.24,5,99344.48,4967.22,94377.26,Debit Card,Cancelled
+ORD00368,2026-03-03,C012,Neha,Gurugram,Haryana,P007,Office Chair,Furniture,1,7926.17,5,7926.17,396.31,7529.86,Net Banking,Cancelled
+ORD00369,2026-02-05,C011,Ravi,Visakhapatnam,Andhra Pradesh,P009,Backpack,Accessories,3,2312.47,10,6937.41,693.74,6243.67,Credit Card,Returned
+ORD00370,2026-08-03,C009,Suresh,Jaipur,Rajasthan,P006,Mouse,Accessories,1,888.68,0,888.68,0.0,888.68,UPI,Completed
+ORD00371,2026-03-25,C010,Divya,Kochi,Kerala,P010,Tablet,Electronics,5,26250.82,10,131254.1,13125.41,118128.69,UPI,Completed
+ORD00372,2026-04-07,C008,Meena,Ahmedabad,Gujarat,P008,Desk,Furniture,2,12127.29,5,24254.58,1212.73,23041.85,Debit Card,Completed
+ORD00373,2026-03-17,C011,Ravi,Visakhapatnam,Andhra Pradesh,P010,Tablet,Electronics,4,25306.4,0,101225.6,0.0,101225.6,Credit Card,Completed
+ORD00374,2026-06-12,C002,Priya,Bengaluru,Karnataka,P005,Keyboard,Accessories,2,1876.2,10,3752.4,375.24,3377.16,Net Banking,Completed
+ORD00375,2026-03-20,C006,Anita,Delhi,Delhi,P006,Mouse,Accessories,1,810.94,0,810.94,0.0,810.94,UPI,Completed
+ORD00376,2026-04-25,C005,Vikram,Pune,Maharashtra,P002,Smartphone,Electronics,2,26249.39,0,52498.78,0.0,52498.78,Cash,Cancelled
+ORD00377,2026-05-22,C009,Suresh,Jaipur,Rajasthan,P007,Office Chair,Furniture,1,7802.35,0,7802.35,0.0,7802.35,Cash,Completed
+ORD00378,2026-04-10,C010,Divya,Kochi,Kerala,P006,Mouse,Accessories,4,862.53,0,3450.12,0.0,3450.12,Cash,Completed
+ORD00379,2026-02-13,C004,Sneha,Mumbai,Maharashtra,P010,Tablet,Electronics,5,24889.52,0,124447.6,0.0,124447.6,UPI,Completed
+ORD00380,2026-04-22,C005,Vikram,Pune,Maharashtra,P005,Keyboard,Accessories,4,1642.78,0,6571.12,0.0,6571.12,Net Banking,Completed
+ORD00381,2026-03-05,C005,Vikram,Pune,Maharashtra,P008,Desk,Furniture,1,11404.08,5,11404.08,570.2,10833.88,Net Banking,Returned
+ORD00382,2026-03-19,C010,Divya,Kochi,Kerala,P010,Tablet,Electronics,2,22113.47,10,44226.94,4422.69,39804.25,Net Banking,Completed
+ORD00383,2026-04-21,C006,Anita,Delhi,Delhi,P010,Tablet,Electronics,4,23713.07,5,94852.28,4742.61,90109.67,Cash,Returned
+ORD00384,2026-02-21,C003,Rahul,Chennai,Tamil Nadu,P005,Keyboard,Accessories,3,1961.02,15,5883.06,882.46,5000.6,UPI,Completed
+ORD00385,2026-06-12,C003,Rahul,Chennai,Tamil Nadu,P007,Office Chair,Furniture,3,8899.29,5,26697.87,1334.89,25362.98,Cash,Completed
+ORD00386,2026-04-11,C004,Sneha,Mumbai,Maharashtra,P006,Mouse,Accessories,4,956.97,5,3827.88,191.39,3636.49,Credit Card,Completed
+ORD00387,2026-07-16,C010,Divya,Kochi,Kerala,P004,Monitor,Electronics,5,13103.8,15,65519.0,9827.85,55691.15,Credit Card,Cancelled
+ORD00388,2026-08-01,C012,Neha,Gurugram,Haryana,P008,Desk,Furniture,2,12714.45,10,25428.9,2542.89,22886.01,Credit Card,Returned
+ORD00389,2026-03-06,C007,Kiran,Kolkata,West Bengal,P008,Desk,Furniture,2,11526.8,20,23053.6,4610.72,18442.88,Debit Card,Returned
+ORD00390,2026-06-03,C012,Neha,Gurugram,Haryana,P007,Office Chair,Furniture,4,8413.41,0,33653.64,0.0,33653.64,Cash,Completed
+ORD00391,2026-01-10,C007,Kiran,Kolkata,West Bengal,P009,Backpack,Accessories,5,2164.05,20,10820.25,2164.05,8656.2,Cash,Completed
+ORD00392,2026-04-01,C010,Divya,Kochi,Kerala,P002,Smartphone,Electronics,1,28882.57,0,28882.57,0.0,28882.57,Cash,Completed
+ORD00393,2026-04-21,C001,Arjun,Hyderabad,Telangana,P010,Tablet,Electronics,4,26235.44,5,104941.76,5247.09,99694.67,Credit Card,Completed
+ORD00394,2026-05-23,C002,Priya,Bengaluru,Karnataka,P005,Keyboard,Accessories,2,1888.87,15,3777.74,566.66,3211.08,Cash,Cancelled
+ORD00395,2026-06-23,C004,Sneha,Mumbai,Maharashtra,P008,Desk,Furniture,3,11911.35,10,35734.05,3573.41,32160.64,Cash,Cancelled
+ORD00396,2026-04-17,C003,Rahul,Chennai,Tamil Nadu,P006,Mouse,Accessories,1,828.82,10,828.82,82.88,745.94,Credit Card,Completed
+ORD00397,2026-07-20,C012,Neha,Gurugram,Haryana,P003,Headphones,Electronics,3,2421.53,5,7264.59,363.23,6901.36,Cash,Completed
+ORD00398,2026-06-28,C008,Meena,Ahmedabad,Gujarat,P006,Mouse,Accessories,4,888.87,0,3555.48,0.0,3555.48,UPI,Completed
+ORD00399,2026-08-06,C002,Priya,Bengaluru,Karnataka,P005,Keyboard,Accessories,1,1661.43,20,1661.43,332.29,1329.14,Credit Card,Completed
+ORD00400,2026-02-10,C011,Ravi,Visakhapatnam,Andhra Pradesh,P003,Headphones,Electronics,2,2337.23,15,4674.46,701.17,3973.29,Cash,Completed
+ORD00401,2026-02-17,C007,Kiran,Kolkata,West Bengal,P008,Desk,Furniture,2,12311.42,10,24622.84,2462.28,22160.56,Net Banking,Returned
+ORD00402,2026-04-20,C007,Kiran,Kolkata,West Bengal,P001,Laptop,Electronics,5,54445.33,0,272226.65,0.0,272226.65,Credit Card,Completed
+ORD00403,2026-07-27,C012,Neha,Gurugram,Haryana,P004,Monitor,Electronics,2,14706.51,5,29413.02,1470.65,27942.37,Cash,Completed
+ORD00404,2026-04-28,C002,Priya,Bengaluru,Karnataka,P009,Backpack,Accessories,2,2123.43,5,4246.86,212.34,4034.52,UPI,Completed
+ORD00405,2026-04-10,C011,Ravi,Visakhapatnam,Andhra Pradesh,P008,Desk,Furniture,5,11552.17,20,57760.85,11552.17,46208.68,Net Banking,Cancelled
+ORD00406,2026-06-08,C010,Divya,Kochi,Kerala,P002,Smartphone,Electronics,3,29934.9,5,89804.7,4490.23,85314.47,UPI,Completed
+ORD00407,2026-01-31,C010,Divya,Kochi,Kerala,P010,Tablet,Electronics,1,22242.95,20,22242.95,4448.59,17794.36,UPI,Completed
+ORD00408,2026-04-10,C002,Priya,Bengaluru,Karnataka,P003,Headphones,Electronics,3,2320.68,20,6962.04,1392.41,5569.63,Cash,Completed
+ORD00409,2026-06-12,C003,Rahul,Chennai,Tamil Nadu,P010,Tablet,Electronics,4,22491.62,10,89966.48,8996.65,80969.83,Debit Card,Cancelled
+ORD00410,2026-03-22,C009,Suresh,Jaipur,Rajasthan,P003,Headphones,Electronics,4,2320.15,5,9280.6,464.03,8816.57,Cash,Completed
+ORD00411,2026-07-28,C001,Arjun,Hyderabad,Telangana,P006,Mouse,Accessories,1,834.58,10,834.58,83.46,751.12,Cash,Completed
+ORD00412,2026-07-01,C009,Suresh,Jaipur,Rajasthan,P008,Desk,Furniture,4,11980.14,20,47920.56,9584.11,38336.45,Net Banking,Completed
+ORD00413,2026-02-26,C003,Rahul,Chennai,Tamil Nadu,P002,Smartphone,Electronics,5,29656.93,0,148284.65,0.0,148284.65,Credit Card,Completed
+ORD00414,2026-04-28,C005,Vikram,Pune,Maharashtra,P004,Monitor,Electronics,5,13070.99,5,65354.95,3267.75,62087.2,Net Banking,Cancelled
+ORD00415,2026-07-18,C009,Suresh,Jaipur,Rajasthan,P009,Backpack,Accessories,1,2030.25,15,2030.25,304.54,1725.71,UPI,Cancelled
+ORD00416,2026-04-19,C009,Suresh,Jaipur,Rajasthan,P001,Laptop,Electronics,4,51903.96,15,207615.84,31142.38,176473.46,Debit Card,Completed
+ORD00417,2026-07-29,C005,Vikram,Pune,Maharashtra,P001,Laptop,Electronics,4,53334.35,5,213337.4,10666.87,202670.53,Net Banking,Completed
+ORD00418,2026-03-31,C002,Priya,Bengaluru,Karnataka,P004,Monitor,Electronics,2,14246.19,20,28492.38,5698.48,22793.9,Cash,Returned
+ORD00419,2026-02-22,C011,Ravi,Visakhapatnam,Andhra Pradesh,P007,Office Chair,Furniture,2,7886.7,15,15773.4,2366.01,13407.39,Credit Card,Completed
+ORD00420,2026-02-13,C010,Divya,Kochi,Kerala,P006,Mouse,Accessories,5,917.43,5,4587.15,229.36,4357.79,UPI,Completed
+ORD00421,2026-06-23,C005,Vikram,Pune,Maharashtra,P010,Tablet,Electronics,3,26330.34,15,78991.02,11848.65,67142.37,Debit Card,Completed
+ORD00422,2026-08-10,C007,Kiran,Kolkata,West Bengal,P001,Laptop,Electronics,3,50895.77,20,152687.31,30537.46,122149.85,Debit Card,Completed
+ORD00423,2026-02-06,C003,Rahul,Chennai,Tamil Nadu,P006,Mouse,Accessories,2,880.69,20,1761.38,352.28,1409.1,UPI,Cancelled
+ORD00424,2026-07-23,C011,Ravi,Visakhapatnam,Andhra Pradesh,P007,Office Chair,Furniture,4,7778.38,10,31113.52,3111.35,28002.17,Net Banking,Completed
+ORD00425,2026-03-25,C009,Suresh,Jaipur,Rajasthan,P005,Keyboard,Accessories,3,1962.09,10,5886.27,588.63,5297.64,Credit Card,Cancelled
+ORD00426,2026-04-02,C012,Neha,Gurugram,Haryana,P002,Smartphone,Electronics,4,28919.21,20,115676.84,23135.37,92541.47,Cash,Completed
+ORD00427,2026-03-24,C007,Kiran,Kolkata,West Bengal,P004,Monitor,Electronics,4,13985.2,0,55940.8,0.0,55940.8,UPI,Completed
+ORD00428,2026-07-21,C009,Suresh,Jaipur,Rajasthan,P010,Tablet,Electronics,2,25691.63,15,51383.26,7707.49,43675.77,Credit Card,Completed
+ORD00429,2026-08-08,C001,Arjun,Hyderabad,Telangana,P002,Smartphone,Electronics,4,25895.73,0,103582.92,0.0,103582.92,Net Banking,Completed
+ORD00430,2026-08-21,C008,Meena,Ahmedabad,Gujarat,P001,Laptop,Electronics,4,60452.63,0,241810.52,0.0,241810.52,UPI,Completed
+ORD00431,2026-01-22,C003,Rahul,Chennai,Tamil Nadu,P005,Keyboard,Accessories,1,1749.76,20,1749.76,349.95,1399.81,Debit Card,Completed
+ORD00432,2026-03-01,C001,Arjun,Hyderabad,Telangana,P007,Office Chair,Furniture,3,8839.05,20,26517.15,5303.43,21213.72,Credit Card,Completed
+ORD00433,2026-02-03,C012,Neha,Gurugram,Haryana,P002,Smartphone,Electronics,1,27870.12,0,27870.12,0.0,27870.12,Debit Card,Cancelled
+ORD00434,2026-07-29,C009,Suresh,Jaipur,Rajasthan,P008,Desk,Furniture,1,12469.43,0,12469.43,0.0,12469.43,Net Banking,Completed
+ORD00435,2026-01-23,C012,Neha,Gurugram,Haryana,P003,Headphones,Electronics,4,2364.47,0,9457.88,0.0,9457.88,Credit Card,Returned
+ORD00436,2026-07-18,C002,Priya,Bengaluru,Karnataka,P006,Mouse,Accessories,3,834.68,5,2504.04,125.2,2378.84,Debit Card,Completed
+ORD00437,2026-02-12,C002,Priya,Bengaluru,Karnataka,P009,Backpack,Accessories,5,2248.54,0,11242.7,0.0,11242.7,UPI,Completed
+ORD00438,2026-04-24,C012,Neha,Gurugram,Haryana,P004,Monitor,Electronics,2,14325.01,10,28650.02,2865.0,25785.02,Credit Card,Completed
+ORD00439,2026-03-31,C002,Priya,Bengaluru,Karnataka,P003,Headphones,Electronics,1,2615.0,15,2615.0,392.25,2222.75,UPI,Completed
+ORD00440,2026-05-22,C003,Rahul,Chennai,Tamil Nadu,P004,Monitor,Electronics,3,12835.9,20,38507.7,7701.54,30806.16,Cash,Cancelled
+ORD00441,2026-08-05,C012,Neha,Gurugram,Haryana,P010,Tablet,Electronics,3,21728.76,20,65186.28,13037.26,52149.02,UPI,Returned
+ORD00442,2026-04-11,C004,Sneha,Mumbai,Maharashtra,P009,Backpack,Accessories,5,2063.0,15,10315.0,1547.25,8767.75,Credit Card,Completed
+ORD00443,2026-06-13,C004,Sneha,Mumbai,Maharashtra,P008,Desk,Furniture,4,11378.6,0,45514.4,0.0,45514.4,Credit Card,Cancelled
+ORD00444,2026-08-09,C009,Suresh,Jaipur,Rajasthan,P001,Laptop,Electronics,3,50951.81,5,152855.43,7642.77,145212.66,Net Banking,Cancelled
+ORD00445,2026-07-17,C006,Anita,Delhi,Delhi,P009,Backpack,Accessories,2,2399.96,10,4799.92,479.99,4319.93,Credit Card,Completed
+ORD00446,2026-08-25,C010,Divya,Kochi,Kerala,P002,Smartphone,Electronics,1,26408.16,5,26408.16,1320.41,25087.75,Net Banking,Completed
+ORD00447,2026-04-13,C009,Suresh,Jaipur,Rajasthan,P005,Keyboard,Accessories,5,1772.49,10,8862.45,886.25,7976.2,Cash,Completed
+ORD00448,2026-01-21,C009,Suresh,Jaipur,Rajasthan,P010,Tablet,Electronics,2,22001.27,5,44002.54,2200.13,41802.41,Debit Card,Cancelled
+ORD00449,2026-07-15,C003,Rahul,Chennai,Tamil Nadu,P009,Backpack,Accessories,3,2238.03,10,6714.09,671.41,6042.68,Credit Card,Returned
+ORD00450,2026-08-25,C005,Vikram,Pune,Maharashtra,P007,Office Chair,Furniture,2,8065.62,0,16131.24,0.0,16131.24,Credit Card,Completed
+ORD00451,2026-07-09,C008,Meena,Ahmedabad,Gujarat,P010,Tablet,Electronics,5,23084.59,0,115422.95,0.0,115422.95,Debit Card,Returned
+ORD00452,2026-05-08,C002,Priya,Bengaluru,Karnataka,P001,Laptop,Electronics,2,49624.86,20,99249.72,19849.94,79399.78,Cash,Completed
+ORD00453,2026-07-19,C009,Suresh,Jaipur,Rajasthan,P005,Keyboard,Accessories,2,1665.7,5,3331.4,166.57,3164.83,Credit Card,Completed
+ORD00454,2026-03-09,C001,Arjun,Hyderabad,Telangana,P006,Mouse,Accessories,4,904.29,5,3617.16,180.86,3436.3,Cash,Returned
+ORD00455,2026-01-15,C011,Ravi,Visakhapatnam,Andhra Pradesh,P002,Smartphone,Electronics,4,28060.38,10,112241.52,11224.15,101017.37,Cash,Completed
+ORD00456,2026-08-17,C003,Rahul,Chennai,Tamil Nadu,P006,Mouse,Accessories,2,949.2,5,1898.4,94.92,1803.48,Credit Card,Cancelled
+ORD00457,2026-01-04,C004,Sneha,Mumbai,Maharashtra,P009,Backpack,Accessories,1,2357.82,0,2357.82,0.0,2357.82,Credit Card,Completed
+ORD00458,2026-08-08,C008,Meena,Ahmedabad,Gujarat,P006,Mouse,Accessories,4,842.21,0,3368.84,0.0,3368.84,Cash,Completed
+ORD00459,2026-08-23,C012,Neha,Gurugram,Haryana,P007,Office Chair,Furniture,2,8072.05,5,16144.1,807.21,15336.89,UPI,Returned
+ORD00460,2026-06-22,C005,Vikram,Pune,Maharashtra,P002,Smartphone,Electronics,5,25868.65,5,129343.25,6467.16,122876.09,Debit Card,Completed
+ORD00461,2026-04-30,C004,Sneha,Mumbai,Maharashtra,P009,Backpack,Accessories,1,2010.33,10,2010.33,201.03,1809.3,UPI,Completed
+ORD00462,2026-02-21,C006,Anita,Delhi,Delhi,P002,Smartphone,Electronics,5,25244.63,10,126223.15,12622.32,113600.83,Cash,Completed
+ORD00463,2026-05-07,C005,Vikram,Pune,Maharashtra,P010,Tablet,Electronics,2,23367.71,10,46735.42,4673.54,42061.88,Cash,Completed
+ORD00464,2026-05-19,C004,Sneha,Mumbai,Maharashtra,P003,Headphones,Electronics,1,2261.96,10,2261.96,226.2,2035.76,Credit Card,Completed
+ORD00465,2026-01-27,C006,Anita,Delhi,Delhi,P001,Laptop,Electronics,4,57499.37,20,229997.48,45999.5,183997.98,Cash,Completed
+ORD00466,2026-02-06,C004,Sneha,Mumbai,Maharashtra,P007,Office Chair,Furniture,4,9303.35,0,37213.4,0.0,37213.4,UPI,Returned
+ORD00467,2026-08-18,C002,Priya,Bengaluru,Karnataka,P001,Laptop,Electronics,2,54043.62,15,108087.24,16213.09,91874.15,Net Banking,Completed
+ORD00468,2026-06-13,C012,Neha,Gurugram,Haryana,P002,Smartphone,Electronics,5,28030.4,0,140152.0,0.0,140152.0,Credit Card,Completed
+ORD00469,2026-02-03,C010,Divya,Kochi,Kerala,P010,Tablet,Electronics,1,24779.73,10,24779.73,2477.97,22301.76,UPI,Completed
+ORD00470,2026-03-25,C005,Vikram,Pune,Maharashtra,P006,Mouse,Accessories,4,959.74,20,3838.96,767.79,3071.17,Net Banking,Completed
+ORD00471,2026-07-17,C005,Vikram,Pune,Maharashtra,P004,Monitor,Electronics,1,12981.11,0,12981.11,0.0,12981.11,Credit Card,Cancelled
+ORD00472,2026-04-15,C003,Rahul,Chennai,Tamil Nadu,P002,Smartphone,Electronics,2,27809.91,10,55619.82,5561.98,50057.84,Cash,Completed
+ORD00473,2026-08-07,C006,Anita,Delhi,Delhi,P004,Monitor,Electronics,4,13897.37,5,55589.48,2779.47,52810.01,Credit Card,Completed
+ORD00474,2026-08-08,C003,Rahul,Chennai,Tamil Nadu,P005,Keyboard,Accessories,5,1697.41,0,8487.05,0.0,8487.05,Debit Card,Completed
+ORD00475,2026-06-23,C002,Priya,Bengaluru,Karnataka,P004,Monitor,Electronics,3,14037.69,10,42113.07,4211.31,37901.76,UPI,Completed
+ORD00476,2026-05-21,C003,Rahul,Chennai,Tamil Nadu,P001,Laptop,Electronics,4,55615.49,10,222461.96,22246.2,200215.76,Credit Card,Completed
+ORD00477,2026-08-01,C008,Meena,Ahmedabad,Gujarat,P002,Smartphone,Electronics,2,25266.96,0,50533.92,0.0,50533.92,Debit Card,Completed
+ORD00478,2026-06-15,C004,Sneha,Mumbai,Maharashtra,P007,Office Chair,Furniture,3,8721.51,20,26164.53,5232.91,20931.62,Cash,Completed
+ORD00479,2026-02-20,C010,Divya,Kochi,Kerala,P005,Keyboard,Accessories,1,1978.98,0,1978.98,0.0,1978.98,Net Banking,Returned
+ORD00480,2026-04-29,C003,Rahul,Chennai,Tamil Nadu,P002,Smartphone,Electronics,3,25439.1,0,76317.3,0.0,76317.3,Debit Card,Completed
+ORD00481,2026-06-24,C010,Divya,Kochi,Kerala,P007,Office Chair,Furniture,4,7700.12,10,30800.48,3080.05,27720.43,Debit Card,Completed
+ORD00482,2026-08-15,C006,Anita,Delhi,Delhi,P004,Monitor,Electronics,2,13383.59,5,26767.18,1338.36,25428.82,Credit Card,Completed
+ORD00483,2026-05-08,C010,Divya,Kochi,Kerala,P010,Tablet,Electronics,5,24706.94,0,123534.7,0.0,123534.7,Cash,Completed
+ORD00484,2026-04-18,C008,Meena,Ahmedabad,Gujarat,P001,Laptop,Electronics,1,53713.17,5,53713.17,2685.66,51027.51,Cash,Completed
+ORD00485,2026-04-02,C004,Sneha,Mumbai,Maharashtra,P009,Backpack,Accessories,1,2324.04,10,2324.04,232.4,2091.64,Cash,Completed
+ORD00486,2026-03-11,C008,Meena,Ahmedabad,Gujarat,P006,Mouse,Accessories,5,867.89,15,4339.45,650.92,3688.53,Credit Card,Completed
+ORD00487,2026-07-19,C006,Anita,Delhi,Delhi,P010,Tablet,Electronics,2,25899.67,0,51799.34,0.0,51799.34,Credit Card,Completed
+ORD00488,2026-02-10,C008,Meena,Ahmedabad,Gujarat,P009,Backpack,Accessories,3,2419.83,15,7259.49,1088.92,6170.57,Debit Card,Completed
+ORD00489,2026-08-23,C011,Ravi,Visakhapatnam,Andhra Pradesh,P004,Monitor,Electronics,3,14885.6,15,44656.8,6698.52,37958.28,Credit Card,Returned
+ORD00490,2026-08-05,C004,Sneha,Mumbai,Maharashtra,P010,Tablet,Electronics,4,26088.99,5,104355.96,5217.8,99138.16,Debit Card,Completed
+ORD00491,2026-08-22,C004,Sneha,Mumbai,Maharashtra,P010,Tablet,Electronics,3,24948.61,20,74845.83,14969.17,59876.66,Credit Card,Cancelled
+ORD00492,2026-08-31,C012,Neha,Gurugram,Haryana,P006,Mouse,Accessories,5,835.58,15,4177.9,626.68,3551.22,Net Banking,Completed
+ORD00493,2026-01-15,C009,Suresh,Jaipur,Rajasthan,P005,Keyboard,Accessories,2,1633.67,10,3267.34,326.73,2940.61,Cash,Completed
+ORD00494,2026-08-23,C004,Sneha,Mumbai,Maharashtra,P001,Laptop,Electronics,5,49507.52,10,247537.6,24753.76,222783.84,Debit Card,Cancelled
+ORD00495,2026-02-07,C003,Rahul,Chennai,Tamil Nadu,P006,Mouse,Accessories,2,820.72,5,1641.44,82.07,1559.37,Debit Card,Cancelled
+ORD00496,2026-08-30,C002,Priya,Bengaluru,Karnataka,P009,Backpack,Accessories,3,2144.38,0,6433.14,0.0,6433.14,Net Banking,Returned
+ORD00497,2026-02-10,C010,Divya,Kochi,Kerala,P002,Smartphone,Electronics,3,27006.58,5,81019.74,4050.99,76968.75,Net Banking,Returned
+ORD00498,2026-05-24,C011,Ravi,Visakhapatnam,Andhra Pradesh,P008,Desk,Furniture,3,12497.24,0,37491.72,0.0,37491.72,Cash,Returned
+ORD00499,2026-07-07,C006,Anita,Delhi,Delhi,P004,Monitor,Electronics,5,13659.48,0,68297.4,0.0,68297.4,UPI,Returned
+ORD00500,2026-04-11,C003,Rahul,Chennai,Tamil Nadu,P003,Headphones,Electronics,1,2724.35,20,2724.35,544.87,2179.48,Credit Card,Cancelled
+ORD00501,2026-05-25,C003,Rahul,Chennai,Tamil Nadu,P010,Tablet,Electronics,3,22660.3,15,67980.9,10197.13,57783.77,Net Banking,Completed
+ORD00502,2026-03-23,C003,Rahul,Chennai,Tamil Nadu,P006,Mouse,Accessories,1,872.43,0,872.43,0.0,872.43,Credit Card,Completed
+ORD00503,2026-03-05,C012,Neha,Gurugram,Haryana,P006,Mouse,Accessories,4,857.74,0,3430.96,0.0,3430.96,Credit Card,Returned
+ORD00504,2026-04-09,C006,Anita,Delhi,Delhi,P005,Keyboard,Accessories,1,1620.46,20,1620.46,324.09,1296.37,Net Banking,Completed
+ORD00505,2026-04-07,C003,Rahul,Chennai,Tamil Nadu,P007,Office Chair,Furniture,4,8247.09,10,32988.36,3298.84,29689.52,Net Banking,Completed
+ORD00506,2026-08-05,C010,Divya,Kochi,Kerala,P004,Monitor,Electronics,2,12806.39,10,25612.78,2561.28,23051.5,UPI,Completed
+ORD00507,2026-02-13,C001,Arjun,Hyderabad,Telangana,P006,Mouse,Accessories,3,823.36,0,2470.08,0.0,2470.08,Debit Card,Completed
+ORD00508,2026-06-07,C012,Neha,Gurugram,Haryana,P002,Smartphone,Electronics,5,27092.52,0,135462.6,0.0,135462.6,Credit Card,Completed
+ORD00509,2026-01-26,C007,Kiran,Kolkata,West Bengal,P003,Headphones,Electronics,5,2328.55,10,11642.75,1164.28,10478.47,Debit Card,Completed
+ORD00510,2026-05-19,C004,Sneha,Mumbai,Maharashtra,P007,Office Chair,Furniture,5,9223.48,20,46117.4,9223.48,36893.92,UPI,Completed
+ORD00511,2026-05-21,C005,Vikram,Pune,Maharashtra,P004,Monitor,Electronics,1,13700.13,0,13700.13,0.0,13700.13,Debit Card,Completed
+ORD00512,2026-07-30,C001,Arjun,Hyderabad,Telangana,P006,Mouse,Accessories,1,825.77,10,825.77,82.58,743.19,Cash,Returned
+ORD00513,2026-06-13,C008,Meena,Ahmedabad,Gujarat,P004,Monitor,Electronics,1,13179.47,0,13179.47,0.0,13179.47,Credit Card,Completed
+ORD00514,2026-08-18,C008,Meena,Ahmedabad,Gujarat,P002,Smartphone,Electronics,3,27837.29,10,83511.87,8351.19,75160.68,UPI,Returned
+ORD00515,2026-04-08,C002,Priya,Bengaluru,Karnataka,P009,Backpack,Accessories,4,2143.25,0,8573.0,0.0,8573.0,Debit Card,Completed
+ORD00516,2026-02-27,C008,Meena,Ahmedabad,Gujarat,P001,Laptop,Electronics,3,54615.64,10,163846.92,16384.69,147462.23,Cash,Completed
+ORD00517,2026-07-26,C001,Arjun,Hyderabad,Telangana,P003,Headphones,Electronics,1,2584.07,0,2584.07,0.0,2584.07,Net Banking,Cancelled
+ORD00518,2026-07-29,C010,Divya,Kochi,Kerala,P004,Monitor,Electronics,5,14954.23,0,74771.15,0.0,74771.15,Net Banking,Cancelled
+ORD00519,2026-01-21,C009,Suresh,Jaipur,Rajasthan,P008,Desk,Furniture,5,11943.03,0,59715.15,0.0,59715.15,Credit Card,Completed
+ORD00520,2026-06-08,C009,Suresh,Jaipur,Rajasthan,P010,Tablet,Electronics,5,24852.17,15,124260.85,18639.13,105621.72,Credit Card,Completed
+ORD00521,2026-02-02,C008,Meena,Ahmedabad,Gujarat,P003,Headphones,Electronics,2,2654.23,0,5308.46,0.0,5308.46,Net Banking,Completed
+ORD00522,2026-06-02,C002,Priya,Bengaluru,Karnataka,P007,Office Chair,Furniture,2,7901.39,20,15802.78,3160.56,12642.22,UPI,Completed
+ORD00523,2026-05-22,C012,Neha,Gurugram,Haryana,P002,Smartphone,Electronics,1,28315.64,10,28315.64,2831.56,25484.08,UPI,Completed
+ORD00524,2026-05-14,C009,Suresh,Jaipur,Rajasthan,P008,Desk,Furniture,1,12295.34,20,12295.34,2459.07,9836.27,Credit Card,Completed
+ORD00525,2026-07-14,C007,Kiran,Kolkata,West Bengal,P003,Headphones,Electronics,2,2543.97,15,5087.94,763.19,4324.75,Credit Card,Completed
+ORD00526,2026-08-13,C010,Divya,Kochi,Kerala,P002,Smartphone,Electronics,3,30128.76,15,90386.28,13557.94,76828.34,UPI,Completed
+ORD00527,2026-02-14,C007,Kiran,Kolkata,West Bengal,P008,Desk,Furniture,5,11935.31,15,59676.55,8951.48,50725.07,Net Banking,Completed
+ORD00528,2026-01-10,C003,Rahul,Chennai,Tamil Nadu,P010,Tablet,Electronics,5,24929.57,20,124647.85,24929.57,99718.28,UPI,Completed
+ORD00529,2026-03-10,C012,Neha,Gurugram,Haryana,P004,Monitor,Electronics,1,13930.61,20,13930.61,2786.12,11144.49,Credit Card,Completed
+ORD00530,2026-08-08,C006,Anita,Delhi,Delhi,P005,Keyboard,Accessories,3,1923.42,5,5770.26,288.51,5481.75,Credit Card,Returned
+ORD00531,2026-07-31,C004,Sneha,Mumbai,Maharashtra,P003,Headphones,Electronics,3,2471.56,20,7414.68,1482.94,5931.74,UPI,Completed
+ORD00532,2026-04-24,C012,Neha,Gurugram,Haryana,P007,Office Chair,Furniture,5,7801.79,20,39008.95,7801.79,31207.16,Net Banking,Completed
+ORD00533,2026-05-12,C012,Neha,Gurugram,Haryana,P008,Desk,Furniture,5,12770.44,5,63852.2,3192.61,60659.59,Credit Card,Completed
+ORD00534,2026-05-15,C005,Vikram,Pune,Maharashtra,P009,Backpack,Accessories,4,2323.43,0,9293.72,0.0,9293.72,Credit Card,Cancelled
+ORD00535,2026-04-27,C003,Rahul,Chennai,Tamil Nadu,P004,Monitor,Electronics,2,13298.57,0,26597.14,0.0,26597.14,UPI,Completed
+ORD00536,2026-05-10,C012,Neha,Gurugram,Haryana,P004,Monitor,Electronics,3,14905.82,5,44717.46,2235.87,42481.59,Credit Card,Completed
+ORD00537,2026-04-25,C011,Ravi,Visakhapatnam,Andhra Pradesh,P001,Laptop,Electronics,2,54876.65,5,109753.3,5487.66,104265.64,Net Banking,Completed
+ORD00538,2026-08-17,C010,Divya,Kochi,Kerala,P009,Backpack,Accessories,3,2051.95,5,6155.85,307.79,5848.06,Credit Card,Completed
+ORD00539,2026-05-27,C005,Vikram,Pune,Maharashtra,P001,Laptop,Electronics,4,51291.98,0,205167.92,0.0,205167.92,Debit Card,Completed
+ORD00540,2026-05-12,C011,Ravi,Visakhapatnam,Andhra Pradesh,P004,Monitor,Electronics,2,14424.44,5,28848.88,1442.44,27406.44,Credit Card,Completed
+ORD00541,2026-02-27,C008,Meena,Ahmedabad,Gujarat,P003,Headphones,Electronics,2,2650.43,15,5300.86,795.13,4505.73,Cash,Completed
+ORD00542,2026-04-28,C005,Vikram,Pune,Maharashtra,P005,Keyboard,Accessories,4,1926.57,10,7706.28,770.63,6935.65,Debit Card,Completed
+ORD00543,2026-01-27,C008,Meena,Ahmedabad,Gujarat,P005,Keyboard,Accessories,5,1762.97,15,8814.85,1322.23,7492.62,Cash,Completed
+ORD00544,2026-03-14,C011,Ravi,Visakhapatnam,Andhra Pradesh,P006,Mouse,Accessories,5,916.88,20,4584.4,916.88,3667.52,Credit Card,Completed
+ORD00545,2026-08-09,C008,Meena,Ahmedabad,Gujarat,P002,Smartphone,Electronics,3,28787.33,5,86361.99,4318.1,82043.89,UPI,Completed
+ORD00546,2026-03-03,C011,Ravi,Visakhapatnam,Andhra Pradesh,P005,Keyboard,Accessories,2,1806.23,0,3612.46,0.0,3612.46,Cash,Completed
+ORD00547,2026-05-08,C007,Kiran,Kolkata,West Bengal,P006,Mouse,Accessories,2,814.58,20,1629.16,325.83,1303.33,UPI,Completed
+ORD00548,2026-07-01,C007,Kiran,Kolkata,West Bengal,P007,Office Chair,Furniture,4,7710.04,20,30840.16,6168.03,24672.13,Debit Card,Cancelled
+ORD00549,2026-08-21,C006,Anita,Delhi,Delhi,P004,Monitor,Electronics,5,14797.71,20,73988.55,14797.71,59190.84,UPI,Returned
+ORD00550,2026-02-16,C009,Suresh,Jaipur,Rajasthan,P005,Keyboard,Accessories,2,1935.54,20,3871.08,774.22,3096.86,Credit Card,Completed
+ORD00551,2026-07-15,C008,Meena,Ahmedabad,Gujarat,P003,Headphones,Electronics,3,2654.17,20,7962.51,1592.5,6370.01,UPI,Completed
+ORD00552,2026-08-12,C011,Ravi,Visakhapatnam,Andhra Pradesh,P002,Smartphone,Electronics,2,26450.64,5,52901.28,2645.06,50256.22,Net Banking,Completed
+ORD00553,2026-08-06,C006,Anita,Delhi,Delhi,P006,Mouse,Accessories,3,862.93,15,2588.79,388.32,2200.47,Net Banking,Completed
+ORD00554,2026-08-16,C001,Arjun,Hyderabad,Telangana,P010,Tablet,Electronics,5,21941.84,15,109709.2,16456.38,93252.82,Cash,Completed
+ORD00555,2026-08-11,C002,Priya,Bengaluru,Karnataka,P007,Office Chair,Furniture,5,8352.28,5,41761.4,2088.07,39673.33,Debit Card,Completed
+ORD00556,2026-04-28,C004,Sneha,Mumbai,Maharashtra,P006,Mouse,Accessories,4,970.71,15,3882.84,582.43,3300.41,UPI,Completed
+ORD00557,2026-02-15,C012,Neha,Gurugram,Haryana,P003,Headphones,Electronics,1,2416.31,10,2416.31,241.63,2174.68,Credit Card,Completed
+ORD00558,2026-02-13,C001,Arjun,Hyderabad,Telangana,P008,Desk,Furniture,3,12626.86,0,37880.58,0.0,37880.58,Debit Card,Cancelled
+ORD00559,2026-04-20,C008,Meena,Ahmedabad,Gujarat,P002,Smartphone,Electronics,2,27628.78,15,55257.56,8288.63,46968.93,Net Banking,Completed
+ORD00560,2026-07-07,C008,Meena,Ahmedabad,Gujarat,P007,Office Chair,Furniture,1,8557.43,0,8557.43,0.0,8557.43,Credit Card,Completed
+ORD00561,2026-06-10,C006,Anita,Delhi,Delhi,P009,Backpack,Accessories,2,2277.77,0,4555.54,0.0,4555.54,Debit Card,Returned
+ORD00562,2026-05-09,C004,Sneha,Mumbai,Maharashtra,P006,Mouse,Accessories,3,828.49,0,2485.47,0.0,2485.47,UPI,Cancelled
+ORD00563,2026-04-27,C003,Rahul,Chennai,Tamil Nadu,P002,Smartphone,Electronics,1,30511.39,5,30511.39,1525.57,28985.82,Cash,Returned
+ORD00564,2026-02-04,C010,Divya,Kochi,Kerala,P009,Backpack,Accessories,3,2370.71,10,7112.13,711.21,6400.92,Net Banking,Completed
+ORD00565,2026-02-27,C006,Anita,Delhi,Delhi,P004,Monitor,Electronics,2,12653.55,10,25307.1,2530.71,22776.39,Debit Card,Returned
+ORD00566,2026-04-04,C004,Sneha,Mumbai,Maharashtra,P001,Laptop,Electronics,5,51358.83,15,256794.15,38519.12,218275.03,Credit Card,Returned
+ORD00567,2026-01-13,C007,Kiran,Kolkata,West Bengal,P005,Keyboard,Accessories,5,1637.49,15,8187.45,1228.12,6959.33,Credit Card,Returned
+ORD00568,2026-04-24,C011,Ravi,Visakhapatnam,Andhra Pradesh,P001,Laptop,Electronics,1,50773.69,20,50773.69,10154.74,40618.95,Credit Card,Completed
+ORD00569,2026-06-27,C009,Suresh,Jaipur,Rajasthan,P005,Keyboard,Accessories,4,1675.13,20,6700.52,1340.1,5360.42,Credit Card,Returned
+ORD00570,2026-06-09,C005,Vikram,Pune,Maharashtra,P007,Office Chair,Furniture,1,8534.53,20,8534.53,1706.91,6827.62,Debit Card,Cancelled
+ORD00571,2026-03-14,C007,Kiran,Kolkata,West Bengal,P002,Smartphone,Electronics,5,28659.11,20,143295.55,28659.11,114636.44,Credit Card,Completed
+ORD00572,2026-08-01,C008,Meena,Ahmedabad,Gujarat,P004,Monitor,Electronics,5,14778.28,0,73891.4,0.0,73891.4,Debit Card,Cancelled
+ORD00573,2026-05-08,C006,Anita,Delhi,Delhi,P007,Office Chair,Furniture,3,7716.99,0,23150.97,0.0,23150.97,Net Banking,Completed
+ORD00574,2026-08-21,C006,Anita,Delhi,Delhi,P004,Monitor,Electronics,1,14480.57,0,14480.57,0.0,14480.57,Cash,Completed
+ORD00575,2026-01-20,C011,Ravi,Visakhapatnam,Andhra Pradesh,P008,Desk,Furniture,2,12670.86,0,25341.72,0.0,25341.72,Credit Card,Returned
+ORD00576,2026-01-13,C005,Vikram,Pune,Maharashtra,P004,Monitor,Electronics,4,13339.55,5,53358.2,2667.91,50690.29,Debit Card,Completed
+ORD00577,2026-07-09,C001,Arjun,Hyderabad,Telangana,P005,Keyboard,Accessories,3,1732.57,20,5197.71,1039.54,4158.17,Credit Card,Completed
+ORD00578,2026-03-26,C001,Arjun,Hyderabad,Telangana,P001,Laptop,Electronics,2,56619.18,20,113238.36,22647.67,90590.69,Net Banking,Completed
+ORD00579,2026-02-16,C010,Divya,Kochi,Kerala,P005,Keyboard,Accessories,1,1913.39,5,1913.39,95.67,1817.72,Net Banking,Completed
+ORD00580,2026-05-03,C007,Kiran,Kolkata,West Bengal,P008,Desk,Furniture,3,12455.77,10,37367.31,3736.73,33630.58,Debit Card,Completed
+ORD00581,2026-08-22,C002,Priya,Bengaluru,Karnataka,P003,Headphones,Electronics,1,2301.86,0,2301.86,0.0,2301.86,Net Banking,Cancelled
+ORD00582,2026-04-02,C010,Divya,Kochi,Kerala,P008,Desk,Furniture,2,11711.4,15,23422.8,3513.42,19909.38,Credit Card,Cancelled
+ORD00583,2026-04-16,C011,Ravi,Visakhapatnam,Andhra Pradesh,P003,Headphones,Electronics,4,2306.47,10,9225.88,922.59,8303.29,Credit Card,Completed
+ORD00584,2026-06-23,C002,Priya,Bengaluru,Karnataka,P005,Keyboard,Accessories,3,1873.64,0,5620.92,0.0,5620.92,Cash,Cancelled
+ORD00585,2026-05-13,C012,Neha,Gurugram,Haryana,P010,Tablet,Electronics,2,25791.09,20,51582.18,10316.44,41265.74,Cash,Cancelled
+ORD00586,2026-06-23,C002,Priya,Bengaluru,Karnataka,P007,Office Chair,Furniture,2,8237.77,10,16475.54,1647.55,14827.99,Net Banking,Returned
+ORD00587,2026-08-28,C003,Rahul,Chennai,Tamil Nadu,P009,Backpack,Accessories,5,1985.12,0,9925.6,0.0,9925.6,Cash,Completed
+ORD00588,2026-03-24,C008,Meena,Ahmedabad,Gujarat,P008,Desk,Furniture,2,12603.43,0,25206.86,0.0,25206.86,UPI,Completed
+ORD00589,2026-04-07,C005,Vikram,Pune,Maharashtra,P001,Laptop,Electronics,5,55555.45,0,277777.25,0.0,277777.25,Debit Card,Completed
+ORD00590,2026-08-08,C002,Priya,Bengaluru,Karnataka,P008,Desk,Furniture,4,11875.44,15,47501.76,7125.26,40376.5,Net Banking,Completed
+ORD00591,2026-01-27,C006,Anita,Delhi,Delhi,P002,Smartphone,Electronics,4,28858.89,20,115435.56,23087.11,92348.45,Net Banking,Completed
+ORD00592,2026-07-22,C001,Arjun,Hyderabad,Telangana,P009,Backpack,Accessories,5,2343.4,0,11717.0,0.0,11717.0,Cash,Cancelled
+ORD00593,2026-06-21,C011,Ravi,Visakhapatnam,Andhra Pradesh,P005,Keyboard,Accessories,5,1694.47,15,8472.35,1270.85,7201.5,UPI,Completed
+ORD00594,2026-07-16,C006,Anita,Delhi,Delhi,P001,Laptop,Electronics,2,53151.7,10,106303.4,10630.34,95673.06,Cash,Cancelled
+ORD00595,2026-06-18,C008,Meena,Ahmedabad,Gujarat,P006,Mouse,Accessories,4,827.54,0,3310.16,0.0,3310.16,Credit Card,Completed
+ORD00596,2026-06-29,C006,Anita,Delhi,Delhi,P006,Mouse,Accessories,3,903.96,15,2711.88,406.78,2305.1,Credit Card,Completed
+ORD00597,2026-04-15,C003,Rahul,Chennai,Tamil Nadu,P008,Desk,Furniture,2,12582.03,20,25164.06,5032.81,20131.25,UPI,Completed
+ORD00598,2026-04-11,C010,Divya,Kochi,Kerala,P004,Monitor,Electronics,2,15204.61,0,30409.22,0.0,30409.22,Net Banking,Completed
+ORD00599,2026-06-12,C004,Sneha,Mumbai,Maharashtra,P006,Mouse,Accessories,1,818.37,10,818.37,81.84,736.53,Cash,Returned
+ORD00600,2026-05-10,C002,Priya,Bengaluru,Karnataka,P008,Desk,Furniture,4,12214.36,20,48857.44,9771.49,39085.95,Net Banking,Completed
+ORD00601,2026-08-03,C001,Arjun,Hyderabad,Telangana,P009,Backpack,Accessories,1,2391.54,15,2391.54,358.73,2032.81,Net Banking,Cancelled
+ORD00602,2026-02-02,C009,Suresh,Jaipur,Rajasthan,P003,Headphones,Electronics,5,2615.25,0,13076.25,0.0,13076.25,Net Banking,Completed
+ORD00603,2026-04-09,C011,Ravi,Visakhapatnam,Andhra Pradesh,P010,Tablet,Electronics,5,24019.73,5,120098.65,6004.93,114093.72,Cash,Completed
+ORD00604,2026-03-17,C012,Neha,Gurugram,Haryana,P004,Monitor,Electronics,3,15298.06,10,45894.18,4589.42,41304.76,Debit Card,Completed
+ORD00605,2026-05-12,C003,Rahul,Chennai,Tamil Nadu,P007,Office Chair,Furniture,5,9156.94,20,45784.7,9156.94,36627.76,Cash,Completed
+ORD00606,2026-07-02,C006,Anita,Delhi,Delhi,P009,Backpack,Accessories,2,2072.27,0,4144.54,0.0,4144.54,UPI,Completed
+ORD00607,2026-06-13,C011,Ravi,Visakhapatnam,Andhra Pradesh,P003,Headphones,Electronics,2,2521.25,15,5042.5,756.38,4286.12,Credit Card,Completed
+ORD00608,2026-06-20,C006,Anita,Delhi,Delhi,P009,Backpack,Accessories,4,2231.08,15,8924.32,1338.65,7585.67,Net Banking,Returned
+ORD00609,2026-05-14,C011,Ravi,Visakhapatnam,Andhra Pradesh,P009,Backpack,Accessories,3,2335.65,10,7006.95,700.7,6306.25,Credit Card,Completed
+ORD00610,2026-03-10,C007,Kiran,Kolkata,West Bengal,P003,Headphones,Electronics,1,2278.3,20,2278.3,455.66,1822.64,UPI,Completed
+ORD00611,2026-03-17,C011,Ravi,Visakhapatnam,Andhra Pradesh,P005,Keyboard,Accessories,2,1868.61,0,3737.22,0.0,3737.22,Cash,Completed
+ORD00612,2026-06-22,C001,Arjun,Hyderabad,Telangana,P006,Mouse,Accessories,4,920.9,0,3683.6,0.0,3683.6,Cash,Returned
+ORD00613,2026-07-23,C004,Sneha,Mumbai,Maharashtra,P009,Backpack,Accessories,4,2204.81,0,8819.24,0.0,8819.24,UPI,Returned
+ORD00614,2026-07-21,C012,Neha,Gurugram,Haryana,P001,Laptop,Electronics,4,54082.23,10,216328.92,21632.89,194696.03,UPI,Returned
+ORD00615,2026-06-08,C009,Suresh,Jaipur,Rajasthan,P001,Laptop,Electronics,1,52264.75,20,52264.75,10452.95,41811.8,Debit Card,Completed
+ORD00616,2026-02-20,C011,Ravi,Visakhapatnam,Andhra Pradesh,P006,Mouse,Accessories,5,942.92,15,4714.6,707.19,4007.41,Debit Card,Returned
+ORD00617,2026-02-14,C005,Vikram,Pune,Maharashtra,P008,Desk,Furniture,2,10978.73,20,21957.46,4391.49,17565.97,Cash,Returned
+ORD00618,2026-03-09,C002,Priya,Bengaluru,Karnataka,P007,Office Chair,Furniture,1,8124.49,10,8124.49,812.45,7312.04,Debit Card,Completed
+ORD00619,2026-08-28,C010,Divya,Kochi,Kerala,P005,Keyboard,Accessories,1,1787.88,5,1787.88,89.39,1698.49,Credit Card,Completed
+ORD00620,2026-06-10,C003,Rahul,Chennai,Tamil Nadu,P006,Mouse,Accessories,5,949.26,0,4746.3,0.0,4746.3,UPI,Cancelled
+ORD00621,2026-07-01,C008,Meena,Ahmedabad,Gujarat,P010,Tablet,Electronics,5,21949.83,5,109749.15,5487.46,104261.69,Cash,Completed
+ORD00622,2026-02-10,C004,Sneha,Mumbai,Maharashtra,P003,Headphones,Electronics,5,2643.13,0,13215.65,0.0,13215.65,Cash,Completed
+ORD00623,2026-02-24,C009,Suresh,Jaipur,Rajasthan,P007,Office Chair,Furniture,1,8026.04,5,8026.04,401.3,7624.74,UPI,Returned
+ORD00624,2026-06-08,C006,Anita,Delhi,Delhi,P006,Mouse,Accessories,3,981.06,0,2943.18,0.0,2943.18,Net Banking,Cancelled
+ORD00625,2026-03-03,C009,Suresh,Jaipur,Rajasthan,P001,Laptop,Electronics,1,53306.08,20,53306.08,10661.22,42644.86,Cash,Returned
+ORD00626,2026-04-08,C010,Divya,Kochi,Kerala,P004,Monitor,Electronics,1,15079.85,20,15079.85,3015.97,12063.88,Net Banking,Completed
+ORD00627,2026-07-30,C005,Vikram,Pune,Maharashtra,P009,Backpack,Accessories,3,2380.99,0,7142.97,0.0,7142.97,Cash,Completed
+ORD00628,2026-06-16,C009,Suresh,Jaipur,Rajasthan,P008,Desk,Furniture,4,11511.44,0,46045.76,0.0,46045.76,UPI,Completed
+ORD00629,2026-07-17,C009,Suresh,Jaipur,Rajasthan,P002,Smartphone,Electronics,1,30641.12,0,30641.12,0.0,30641.12,Cash,Cancelled
+ORD00630,2026-02-24,C001,Arjun,Hyderabad,Telangana,P002,Smartphone,Electronics,2,28725.28,20,57450.56,11490.11,45960.45,Net Banking,Returned
+ORD00631,2026-07-09,C002,Priya,Bengaluru,Karnataka,P004,Monitor,Electronics,5,15060.18,20,75300.9,15060.18,60240.72,Credit Card,Completed
+ORD00632,2026-01-10,C012,Neha,Gurugram,Haryana,P003,Headphones,Electronics,1,2608.43,10,2608.43,260.84,2347.59,Credit Card,Completed
+ORD00633,2026-07-30,C001,Arjun,Hyderabad,Telangana,P003,Headphones,Electronics,3,2285.22,15,6855.66,1028.35,5827.31,UPI,Completed
+ORD00634,2026-03-22,C007,Kiran,Kolkata,West Bengal,P007,Office Chair,Furniture,4,8337.56,20,33350.24,6670.05,26680.19,Net Banking,Completed
+ORD00635,2026-06-08,C011,Ravi,Visakhapatnam,Andhra Pradesh,P002,Smartphone,Electronics,5,28791.97,0,143959.85,0.0,143959.85,Cash,Completed
+ORD00636,2026-07-21,C001,Arjun,Hyderabad,Telangana,P002,Smartphone,Electronics,3,25794.36,15,77383.08,11607.46,65775.62,UPI,Returned
+ORD00637,2026-07-30,C010,Divya,Kochi,Kerala,P002,Smartphone,Electronics,3,27335.92,10,82007.76,8200.78,73806.98,Credit Card,Returned
+ORD00638,2026-04-11,C008,Meena,Ahmedabad,Gujarat,P003,Headphones,Electronics,5,2318.19,0,11590.95,0.0,11590.95,UPI,Cancelled
+ORD00639,2026-07-23,C011,Ravi,Visakhapatnam,Andhra Pradesh,P003,Headphones,Electronics,3,2693.49,20,8080.47,1616.09,6464.38,UPI,Returned
+ORD00640,2026-01-02,C001,Arjun,Hyderabad,Telangana,P009,Backpack,Accessories,5,2034.22,0,10171.1,0.0,10171.1,Cash,Cancelled
+ORD00641,2026-07-11,C007,Kiran,Kolkata,West Bengal,P009,Backpack,Accessories,5,2114.06,0,10570.3,0.0,10570.3,UPI,Returned
+ORD00642,2026-02-26,C004,Sneha,Mumbai,Maharashtra,P007,Office Chair,Furniture,5,7923.62,0,39618.1,0.0,39618.1,UPI,Cancelled
+ORD00643,2026-08-07,C004,Sneha,Mumbai,Maharashtra,P002,Smartphone,Electronics,2,29678.1,20,59356.2,11871.24,47484.96,Cash,Completed
+ORD00644,2026-03-06,C008,Meena,Ahmedabad,Gujarat,P009,Backpack,Accessories,1,2275.54,5,2275.54,113.78,2161.76,Debit Card,Completed
+ORD00645,2026-06-21,C012,Neha,Gurugram,Haryana,P010,Tablet,Electronics,4,23314.26,5,93257.04,4662.85,88594.19,Debit Card,Returned
+ORD00646,2026-03-23,C002,Priya,Bengaluru,Karnataka,P005,Keyboard,Accessories,5,1944.04,0,9720.2,0.0,9720.2,Net Banking,Completed
+ORD00647,2026-05-25,C006,Anita,Delhi,Delhi,P010,Tablet,Electronics,3,24404.02,20,73212.06,14642.41,58569.65,UPI,Cancelled
+ORD00648,2026-07-21,C006,Anita,Delhi,Delhi,P007,Office Chair,Furniture,2,8182.47,0,16364.94,0.0,16364.94,Net Banking,Completed
+ORD00649,2026-08-13,C005,Vikram,Pune,Maharashtra,P006,Mouse,Accessories,2,941.94,20,1883.88,376.78,1507.1,Net Banking,Completed
+ORD00650,2026-02-14,C008,Meena,Ahmedabad,Gujarat,P006,Mouse,Accessories,3,909.3,10,2727.9,272.79,2455.11,Cash,Returned
+ORD00651,2026-07-07,C002,Priya,Bengaluru,Karnataka,P005,Keyboard,Accessories,2,1690.72,15,3381.44,507.22,2874.22,Credit Card,Returned
+ORD00652,2026-07-28,C012,Neha,Gurugram,Haryana,P002,Smartphone,Electronics,1,28737.11,15,28737.11,4310.57,24426.54,Cash,Cancelled
+ORD00653,2026-05-20,C007,Kiran,Kolkata,West Bengal,P010,Tablet,Electronics,2,24247.65,0,48495.3,0.0,48495.3,Net Banking,Cancelled
+ORD00654,2026-07-17,C011,Ravi,Visakhapatnam,Andhra Pradesh,P003,Headphones,Electronics,3,2361.65,10,7084.95,708.5,6376.45,UPI,Cancelled
+ORD00655,2026-04-04,C003,Rahul,Chennai,Tamil Nadu,P008,Desk,Furniture,5,11017.33,15,55086.65,8263.0,46823.65,Credit Card,Cancelled
+ORD00656,2026-05-12,C011,Ravi,Visakhapatnam,Andhra Pradesh,P004,Monitor,Electronics,5,13064.36,20,65321.8,13064.36,52257.44,Net Banking,Completed
+ORD00657,2026-02-07,C003,Rahul,Chennai,Tamil Nadu,P003,Headphones,Electronics,5,2579.71,15,12898.55,1934.78,10963.77,Net Banking,Returned
+ORD00658,2026-03-09,C006,Anita,Delhi,Delhi,P001,Laptop,Electronics,2,52049.25,10,104098.5,10409.85,93688.65,Debit Card,Completed
+ORD00659,2026-08-23,C001,Arjun,Hyderabad,Telangana,P004,Monitor,Electronics,5,13686.66,5,68433.3,3421.66,65011.64,Credit Card,Completed
+ORD00660,2026-06-12,C001,Arjun,Hyderabad,Telangana,P006,Mouse,Accessories,1,984.32,20,984.32,196.86,787.46,UPI,Completed
+ORD00661,2026-04-07,C010,Divya,Kochi,Kerala,P009,Backpack,Accessories,5,2145.73,0,10728.65,0.0,10728.65,Cash,Completed
+ORD00662,2026-08-21,C011,Ravi,Visakhapatnam,Andhra Pradesh,P002,Smartphone,Electronics,5,27307.44,5,136537.2,6826.86,129710.34,Cash,Completed
+ORD00663,2026-08-16,C007,Kiran,Kolkata,West Bengal,P006,Mouse,Accessories,3,952.68,10,2858.04,285.8,2572.24,Credit Card,Cancelled
+ORD00664,2026-05-12,C009,Suresh,Jaipur,Rajasthan,P003,Headphones,Electronics,4,2365.0,0,9460.0,0.0,9460.0,UPI,Returned
+ORD00665,2026-07-03,C004,Sneha,Mumbai,Maharashtra,P003,Headphones,Electronics,2,2431.11,0,4862.22,0.0,4862.22,Debit Card,Completed
+ORD00666,2026-05-03,C007,Kiran,Kolkata,West Bengal,P006,Mouse,Accessories,1,931.54,10,931.54,93.15,838.39,Cash,Completed
+ORD00667,2026-05-27,C003,Rahul,Chennai,Tamil Nadu,P007,Office Chair,Furniture,1,7723.35,0,7723.35,0.0,7723.35,Debit Card,Cancelled
+ORD00668,2026-02-12,C003,Rahul,Chennai,Tamil Nadu,P009,Backpack,Accessories,1,2044.62,15,2044.62,306.69,1737.93,Debit Card,Completed
+ORD00669,2026-08-13,C009,Suresh,Jaipur,Rajasthan,P007,Office Chair,Furniture,5,8733.96,15,43669.8,6550.47,37119.33,UPI,Returned
+ORD00670,2026-08-11,C002,Priya,Bengaluru,Karnataka,P004,Monitor,Electronics,4,15379.77,15,61519.08,9227.86,52291.22,Debit Card,Completed
+ORD00671,2026-07-30,C004,Sneha,Mumbai,Maharashtra,P007,Office Chair,Furniture,5,9000.85,0,45004.25,0.0,45004.25,Cash,Completed
+ORD00672,2026-03-29,C011,Ravi,Visakhapatnam,Andhra Pradesh,P009,Backpack,Accessories,3,2298.64,0,6895.92,0.0,6895.92,Cash,Completed
+ORD00673,2026-01-28,C010,Divya,Kochi,Kerala,P002,Smartphone,Electronics,2,27358.59,10,54717.18,5471.72,49245.46,Debit Card,Completed
+ORD00674,2026-02-15,C009,Suresh,Jaipur,Rajasthan,P009,Backpack,Accessories,4,2246.42,0,8985.68,0.0,8985.68,Cash,Completed
+ORD00675,2026-01-24,C010,Divya,Kochi,Kerala,P001,Laptop,Electronics,5,57776.21,15,288881.05,43332.16,245548.89,Debit Card,Completed
+ORD00676,2026-05-14,C010,Divya,Kochi,Kerala,P009,Backpack,Accessories,1,2265.66,20,2265.66,453.13,1812.53,UPI,Completed
+ORD00677,2026-05-04,C001,Arjun,Hyderabad,Telangana,P009,Backpack,Accessories,4,2392.91,0,9571.64,0.0,9571.64,UPI,Completed
+ORD00678,2026-05-03,C010,Divya,Kochi,Kerala,P010,Tablet,Electronics,1,22242.64,10,22242.64,2224.26,20018.38,Credit Card,Completed
+ORD00679,2026-01-02,C005,Vikram,Pune,Maharashtra,P010,Tablet,Electronics,5,22837.46,10,114187.3,11418.73,102768.57,Credit Card,Returned
+ORD00680,2026-06-17,C010,Divya,Kochi,Kerala,P009,Backpack,Accessories,1,1983.17,15,1983.17,297.48,1685.69,UPI,Completed
+ORD00681,2026-05-30,C007,Kiran,Kolkata,West Bengal,P006,Mouse,Accessories,1,886.69,0,886.69,0.0,886.69,UPI,Completed
+ORD00682,2026-06-24,C009,Suresh,Jaipur,Rajasthan,P007,Office Chair,Furniture,5,8690.2,5,43451.0,2172.55,41278.45,Debit Card,Completed
+ORD00683,2026-05-24,C007,Kiran,Kolkata,West Bengal,P009,Backpack,Accessories,5,2058.64,10,10293.2,1029.32,9263.88,Net Banking,Cancelled
+ORD00684,2026-04-12,C005,Vikram,Pune,Maharashtra,P005,Keyboard,Accessories,5,1898.71,5,9493.55,474.68,9018.87,Debit Card,Returned
+ORD00685,2026-02-11,C011,Ravi,Visakhapatnam,Andhra Pradesh,P002,Smartphone,Electronics,2,29585.41,10,59170.82,5917.08,53253.74,Debit Card,Completed
+ORD00686,2026-06-25,C009,Suresh,Jaipur,Rajasthan,P007,Office Chair,Furniture,3,8693.84,15,26081.52,3912.23,22169.29,Credit Card,Returned
+ORD00687,2026-05-01,C003,Rahul,Chennai,Tamil Nadu,P007,Office Chair,Furniture,1,9049.53,0,9049.53,0.0,9049.53,Net Banking,Cancelled
+ORD00688,2026-06-05,C002,Priya,Bengaluru,Karnataka,P002,Smartphone,Electronics,3,27276.68,0,81830.04,0.0,81830.04,Net Banking,Completed
+ORD00689,2026-06-02,C007,Kiran,Kolkata,West Bengal,P010,Tablet,Electronics,5,25015.71,5,125078.55,6253.93,118824.62,Debit Card,Completed
+ORD00690,2026-06-18,C011,Ravi,Visakhapatnam,Andhra Pradesh,P008,Desk,Furniture,4,11284.1,0,45136.4,0.0,45136.4,UPI,Cancelled
+ORD00691,2026-03-01,C004,Sneha,Mumbai,Maharashtra,P001,Laptop,Electronics,5,55173.95,15,275869.75,41380.46,234489.29,Debit Card,Cancelled
+ORD00692,2026-02-10,C011,Ravi,Visakhapatnam,Andhra Pradesh,P001,Laptop,Electronics,3,56705.21,0,170115.63,0.0,170115.63,UPI,Completed
+ORD00693,2026-05-13,C007,Kiran,Kolkata,West Bengal,P006,Mouse,Accessories,4,915.49,10,3661.96,366.2,3295.76,Credit Card,Completed
+ORD00694,2026-08-23,C002,Priya,Bengaluru,Karnataka,P009,Backpack,Accessories,3,2345.1,20,7035.3,1407.06,5628.24,UPI,Cancelled
+ORD00695,2026-04-27,C006,Anita,Delhi,Delhi,P005,Keyboard,Accessories,2,1966.7,15,3933.4,590.01,3343.39,Cash,Completed
+ORD00696,2026-05-24,C001,Arjun,Hyderabad,Telangana,P005,Keyboard,Accessories,2,1802.25,10,3604.5,360.45,3244.05,Cash,Completed
+ORD00697,2026-08-13,C005,Vikram,Pune,Maharashtra,P006,Mouse,Accessories,1,982.21,15,982.21,147.33,834.88,Cash,Cancelled
+ORD00698,2026-03-04,C005,Vikram,Pune,Maharashtra,P008,Desk,Furniture,4,11960.71,15,47842.84,7176.43,40666.41,Net Banking,Completed
+ORD00699,2026-03-08,C011,Ravi,Visakhapatnam,Andhra Pradesh,P008,Desk,Furniture,5,11956.73,0,59783.65,0.0,59783.65,Net Banking,Completed
+ORD00700,2026-04-01,C011,Ravi,Visakhapatnam,Andhra Pradesh,P004,Monitor,Electronics,2,13754.79,5,27509.58,1375.48,26134.1,Cash,Cancelled
+ORD00701,2026-06-22,C001,Arjun,Hyderabad,Telangana,P005,Keyboard,Accessories,2,1653.48,5,3306.96,165.35,3141.61,UPI,Returned
+ORD00702,2026-02-25,C002,Priya,Bengaluru,Karnataka,P009,Backpack,Accessories,2,2118.1,10,4236.2,423.62,3812.58,UPI,Cancelled
+ORD00703,2026-07-08,C003,Rahul,Chennai,Tamil Nadu,P004,Monitor,Electronics,4,13159.07,20,52636.28,10527.26,42109.02,UPI,Completed
+ORD00704,2026-04-02,C004,Sneha,Mumbai,Maharashtra,P004,Monitor,Electronics,2,14941.74,0,29883.48,0.0,29883.48,Credit Card,Completed
+ORD00705,2026-08-08,C002,Priya,Bengaluru,Karnataka,P002,Smartphone,Electronics,4,25237.09,15,100948.36,15142.25,85806.11,Credit Card,Cancelled
+ORD00706,2026-08-14,C008,Meena,Ahmedabad,Gujarat,P006,Mouse,Accessories,5,898.62,5,4493.1,224.66,4268.44,UPI,Cancelled
+ORD00707,2026-07-12,C008,Meena,Ahmedabad,Gujarat,P003,Headphones,Electronics,5,2448.94,5,12244.7,612.24,11632.46,Debit Card,Cancelled
+ORD00708,2026-01-09,C001,Arjun,Hyderabad,Telangana,P009,Backpack,Accessories,4,2393.45,10,9573.8,957.38,8616.42,UPI,Cancelled
+ORD00709,2026-04-28,C007,Kiran,Kolkata,West Bengal,P003,Headphones,Electronics,4,2599.12,0,10396.48,0.0,10396.48,Credit Card,Completed
+ORD00710,2026-04-03,C001,Arjun,Hyderabad,Telangana,P004,Monitor,Electronics,4,12882.09,15,51528.36,7729.25,43799.11,UPI,Cancelled
+ORD00711,2026-06-06,C003,Rahul,Chennai,Tamil Nadu,P009,Backpack,Accessories,3,2098.54,0,6295.62,0.0,6295.62,UPI,Completed
+ORD00712,2026-07-12,C003,Rahul,Chennai,Tamil Nadu,P008,Desk,Furniture,4,11805.82,0,47223.28,0.0,47223.28,UPI,Completed
+ORD00713,2026-05-28,C007,Kiran,Kolkata,West Bengal,P005,Keyboard,Accessories,4,1825.71,0,7302.84,0.0,7302.84,Debit Card,Returned
+ORD00714,2026-04-08,C002,Priya,Bengaluru,Karnataka,P005,Keyboard,Accessories,2,1775.6,15,3551.2,532.68,3018.52,Debit Card,Completed
+ORD00715,2026-05-08,C012,Neha,Gurugram,Haryana,P003,Headphones,Electronics,4,2338.3,0,9353.2,0.0,9353.2,Cash,Completed
+ORD00716,2026-08-08,C009,Suresh,Jaipur,Rajasthan,P006,Mouse,Accessories,4,855.18,5,3420.72,171.04,3249.68,Credit Card,Cancelled
+ORD00717,2026-03-07,C007,Kiran,Kolkata,West Bengal,P002,Smartphone,Electronics,2,26406.62,0,52813.24,0.0,52813.24,Credit Card,Completed
+ORD00718,2026-05-23,C008,Meena,Ahmedabad,Gujarat,P006,Mouse,Accessories,3,874.86,5,2624.58,131.23,2493.35,UPI,Completed
+ORD00719,2026-06-05,C001,Arjun,Hyderabad,Telangana,P007,Office Chair,Furniture,1,9124.53,5,9124.53,456.23,8668.3,Cash,Completed
+ORD00720,2026-06-22,C010,Divya,Kochi,Kerala,P009,Backpack,Accessories,2,2136.25,5,4272.5,213.62,4058.88,Net Banking,Cancelled
+ORD00721,2026-04-29,C012,Neha,Gurugram,Haryana,P008,Desk,Furniture,1,12272.79,10,12272.79,1227.28,11045.51,Debit Card,Returned
+ORD00722,2026-04-14,C003,Rahul,Chennai,Tamil Nadu,P006,Mouse,Accessories,4,920.22,20,3680.88,736.18,2944.7,Credit Card,Completed
+ORD00723,2026-03-16,C003,Rahul,Chennai,Tamil Nadu,P006,Mouse,Accessories,2,867.04,5,1734.08,86.7,1647.38,UPI,Returned
+ORD00724,2026-08-29,C010,Divya,Kochi,Kerala,P007,Office Chair,Furniture,3,8977.66,10,26932.98,2693.3,24239.68,Cash,Completed
+ORD00725,2026-01-06,C009,Suresh,Jaipur,Rajasthan,P008,Desk,Furniture,4,11241.33,0,44965.32,0.0,44965.32,Debit Card,Completed
+ORD00726,2026-01-27,C011,Ravi,Visakhapatnam,Andhra Pradesh,P005,Keyboard,Accessories,1,1680.09,0,1680.09,0.0,1680.09,Credit Card,Completed
+ORD00727,2026-05-15,C008,Meena,Ahmedabad,Gujarat,P009,Backpack,Accessories,1,2319.21,0,2319.21,0.0,2319.21,Credit Card,Completed
+ORD00728,2026-08-15,C005,Vikram,Pune,Maharashtra,P010,Tablet,Electronics,2,24743.2,0,49486.4,0.0,49486.4,UPI,Completed
+ORD00729,2026-02-03,C004,Sneha,Mumbai,Maharashtra,P004,Monitor,Electronics,3,14354.15,10,43062.45,4306.24,38756.21,Debit Card,Cancelled
+ORD00730,2026-04-30,C001,Arjun,Hyderabad,Telangana,P001,Laptop,Electronics,3,59006.65,5,177019.95,8851.0,168168.95,UPI,Cancelled
+ORD00731,2026-06-01,C009,Suresh,Jaipur,Rajasthan,P008,Desk,Furniture,2,12094.29,20,24188.58,4837.72,19350.86,Net Banking,Cancelled
+ORD00732,2026-05-17,C011,Ravi,Visakhapatnam,Andhra Pradesh,P010,Tablet,Electronics,4,24670.98,15,98683.92,14802.59,83881.33,UPI,Completed
+ORD00733,2026-04-04,C008,Meena,Ahmedabad,Gujarat,P009,Backpack,Accessories,2,2174.42,0,4348.84,0.0,4348.84,UPI,Completed
+ORD00734,2026-07-14,C003,Rahul,Chennai,Tamil Nadu,P005,Keyboard,Accessories,1,1808.39,0,1808.39,0.0,1808.39,UPI,Completed
+ORD00735,2026-05-06,C005,Vikram,Pune,Maharashtra,P008,Desk,Furniture,5,12450.65,0,62253.25,0.0,62253.25,UPI,Completed
+ORD00736,2026-01-02,C001,Arjun,Hyderabad,Telangana,P007,Office Chair,Furniture,3,8043.07,15,24129.21,3619.38,20509.83,UPI,Cancelled
+ORD00737,2026-02-11,C004,Sneha,Mumbai,Maharashtra,P007,Office Chair,Furniture,5,8321.08,10,41605.4,4160.54,37444.86,Net Banking,Returned
+ORD00738,2026-03-03,C007,Kiran,Kolkata,West Bengal,P004,Monitor,Electronics,3,13782.27,0,41346.81,0.0,41346.81,Cash,Cancelled
+ORD00739,2026-07-27,C012,Neha,Gurugram,Haryana,P005,Keyboard,Accessories,3,1887.45,20,5662.35,1132.47,4529.88,Net Banking,Completed
+ORD00740,2026-06-13,C004,Sneha,Mumbai,Maharashtra,P002,Smartphone,Electronics,2,26821.73,0,53643.46,0.0,53643.46,Cash,Completed
+ORD00741,2026-01-05,C008,Meena,Ahmedabad,Gujarat,P005,Keyboard,Accessories,5,1687.6,10,8438.0,843.8,7594.2,Credit Card,Completed
+ORD00742,2026-02-02,C009,Suresh,Jaipur,Rajasthan,P001,Laptop,Electronics,2,52603.26,0,105206.52,0.0,105206.52,Net Banking,Returned
+ORD00743,2026-05-07,C012,Neha,Gurugram,Haryana,P001,Laptop,Electronics,2,51157.52,0,102315.04,0.0,102315.04,UPI,Completed
+ORD00744,2026-07-22,C007,Kiran,Kolkata,West Bengal,P005,Keyboard,Accessories,4,1786.93,5,7147.72,357.39,6790.33,UPI,Completed
+ORD00745,2026-01-19,C002,Priya,Bengaluru,Karnataka,P003,Headphones,Electronics,1,2637.83,5,2637.83,131.89,2505.94,Net Banking,Cancelled
+ORD00746,2026-02-01,C003,Rahul,Chennai,Tamil Nadu,P004,Monitor,Electronics,3,14919.11,10,44757.33,4475.73,40281.6,Debit Card,Returned
+ORD00747,2026-02-20,C007,Kiran,Kolkata,West Bengal,P008,Desk,Furniture,2,13186.88,20,26373.76,5274.75,21099.01,Credit Card,Completed
+ORD00748,2026-03-21,C009,Suresh,Jaipur,Rajasthan,P004,Monitor,Electronics,4,14508.04,10,58032.16,5803.22,52228.94,Debit Card,Completed
+ORD00749,2026-05-04,C011,Ravi,Visakhapatnam,Andhra Pradesh,P001,Laptop,Electronics,5,50843.56,15,254217.8,38132.67,216085.13,UPI,Returned
+ORD00750,2026-01-29,C004,Sneha,Mumbai,Maharashtra,P006,Mouse,Accessories,1,849.2,20,849.2,169.84,679.36,Net Banking,Completed
+ORD00751,2026-04-12,C006,Anita,Delhi,Delhi,P001,Laptop,Electronics,2,55931.67,5,111863.34,5593.17,106270.17,Credit Card,Completed
+ORD00752,2026-04-06,C001,Arjun,Hyderabad,Telangana,P010,Tablet,Electronics,4,24461.82,20,97847.28,19569.46,78277.82,Debit Card,Completed
+ORD00753,2026-08-27,C003,Rahul,Chennai,Tamil Nadu,P008,Desk,Furniture,1,12284.75,20,12284.75,2456.95,9827.8,Credit Card,Returned
+ORD00754,2026-01-28,C001,Arjun,Hyderabad,Telangana,P006,Mouse,Accessories,2,906.54,20,1813.08,362.62,1450.46,Net Banking,Completed
+ORD00755,2026-07-26,C004,Sneha,Mumbai,Maharashtra,P006,Mouse,Accessories,5,946.21,20,4731.05,946.21,3784.84,Debit Card,Completed
+ORD00756,2026-08-19,C001,Arjun,Hyderabad,Telangana,P007,Office Chair,Furniture,3,7879.04,20,23637.12,4727.42,18909.7,Net Banking,Completed
+ORD00757,2026-05-06,C012,Neha,Gurugram,Haryana,P008,Desk,Furniture,5,12102.56,5,60512.8,3025.64,57487.16,Cash,Completed
+ORD00758,2026-03-12,C003,Rahul,Chennai,Tamil Nadu,P009,Backpack,Accessories,3,2302.26,5,6906.78,345.34,6561.44,Cash,Cancelled
+ORD00759,2026-07-29,C003,Rahul,Chennai,Tamil Nadu,P002,Smartphone,Electronics,5,27716.55,0,138582.75,0.0,138582.75,Cash,Completed
+ORD00760,2026-07-07,C006,Anita,Delhi,Delhi,P008,Desk,Furniture,1,12014.3,20,12014.3,2402.86,9611.44,Credit Card,Completed
+ORD00761,2026-01-17,C010,Divya,Kochi,Kerala,P006,Mouse,Accessories,5,867.72,0,4338.6,0.0,4338.6,Cash,Returned
+ORD00762,2026-05-22,C007,Kiran,Kolkata,West Bengal,P004,Monitor,Electronics,5,13993.14,20,69965.7,13993.14,55972.56,Cash,Completed
+ORD00763,2026-01-25,C005,Vikram,Pune,Maharashtra,P006,Mouse,Accessories,4,867.96,20,3471.84,694.37,2777.47,Credit Card,Cancelled
+ORD00764,2026-05-05,C001,Arjun,Hyderabad,Telangana,P003,Headphones,Electronics,2,2351.04,0,4702.08,0.0,4702.08,Credit Card,Completed
+ORD00765,2026-06-09,C001,Arjun,Hyderabad,Telangana,P010,Tablet,Electronics,4,23951.57,20,95806.28,19161.26,76645.02,Cash,Returned
+ORD00766,2026-01-19,C005,Vikram,Pune,Maharashtra,P001,Laptop,Electronics,3,56165.49,0,168496.47,0.0,168496.47,Debit Card,Completed
+ORD00767,2026-01-16,C011,Ravi,Visakhapatnam,Andhra Pradesh,P008,Desk,Furniture,1,12722.45,10,12722.45,1272.24,11450.21,Cash,Completed
+ORD00768,2026-06-07,C012,Neha,Gurugram,Haryana,P007,Office Chair,Furniture,3,7749.11,20,23247.33,4649.47,18597.86,Cash,Completed
+ORD00769,2026-05-13,C001,Arjun,Hyderabad,Telangana,P002,Smartphone,Electronics,3,30489.78,0,91469.34,0.0,91469.34,Credit Card,Completed
+ORD00770,2026-05-15,C012,Neha,Gurugram,Haryana,P004,Monitor,Electronics,5,13130.49,10,65652.45,6565.24,59087.21,Debit Card,Returned
+ORD00771,2026-07-11,C010,Divya,Kochi,Kerala,P003,Headphones,Electronics,5,2529.07,20,12645.35,2529.07,10116.28,Cash,Completed
+ORD00772,2026-02-16,C006,Anita,Delhi,Delhi,P008,Desk,Furniture,4,11200.34,0,44801.36,0.0,44801.36,Net Banking,Cancelled
+ORD00773,2026-04-24,C009,Suresh,Jaipur,Rajasthan,P006,Mouse,Accessories,2,989.72,15,1979.44,296.92,1682.52,UPI,Completed
+ORD00774,2026-04-21,C009,Suresh,Jaipur,Rajasthan,P006,Mouse,Accessories,3,947.55,10,2842.65,284.26,2558.39,UPI,Returned
+ORD00775,2026-07-16,C010,Divya,Kochi,Kerala,P004,Monitor,Electronics,5,13199.0,15,65995.0,9899.25,56095.75,UPI,Cancelled
+ORD00776,2026-01-09,C006,Anita,Delhi,Delhi,P008,Desk,Furniture,4,10800.47,10,43201.88,4320.19,38881.69,Cash,Completed
+ORD00777,2026-02-26,C001,Arjun,Hyderabad,Telangana,P009,Backpack,Accessories,2,1982.89,5,3965.78,198.29,3767.49,UPI,Completed
+ORD00778,2026-08-26,C001,Arjun,Hyderabad,Telangana,P005,Keyboard,Accessories,5,1820.28,15,9101.4,1365.21,7736.19,Debit Card,Cancelled
+ORD00779,2026-03-09,C002,Priya,Bengaluru,Karnataka,P001,Laptop,Electronics,4,51217.18,5,204868.72,10243.44,194625.28,Cash,Completed
+ORD00780,2026-04-13,C004,Sneha,Mumbai,Maharashtra,P004,Monitor,Electronics,3,12857.33,5,38571.99,1928.6,36643.39,Debit Card,Cancelled
+ORD00781,2026-07-31,C012,Neha,Gurugram,Haryana,P002,Smartphone,Electronics,3,26168.25,10,78504.75,7850.48,70654.27,Cash,Returned
+ORD00782,2026-05-28,C002,Priya,Bengaluru,Karnataka,P010,Tablet,Electronics,3,25107.79,0,75323.37,0.0,75323.37,Credit Card,Completed
+ORD00783,2026-08-11,C001,Arjun,Hyderabad,Telangana,P006,Mouse,Accessories,3,884.97,10,2654.91,265.49,2389.42,Debit Card,Completed
+ORD00784,2026-04-08,C012,Neha,Gurugram,Haryana,P010,Tablet,Electronics,1,25331.61,20,25331.61,5066.32,20265.29,UPI,Completed
+ORD00785,2026-03-25,C009,Suresh,Jaipur,Rajasthan,P001,Laptop,Electronics,3,55714.04,15,167142.12,25071.32,142070.8,Debit Card,Cancelled
+ORD00786,2026-05-28,C003,Rahul,Chennai,Tamil Nadu,P001,Laptop,Electronics,4,57781.24,10,231124.96,23112.5,208012.46,Credit Card,Cancelled
+ORD00787,2026-03-28,C004,Sneha,Mumbai,Maharashtra,P007,Office Chair,Furniture,3,7901.62,10,23704.86,2370.49,21334.37,Net Banking,Completed
+ORD00788,2026-04-13,C010,Divya,Kochi,Kerala,P001,Laptop,Electronics,5,52388.14,10,261940.7,26194.07,235746.63,Net Banking,Cancelled
+ORD00789,2026-05-05,C012,Neha,Gurugram,Haryana,P003,Headphones,Electronics,2,2529.65,10,5059.3,505.93,4553.37,Cash,Completed
+ORD00790,2026-03-04,C004,Sneha,Mumbai,Maharashtra,P009,Backpack,Accessories,5,2210.67,20,11053.35,2210.67,8842.68,UPI,Completed
+ORD00791,2026-04-16,C007,Kiran,Kolkata,West Bengal,P006,Mouse,Accessories,5,830.26,0,4151.3,0.0,4151.3,UPI,Completed
+ORD00792,2026-01-07,C006,Anita,Delhi,Delhi,P004,Monitor,Electronics,3,14262.86,5,42788.58,2139.43,40649.15,Debit Card,Completed
+ORD00793,2026-01-12,C006,Anita,Delhi,Delhi,P010,Tablet,Electronics,4,22299.93,15,89199.72,13379.96,75819.76,Debit Card,Completed
+ORD00794,2026-01-29,C011,Ravi,Visakhapatnam,Andhra Pradesh,P006,Mouse,Accessories,2,963.5,20,1927.0,385.4,1541.6,Credit Card,Returned
+ORD00795,2026-06-27,C004,Sneha,Mumbai,Maharashtra,P010,Tablet,Electronics,2,21665.92,5,43331.84,2166.59,41165.25,UPI,Completed
+ORD00796,2026-05-18,C008,Meena,Ahmedabad,Gujarat,P008,Desk,Furniture,1,11301.62,5,11301.62,565.08,10736.54,Debit Card,Completed
+ORD00797,2026-07-06,C009,Suresh,Jaipur,Rajasthan,P009,Backpack,Accessories,3,2192.53,15,6577.59,986.64,5590.95,Credit Card,Completed
+ORD00798,2026-01-16,C007,Kiran,Kolkata,West Bengal,P010,Tablet,Electronics,5,22826.19,0,114130.95,0.0,114130.95,Debit Card,Completed
+ORD00799,2026-08-30,C012,Neha,Gurugram,Haryana,P010,Tablet,Electronics,3,23831.81,0,71495.43,0.0,71495.43,Credit Card,Completed
+ORD00800,2026-08-11,C007,Kiran,Kolkata,West Bengal,P005,Keyboard,Accessories,3,1626.87,0,4880.61,0.0,4880.61,Net Banking,Returned
+ORD00801,2026-03-22,C004,Sneha,Mumbai,Maharashtra,P007,Office Chair,Furniture,5,7819.33,20,39096.65,7819.33,31277.32,Cash,Completed
+ORD00802,2026-04-28,C009,Suresh,Jaipur,Rajasthan,P002,Smartphone,Electronics,2,28003.64,0,56007.28,0.0,56007.28,Credit Card,Cancelled
+ORD00803,2026-04-11,C001,Arjun,Hyderabad,Telangana,P004,Monitor,Electronics,5,13533.99,5,67669.95,3383.5,64286.45,Debit Card,Returned
+ORD00804,2026-03-02,C001,Arjun,Hyderabad,Telangana,P006,Mouse,Accessories,3,922.54,5,2767.62,138.38,2629.24,UPI,Cancelled
+ORD00805,2026-08-31,C001,Arjun,Hyderabad,Telangana,P005,Keyboard,Accessories,4,1959.89,0,7839.56,0.0,7839.56,Debit Card,Completed
+ORD00806,2026-07-06,C003,Rahul,Chennai,Tamil Nadu,P006,Mouse,Accessories,4,834.71,20,3338.84,667.77,2671.07,Cash,Completed
+ORD00807,2026-02-09,C011,Ravi,Visakhapatnam,Andhra Pradesh,P010,Tablet,Electronics,2,22753.73,10,45507.46,4550.75,40956.71,UPI,Completed
+ORD00808,2026-06-17,C010,Divya,Kochi,Kerala,P006,Mouse,Accessories,4,833.72,15,3334.88,500.23,2834.65,Cash,Completed
+ORD00809,2026-08-19,C009,Suresh,Jaipur,Rajasthan,P004,Monitor,Electronics,2,14527.89,5,29055.78,1452.79,27602.99,Debit Card,Cancelled
+ORD00810,2026-05-23,C007,Kiran,Kolkata,West Bengal,P003,Headphones,Electronics,5,2408.75,0,12043.75,0.0,12043.75,Credit Card,Cancelled
+ORD00811,2026-03-23,C003,Rahul,Chennai,Tamil Nadu,P006,Mouse,Accessories,2,815.31,20,1630.62,326.12,1304.5,Net Banking,Completed
+ORD00812,2026-01-28,C005,Vikram,Pune,Maharashtra,P008,Desk,Furniture,3,12669.86,0,38009.58,0.0,38009.58,Debit Card,Completed
+ORD00813,2026-06-06,C001,Arjun,Hyderabad,Telangana,P010,Tablet,Electronics,5,24506.9,5,122534.5,6126.73,116407.77,Cash,Completed
+ORD00814,2026-07-19,C004,Sneha,Mumbai,Maharashtra,P004,Monitor,Electronics,1,12822.53,5,12822.53,641.13,12181.4,Debit Card,Completed
+ORD00815,2026-02-17,C009,Suresh,Jaipur,Rajasthan,P010,Tablet,Electronics,4,24717.93,20,98871.72,19774.34,79097.38,Net Banking,Completed
+ORD00816,2026-04-15,C008,Meena,Ahmedabad,Gujarat,P003,Headphones,Electronics,2,2363.14,0,4726.28,0.0,4726.28,UPI,Completed
+ORD00817,2026-08-26,C007,Kiran,Kolkata,West Bengal,P004,Monitor,Electronics,2,12785.18,0,25570.36,0.0,25570.36,Cash,Completed
+ORD00818,2026-07-18,C008,Meena,Ahmedabad,Gujarat,P006,Mouse,Accessories,4,886.96,0,3547.84,0.0,3547.84,Cash,Completed
+ORD00819,2026-07-10,C012,Neha,Gurugram,Haryana,P007,Office Chair,Furniture,3,8689.56,10,26068.68,2606.87,23461.81,Cash,Cancelled
+ORD00820,2026-04-27,C009,Suresh,Jaipur,Rajasthan,P009,Backpack,Accessories,1,2028.1,15,2028.1,304.21,1723.89,Debit Card,Completed
+ORD00821,2026-04-10,C009,Suresh,Jaipur,Rajasthan,P009,Backpack,Accessories,4,1997.27,20,7989.08,1597.82,6391.26,Credit Card,Cancelled
+ORD00822,2026-07-18,C004,Sneha,Mumbai,Maharashtra,P005,Keyboard,Accessories,4,1938.38,10,7753.52,775.35,6978.17,Net Banking,Completed
+ORD00823,2026-06-26,C003,Rahul,Chennai,Tamil Nadu,P007,Office Chair,Furniture,3,9212.36,15,27637.08,4145.56,23491.52,Debit Card,Cancelled
+ORD00824,2026-02-16,C008,Meena,Ahmedabad,Gujarat,P008,Desk,Furniture,1,12001.58,20,12001.58,2400.32,9601.26,Cash,Cancelled
+ORD00825,2026-02-15,C003,Rahul,Chennai,Tamil Nadu,P007,Office Chair,Furniture,4,8416.51,5,33666.04,1683.3,31982.74,Cash,Completed
+ORD00826,2026-06-27,C012,Neha,Gurugram,Haryana,P004,Monitor,Electronics,4,13300.23,0,53200.92,0.0,53200.92,Debit Card,Returned
+ORD00827,2026-06-12,C012,Neha,Gurugram,Haryana,P002,Smartphone,Electronics,1,29154.87,0,29154.87,0.0,29154.87,Credit Card,Completed
+ORD00828,2026-04-07,C009,Suresh,Jaipur,Rajasthan,P007,Office Chair,Furniture,5,9264.58,15,46322.9,6948.44,39374.46,Net Banking,Cancelled
+ORD00829,2026-08-09,C001,Arjun,Hyderabad,Telangana,P003,Headphones,Electronics,3,2685.65,15,8056.95,1208.54,6848.41,Debit Card,Completed
+ORD00830,2026-07-06,C003,Rahul,Chennai,Tamil Nadu,P003,Headphones,Electronics,1,2404.03,10,2404.03,240.4,2163.63,UPI,Completed
+ORD00831,2026-01-01,C011,Ravi,Visakhapatnam,Andhra Pradesh,P003,Headphones,Electronics,1,2730.22,0,2730.22,0.0,2730.22,UPI,Cancelled
+ORD00832,2026-01-02,C001,Arjun,Hyderabad,Telangana,P008,Desk,Furniture,4,12104.4,10,48417.6,4841.76,43575.84,Net Banking,Cancelled
+ORD00833,2026-04-15,C004,Sneha,Mumbai,Maharashtra,P004,Monitor,Electronics,5,13931.99,20,69659.95,13931.99,55727.96,Credit Card,Completed
+ORD00834,2026-03-13,C010,Divya,Kochi,Kerala,P010,Tablet,Electronics,1,25834.41,0,25834.41,0.0,25834.41,Cash,Cancelled
+ORD00835,2026-03-31,C004,Sneha,Mumbai,Maharashtra,P001,Laptop,Electronics,2,50105.7,0,100211.4,0.0,100211.4,Debit Card,Completed
+ORD00836,2026-01-23,C001,Arjun,Hyderabad,Telangana,P010,Tablet,Electronics,5,23189.33,5,115946.65,5797.33,110149.32,Credit Card,Completed
+ORD00837,2026-06-19,C007,Kiran,Kolkata,West Bengal,P003,Headphones,Electronics,2,2392.19,20,4784.38,956.88,3827.5,Cash,Returned
+ORD00838,2026-04-03,C010,Divya,Kochi,Kerala,P009,Backpack,Accessories,2,2309.71,10,4619.42,461.94,4157.48,Credit Card,Completed
+ORD00839,2026-07-14,C005,Vikram,Pune,Maharashtra,P006,Mouse,Accessories,3,957.65,10,2872.95,287.3,2585.65,Cash,Completed
+ORD00840,2026-08-09,C002,Priya,Bengaluru,Karnataka,P005,Keyboard,Accessories,4,1663.93,0,6655.72,0.0,6655.72,UPI,Completed
+ORD00841,2026-06-06,C009,Suresh,Jaipur,Rajasthan,P007,Office Chair,Furniture,5,8832.91,0,44164.55,0.0,44164.55,Credit Card,Completed
+ORD00842,2026-06-04,C010,Divya,Kochi,Kerala,P009,Backpack,Accessories,1,2298.59,10,2298.59,229.86,2068.73,UPI,Returned
+ORD00843,2026-06-09,C007,Kiran,Kolkata,West Bengal,P010,Tablet,Electronics,3,24121.88,5,72365.64,3618.28,68747.36,Debit Card,Completed
+ORD00844,2026-05-08,C010,Divya,Kochi,Kerala,P010,Tablet,Electronics,4,25100.09,15,100400.36,15060.05,85340.31,Debit Card,Completed
+ORD00845,2026-01-07,C010,Divya,Kochi,Kerala,P004,Monitor,Electronics,3,12604.43,0,37813.29,0.0,37813.29,Credit Card,Completed
+ORD00846,2026-03-27,C012,Neha,Gurugram,Haryana,P004,Monitor,Electronics,5,13759.32,10,68796.6,6879.66,61916.94,Cash,Completed
+ORD00847,2026-03-14,C011,Ravi,Visakhapatnam,Andhra Pradesh,P004,Monitor,Electronics,1,13163.32,20,13163.32,2632.66,10530.66,Credit Card,Completed
+ORD00848,2026-01-02,C005,Vikram,Pune,Maharashtra,P005,Keyboard,Accessories,5,1736.61,15,8683.05,1302.46,7380.59,UPI,Completed
+ORD00849,2026-08-02,C006,Anita,Delhi,Delhi,P007,Office Chair,Furniture,5,9282.19,15,46410.95,6961.64,39449.31,Debit Card,Completed
+ORD00850,2026-06-15,C006,Anita,Delhi,Delhi,P006,Mouse,Accessories,4,953.51,10,3814.04,381.4,3432.64,Net Banking,Completed
+ORD00851,2026-07-28,C003,Rahul,Chennai,Tamil Nadu,P008,Desk,Furniture,5,11909.93,5,59549.65,2977.48,56572.17,Credit Card,Completed
+ORD00852,2026-05-23,C009,Suresh,Jaipur,Rajasthan,P005,Keyboard,Accessories,5,1864.15,20,9320.75,1864.15,7456.6,Credit Card,Cancelled
+ORD00853,2026-02-08,C004,Sneha,Mumbai,Maharashtra,P010,Tablet,Electronics,3,21917.82,5,65753.46,3287.67,62465.79,Credit Card,Completed
+ORD00854,2026-04-10,C006,Anita,Delhi,Delhi,P007,Office Chair,Furniture,5,8620.67,0,43103.35,0.0,43103.35,Cash,Completed
+ORD00855,2026-04-16,C002,Priya,Bengaluru,Karnataka,P005,Keyboard,Accessories,3,1631.39,20,4894.17,978.83,3915.34,Net Banking,Completed
+ORD00856,2026-03-19,C004,Sneha,Mumbai,Maharashtra,P006,Mouse,Accessories,4,848.91,5,3395.64,169.78,3225.86,Credit Card,Completed
+ORD00857,2026-01-07,C006,Anita,Delhi,Delhi,P001,Laptop,Electronics,2,54381.52,0,108763.04,0.0,108763.04,Cash,Completed
+ORD00858,2026-05-15,C003,Rahul,Chennai,Tamil Nadu,P004,Monitor,Electronics,3,14650.83,10,43952.49,4395.25,39557.24,UPI,Completed
+ORD00859,2026-02-22,C003,Rahul,Chennai,Tamil Nadu,P002,Smartphone,Electronics,5,30759.23,20,153796.15,30759.23,123036.92,Credit Card,Returned
+ORD00860,2026-08-27,C008,Meena,Ahmedabad,Gujarat,P007,Office Chair,Furniture,5,7656.99,0,38284.95,0.0,38284.95,Cash,Completed
+ORD00861,2026-07-16,C002,Priya,Bengaluru,Karnataka,P006,Mouse,Accessories,4,828.56,0,3314.24,0.0,3314.24,UPI,Returned
+ORD00862,2026-03-24,C001,Arjun,Hyderabad,Telangana,P010,Tablet,Electronics,3,25882.25,20,77646.75,15529.35,62117.4,Debit Card,Completed
+ORD00863,2026-06-21,C005,Vikram,Pune,Maharashtra,P005,Keyboard,Accessories,5,1898.2,5,9491.0,474.55,9016.45,UPI,Completed
+ORD00864,2026-06-09,C003,Rahul,Chennai,Tamil Nadu,P003,Headphones,Electronics,3,2257.63,0,6772.89,0.0,6772.89,Cash,Cancelled
+ORD00865,2026-03-11,C002,Priya,Bengaluru,Karnataka,P004,Monitor,Electronics,5,14138.22,5,70691.1,3534.55,67156.55,UPI,Completed
+ORD00866,2026-08-17,C010,Divya,Kochi,Kerala,P004,Monitor,Electronics,2,13471.86,0,26943.72,0.0,26943.72,Cash,Completed
+ORD00867,2026-06-22,C008,Meena,Ahmedabad,Gujarat,P001,Laptop,Electronics,2,54678.09,0,109356.18,0.0,109356.18,Credit Card,Completed
+ORD00868,2026-06-30,C007,Kiran,Kolkata,West Bengal,P001,Laptop,Electronics,1,53811.08,10,53811.08,5381.11,48429.97,Cash,Cancelled
+ORD00869,2026-07-29,C011,Ravi,Visakhapatnam,Andhra Pradesh,P008,Desk,Furniture,5,11549.86,5,57749.3,2887.47,54861.83,Cash,Completed
+ORD00870,2026-07-25,C002,Priya,Bengaluru,Karnataka,P008,Desk,Furniture,5,11023.0,0,55115.0,0.0,55115.0,Net Banking,Returned
+ORD00871,2026-07-16,C002,Priya,Bengaluru,Karnataka,P008,Desk,Furniture,3,12346.6,20,37039.8,7407.96,29631.84,Net Banking,Completed
+ORD00872,2026-04-04,C004,Sneha,Mumbai,Maharashtra,P004,Monitor,Electronics,2,13322.55,15,26645.1,3996.76,22648.34,Debit Card,Completed
+ORD00873,2026-01-17,C012,Neha,Gurugram,Haryana,P006,Mouse,Accessories,3,897.75,10,2693.25,269.32,2423.93,Credit Card,Completed
+ORD00874,2026-03-31,C006,Anita,Delhi,Delhi,P008,Desk,Furniture,4,11477.42,0,45909.68,0.0,45909.68,Cash,Cancelled
+ORD00875,2026-07-23,C003,Rahul,Chennai,Tamil Nadu,P009,Backpack,Accessories,1,2339.72,10,2339.72,233.97,2105.75,UPI,Completed
+ORD00876,2026-06-01,C009,Suresh,Jaipur,Rajasthan,P002,Smartphone,Electronics,3,27781.46,15,83344.38,12501.66,70842.72,Debit Card,Completed
+ORD00877,2026-04-09,C010,Divya,Kochi,Kerala,P004,Monitor,Electronics,5,15326.9,0,76634.5,0.0,76634.5,UPI,Completed
+ORD00878,2026-03-29,C004,Sneha,Mumbai,Maharashtra,P010,Tablet,Electronics,4,24322.61,10,97290.44,9729.04,87561.4,Debit Card,Cancelled
+ORD00879,2026-06-02,C003,Rahul,Chennai,Tamil Nadu,P002,Smartphone,Electronics,5,25840.21,10,129201.05,12920.1,116280.95,UPI,Completed
+ORD00880,2026-04-14,C009,Suresh,Jaipur,Rajasthan,P002,Smartphone,Electronics,4,26925.0,0,107700.0,0.0,107700.0,Cash,Completed
+ORD00881,2026-06-19,C002,Priya,Bengaluru,Karnataka,P010,Tablet,Electronics,4,23972.62,5,95890.48,4794.52,91095.96,Credit Card,Completed
+ORD00882,2026-07-13,C004,Sneha,Mumbai,Maharashtra,P003,Headphones,Electronics,5,2654.92,20,13274.6,2654.92,10619.68,Debit Card,Completed
+ORD00883,2026-04-25,C008,Meena,Ahmedabad,Gujarat,P009,Backpack,Accessories,3,2250.85,10,6752.55,675.25,6077.3,Debit Card,Completed
+ORD00884,2026-06-23,C011,Ravi,Visakhapatnam,Andhra Pradesh,P006,Mouse,Accessories,3,952.98,15,2858.94,428.84,2430.1,Net Banking,Completed
+ORD00885,2026-05-11,C012,Neha,Gurugram,Haryana,P006,Mouse,Accessories,1,811.46,15,811.46,121.72,689.74,Debit Card,Completed
+ORD00886,2026-01-01,C005,Vikram,Pune,Maharashtra,P001,Laptop,Electronics,3,60146.89,15,180440.67,27066.1,153374.57,Cash,Returned
+ORD00887,2026-06-29,C006,Anita,Delhi,Delhi,P002,Smartphone,Electronics,3,26517.35,0,79552.05,0.0,79552.05,Net Banking,Cancelled
+ORD00888,2026-05-20,C011,Ravi,Visakhapatnam,Andhra Pradesh,P006,Mouse,Accessories,4,878.68,10,3514.72,351.47,3163.25,Debit Card,Completed
+ORD00889,2026-08-25,C008,Meena,Ahmedabad,Gujarat,P003,Headphones,Electronics,2,2442.3,15,4884.6,732.69,4151.91,Net Banking,Completed
+ORD00890,2026-06-15,C003,Rahul,Chennai,Tamil Nadu,P005,Keyboard,Accessories,2,1624.18,0,3248.36,0.0,3248.36,Debit Card,Completed
+ORD00891,2026-06-14,C012,Neha,Gurugram,Haryana,P008,Desk,Furniture,4,11003.19,0,44012.76,0.0,44012.76,Net Banking,Completed
+ORD00892,2026-05-11,C012,Neha,Gurugram,Haryana,P010,Tablet,Electronics,4,22463.03,15,89852.12,13477.82,76374.3,Cash,Completed
+ORD00893,2026-06-04,C008,Meena,Ahmedabad,Gujarat,P007,Office Chair,Furniture,3,7965.84,0,23897.52,0.0,23897.52,Cash,Completed
+ORD00894,2026-05-20,C008,Meena,Ahmedabad,Gujarat,P004,Monitor,Electronics,5,13750.35,5,68751.75,3437.59,65314.16,UPI,Cancelled
+ORD00895,2026-01-29,C001,Arjun,Hyderabad,Telangana,P001,Laptop,Electronics,5,57253.71,10,286268.55,28626.85,257641.7,Net Banking,Cancelled
+ORD00896,2026-08-08,C012,Neha,Gurugram,Haryana,P002,Smartphone,Electronics,2,29295.24,20,58590.48,11718.1,46872.38,Net Banking,Completed
+ORD00897,2026-05-01,C009,Suresh,Jaipur,Rajasthan,P002,Smartphone,Electronics,5,25695.3,15,128476.5,19271.47,109205.03,Credit Card,Returned
+ORD00898,2026-08-20,C011,Ravi,Visakhapatnam,Andhra Pradesh,P009,Backpack,Accessories,5,2249.74,5,11248.7,562.43,10686.27,Cash,Completed
+ORD00899,2026-05-27,C001,Arjun,Hyderabad,Telangana,P008,Desk,Furniture,4,12974.53,15,51898.12,7784.72,44113.4,UPI,Returned
+ORD00900,2026-06-27,C007,Kiran,Kolkata,West Bengal,P006,Mouse,Accessories,3,840.15,5,2520.45,126.02,2394.43,UPI,Cancelled
+ORD00901,2026-05-29,C012,Neha,Gurugram,Haryana,P010,Tablet,Electronics,3,24620.64,0,73861.92,0.0,73861.92,Cash,Completed
+ORD00902,2026-01-22,C001,Arjun,Hyderabad,Telangana,P005,Keyboard,Accessories,5,1723.25,0,8616.25,0.0,8616.25,Cash,Completed
+ORD00903,2026-03-12,C002,Priya,Bengaluru,Karnataka,P005,Keyboard,Accessories,3,1841.69,0,5525.07,0.0,5525.07,Credit Card,Completed
+ORD00904,2026-07-09,C012,Neha,Gurugram,Haryana,P002,Smartphone,Electronics,5,30296.74,0,151483.7,0.0,151483.7,Net Banking,Completed
+ORD00905,2026-02-16,C006,Anita,Delhi,Delhi,P003,Headphones,Electronics,3,2368.1,20,7104.3,1420.86,5683.44,Credit Card,Cancelled
+ORD00906,2026-02-09,C006,Anita,Delhi,Delhi,P002,Smartphone,Electronics,2,30430.07,15,60860.14,9129.02,51731.12,Net Banking,Completed
+ORD00907,2026-02-23,C007,Kiran,Kolkata,West Bengal,P004,Monitor,Electronics,4,14385.21,20,57540.84,11508.17,46032.67,UPI,Cancelled
+ORD00908,2026-04-13,C001,Arjun,Hyderabad,Telangana,P005,Keyboard,Accessories,1,1680.34,0,1680.34,0.0,1680.34,UPI,Completed
+ORD00909,2026-04-10,C008,Meena,Ahmedabad,Gujarat,P009,Backpack,Accessories,2,2280.74,10,4561.48,456.15,4105.33,UPI,Completed
+ORD00910,2026-07-24,C003,Rahul,Chennai,Tamil Nadu,P009,Backpack,Accessories,4,2107.07,0,8428.28,0.0,8428.28,Net Banking,Completed
+ORD00911,2026-01-25,C011,Ravi,Visakhapatnam,Andhra Pradesh,P006,Mouse,Accessories,5,982.06,20,4910.3,982.06,3928.24,UPI,Cancelled
+ORD00912,2026-07-25,C007,Kiran,Kolkata,West Bengal,P010,Tablet,Electronics,3,22897.57,5,68692.71,3434.64,65258.07,UPI,Completed
+ORD00913,2026-07-11,C011,Ravi,Visakhapatnam,Andhra Pradesh,P010,Tablet,Electronics,4,25311.12,10,101244.48,10124.45,91120.03,Cash,Completed
+ORD00914,2026-02-16,C004,Sneha,Mumbai,Maharashtra,P009,Backpack,Accessories,3,2283.72,20,6851.16,1370.23,5480.93,Cash,Completed
+ORD00915,2026-05-15,C001,Arjun,Hyderabad,Telangana,P001,Laptop,Electronics,1,54023.74,0,54023.74,0.0,54023.74,Net Banking,Completed
+ORD00916,2026-01-07,C006,Anita,Delhi,Delhi,P004,Monitor,Electronics,3,13140.62,5,39421.86,1971.09,37450.77,Credit Card,Cancelled
+ORD00917,2026-07-01,C001,Arjun,Hyderabad,Telangana,P010,Tablet,Electronics,2,24662.8,15,49325.6,7398.84,41926.76,Credit Card,Completed
+ORD00918,2026-06-15,C010,Divya,Kochi,Kerala,P003,Headphones,Electronics,4,2631.93,20,10527.72,2105.54,8422.18,Debit Card,Cancelled
+ORD00919,2026-08-28,C002,Priya,Bengaluru,Karnataka,P003,Headphones,Electronics,3,2483.48,5,7450.44,372.52,7077.92,Net Banking,Completed
+ORD00920,2026-01-19,C005,Vikram,Pune,Maharashtra,P007,Office Chair,Furniture,3,7925.34,5,23776.02,1188.8,22587.22,Credit Card,Completed
+ORD00921,2026-07-28,C007,Kiran,Kolkata,West Bengal,P007,Office Chair,Furniture,3,8089.01,0,24267.03,0.0,24267.03,Debit Card,Completed
+ORD00922,2026-02-15,C008,Meena,Ahmedabad,Gujarat,P002,Smartphone,Electronics,4,28617.69,0,114470.76,0.0,114470.76,Net Banking,Returned
+ORD00923,2026-06-14,C002,Priya,Bengaluru,Karnataka,P003,Headphones,Electronics,5,2359.19,10,11795.95,1179.6,10616.35,Net Banking,Completed
+ORD00924,2026-05-27,C012,Neha,Gurugram,Haryana,P005,Keyboard,Accessories,1,1646.25,0,1646.25,0.0,1646.25,UPI,Returned
+ORD00925,2026-01-01,C008,Meena,Ahmedabad,Gujarat,P001,Laptop,Electronics,4,56681.52,0,226726.08,0.0,226726.08,Net Banking,Completed
+ORD00926,2026-05-12,C005,Vikram,Pune,Maharashtra,P003,Headphones,Electronics,3,2537.32,10,7611.96,761.2,6850.76,Net Banking,Returned
+ORD00927,2026-07-21,C008,Meena,Ahmedabad,Gujarat,P007,Office Chair,Furniture,4,8977.59,20,35910.36,7182.07,28728.29,Cash,Completed
+ORD00928,2026-05-04,C004,Sneha,Mumbai,Maharashtra,P001,Laptop,Electronics,4,58497.74,20,233990.96,46798.19,187192.77,Cash,Completed
+ORD00929,2026-01-15,C009,Suresh,Jaipur,Rajasthan,P006,Mouse,Accessories,3,864.51,20,2593.53,518.71,2074.82,Credit Card,Returned
+ORD00930,2026-07-14,C006,Anita,Delhi,Delhi,P009,Backpack,Accessories,3,2350.12,0,7050.36,0.0,7050.36,Debit Card,Completed
+ORD00931,2026-03-18,C003,Rahul,Chennai,Tamil Nadu,P009,Backpack,Accessories,1,2270.72,10,2270.72,227.07,2043.65,Net Banking,Returned
+ORD00932,2026-04-23,C002,Priya,Bengaluru,Karnataka,P006,Mouse,Accessories,4,969.34,0,3877.36,0.0,3877.36,Debit Card,Returned
+ORD00933,2026-06-01,C003,Rahul,Chennai,Tamil Nadu,P001,Laptop,Electronics,2,57417.13,0,114834.26,0.0,114834.26,Net Banking,Completed
+ORD00934,2026-05-17,C007,Kiran,Kolkata,West Bengal,P002,Smartphone,Electronics,5,26923.29,20,134616.45,26923.29,107693.16,Credit Card,Completed
+ORD00935,2026-01-11,C001,Arjun,Hyderabad,Telangana,P006,Mouse,Accessories,1,951.8,5,951.8,47.59,904.21,Credit Card,Completed
+ORD00936,2026-05-18,C004,Sneha,Mumbai,Maharashtra,P009,Backpack,Accessories,4,2362.89,20,9451.56,1890.31,7561.25,Cash,Completed
+ORD00937,2026-06-17,C004,Sneha,Mumbai,Maharashtra,P002,Smartphone,Electronics,1,25992.91,20,25992.91,5198.58,20794.33,Net Banking,Completed
+ORD00938,2026-01-04,C010,Divya,Kochi,Kerala,P001,Laptop,Electronics,2,56636.65,20,113273.3,22654.66,90618.64,Credit Card,Completed
+ORD00939,2026-06-01,C005,Vikram,Pune,Maharashtra,P002,Smartphone,Electronics,4,26155.86,15,104623.44,15693.52,88929.92,Credit Card,Completed
+ORD00940,2026-07-25,C002,Priya,Bengaluru,Karnataka,P008,Desk,Furniture,5,11329.37,15,56646.85,8497.03,48149.82,Net Banking,Completed
+ORD00941,2026-05-28,C006,Anita,Delhi,Delhi,P007,Office Chair,Furniture,3,9308.95,0,27926.85,0.0,27926.85,Debit Card,Cancelled
+ORD00942,2026-01-17,C006,Anita,Delhi,Delhi,P004,Monitor,Electronics,1,13085.65,15,13085.65,1962.85,11122.8,UPI,Completed
+ORD00943,2026-02-12,C003,Rahul,Chennai,Tamil Nadu,P007,Office Chair,Furniture,2,8278.88,20,16557.76,3311.55,13246.21,Debit Card,Completed
+ORD00944,2026-06-11,C010,Divya,Kochi,Kerala,P001,Laptop,Electronics,2,58201.58,0,116403.16,0.0,116403.16,Net Banking,Cancelled
+ORD00945,2026-02-15,C003,Rahul,Chennai,Tamil Nadu,P001,Laptop,Electronics,4,49569.85,0,198279.4,0.0,198279.4,Cash,Completed
+ORD00946,2026-02-06,C005,Vikram,Pune,Maharashtra,P007,Office Chair,Furniture,4,7865.72,20,31462.88,6292.58,25170.3,UPI,Returned
+ORD00947,2026-06-06,C009,Suresh,Jaipur,Rajasthan,P008,Desk,Furniture,4,13051.42,0,52205.68,0.0,52205.68,Credit Card,Returned
+ORD00948,2026-06-10,C010,Divya,Kochi,Kerala,P003,Headphones,Electronics,4,2725.15,15,10900.6,1635.09,9265.51,UPI,Completed
+ORD00949,2026-05-16,C007,Kiran,Kolkata,West Bengal,P001,Laptop,Electronics,5,51610.93,0,258054.65,0.0,258054.65,Cash,Completed
+ORD00950,2026-06-10,C006,Anita,Delhi,Delhi,P009,Backpack,Accessories,5,2184.26,0,10921.3,0.0,10921.3,Debit Card,Returned
+ORD00951,2026-06-25,C005,Vikram,Pune,Maharashtra,P001,Laptop,Electronics,2,58262.74,0,116525.48,0.0,116525.48,Net Banking,Completed
+ORD00952,2026-03-14,C003,Rahul,Chennai,Tamil Nadu,P003,Headphones,Electronics,1,2572.43,0,2572.43,0.0,2572.43,Net Banking,Completed
+ORD00953,2026-07-09,C005,Vikram,Pune,Maharashtra,P006,Mouse,Accessories,5,817.8,10,4089.0,408.9,3680.1,Cash,Completed
+ORD00954,2026-01-19,C003,Rahul,Chennai,Tamil Nadu,P003,Headphones,Electronics,1,2507.45,10,2507.45,250.75,2256.7,Net Banking,Completed
+ORD00955,2026-06-23,C010,Divya,Kochi,Kerala,P010,Tablet,Electronics,3,22554.01,10,67662.03,6766.2,60895.83,Debit Card,Completed
+ORD00956,2026-04-16,C002,Priya,Bengaluru,Karnataka,P006,Mouse,Accessories,2,852.68,0,1705.36,0.0,1705.36,Net Banking,Completed
+ORD00957,2026-08-16,C004,Sneha,Mumbai,Maharashtra,P002,Smartphone,Electronics,4,27912.68,15,111650.72,16747.61,94903.11,Debit Card,Completed
+ORD00958,2026-02-04,C004,Sneha,Mumbai,Maharashtra,P010,Tablet,Electronics,4,23459.19,0,93836.76,0.0,93836.76,Debit Card,Completed
+ORD00959,2026-01-09,C011,Ravi,Visakhapatnam,Andhra Pradesh,P006,Mouse,Accessories,3,870.46,0,2611.38,0.0,2611.38,Cash,Returned
+ORD00960,2026-04-28,C001,Arjun,Hyderabad,Telangana,P005,Keyboard,Accessories,2,1926.59,0,3853.18,0.0,3853.18,Debit Card,Completed
+ORD00961,2026-07-23,C006,Anita,Delhi,Delhi,P004,Monitor,Electronics,3,13039.01,15,39117.03,5867.55,33249.48,Cash,Returned
+ORD00962,2026-08-08,C003,Rahul,Chennai,Tamil Nadu,P010,Tablet,Electronics,5,22015.08,0,110075.4,0.0,110075.4,Net Banking,Cancelled
+ORD00963,2026-07-06,C004,Sneha,Mumbai,Maharashtra,P010,Tablet,Electronics,4,22940.02,10,91760.08,9176.01,82584.07,Debit Card,Completed
+ORD00964,2026-08-26,C004,Sneha,Mumbai,Maharashtra,P006,Mouse,Accessories,4,850.03,15,3400.12,510.02,2890.1,Debit Card,Cancelled
+ORD00965,2026-05-01,C010,Divya,Kochi,Kerala,P001,Laptop,Electronics,4,49940.65,0,199762.6,0.0,199762.6,Cash,Returned
+ORD00966,2026-07-24,C001,Arjun,Hyderabad,Telangana,P007,Office Chair,Furniture,5,8464.76,10,42323.8,4232.38,38091.42,Credit Card,Returned
+ORD00967,2026-01-04,C008,Meena,Ahmedabad,Gujarat,P008,Desk,Furniture,2,12140.37,0,24280.74,0.0,24280.74,Net Banking,Returned
+ORD00968,2026-01-24,C004,Sneha,Mumbai,Maharashtra,P003,Headphones,Electronics,3,2369.53,5,7108.59,355.43,6753.16,Net Banking,Completed
+ORD00969,2026-05-27,C011,Ravi,Visakhapatnam,Andhra Pradesh,P005,Keyboard,Accessories,2,1785.34,20,3570.68,714.14,2856.54,Cash,Returned
+ORD00970,2026-04-14,C001,Arjun,Hyderabad,Telangana,P008,Desk,Furniture,4,12898.08,0,51592.32,0.0,51592.32,UPI,Completed
+ORD00971,2026-08-17,C011,Ravi,Visakhapatnam,Andhra Pradesh,P008,Desk,Furniture,1,10969.68,20,10969.68,2193.94,8775.74,UPI,Returned
+ORD00972,2026-06-28,C009,Suresh,Jaipur,Rajasthan,P001,Laptop,Electronics,3,57781.77,10,173345.31,17334.53,156010.78,Cash,Cancelled
+ORD00973,2026-07-08,C010,Divya,Kochi,Kerala,P004,Monitor,Electronics,1,15066.37,15,15066.37,2259.96,12806.41,Cash,Completed
+ORD00974,2026-04-30,C011,Ravi,Visakhapatnam,Andhra Pradesh,P006,Mouse,Accessories,1,878.93,0,878.93,0.0,878.93,Credit Card,Cancelled
+ORD00975,2026-01-18,C006,Anita,Delhi,Delhi,P006,Mouse,Accessories,2,910.58,20,1821.16,364.23,1456.93,Debit Card,Cancelled
+ORD00976,2026-05-03,C003,Rahul,Chennai,Tamil Nadu,P006,Mouse,Accessories,2,830.44,15,1660.88,249.13,1411.75,Cash,Returned
+ORD00977,2026-03-10,C012,Neha,Gurugram,Haryana,P004,Monitor,Electronics,2,13587.59,5,27175.18,1358.76,25816.42,Net Banking,Cancelled
+ORD00978,2026-05-05,C005,Vikram,Pune,Maharashtra,P001,Laptop,Electronics,1,53297.49,5,53297.49,2664.87,50632.62,Cash,Cancelled
+ORD00979,2026-08-19,C002,Priya,Bengaluru,Karnataka,P008,Desk,Furniture,5,12780.91,20,63904.55,12780.91,51123.64,Net Banking,Completed
+ORD00980,2026-04-28,C010,Divya,Kochi,Kerala,P006,Mouse,Accessories,1,970.54,0,970.54,0.0,970.54,Credit Card,Completed
+ORD00981,2026-03-12,C007,Kiran,Kolkata,West Bengal,P003,Headphones,Electronics,3,2304.68,0,6914.04,0.0,6914.04,Debit Card,Completed
+ORD00982,2026-01-06,C008,Meena,Ahmedabad,Gujarat,P003,Headphones,Electronics,2,2726.05,15,5452.1,817.82,4634.28,Net Banking,Completed
+ORD00983,2026-04-24,C011,Ravi,Visakhapatnam,Andhra Pradesh,P009,Backpack,Accessories,2,2132.55,10,4265.1,426.51,3838.59,Credit Card,Returned
+ORD00984,2026-03-01,C005,Vikram,Pune,Maharashtra,P004,Monitor,Electronics,1,15041.02,0,15041.02,0.0,15041.02,UPI,Cancelled
+ORD00985,2026-03-25,C007,Kiran,Kolkata,West Bengal,P010,Tablet,Electronics,3,24701.05,20,74103.15,14820.63,59282.52,Cash,Completed
+ORD00986,2026-05-26,C011,Ravi,Visakhapatnam,Andhra Pradesh,P009,Backpack,Accessories,5,2181.52,10,10907.6,1090.76,9816.84,UPI,Completed
+ORD00987,2026-03-15,C003,Rahul,Chennai,Tamil Nadu,P005,Keyboard,Accessories,2,1753.88,10,3507.76,350.78,3156.98,Debit Card,Completed
+ORD00988,2026-02-11,C006,Anita,Delhi,Delhi,P005,Keyboard,Accessories,4,1842.71,0,7370.84,0.0,7370.84,Cash,Returned
+ORD00989,2026-06-20,C005,Vikram,Pune,Maharashtra,P003,Headphones,Electronics,2,2596.43,20,5192.86,1038.57,4154.29,Debit Card,Completed
+ORD00990,2026-04-23,C004,Sneha,Mumbai,Maharashtra,P002,Smartphone,Electronics,1,28417.34,5,28417.34,1420.87,26996.47,UPI,Completed
+ORD00991,2026-03-23,C003,Rahul,Chennai,Tamil Nadu,P004,Monitor,Electronics,5,12697.13,20,63485.65,12697.13,50788.52,Debit Card,Completed
+ORD00992,2026-02-01,C006,Anita,Delhi,Delhi,P008,Desk,Furniture,5,12080.74,0,60403.7,0.0,60403.7,Net Banking,Completed
+ORD00993,2026-07-09,C008,Meena,Ahmedabad,Gujarat,P003,Headphones,Electronics,4,2328.03,5,9312.12,465.61,8846.51,Cash,Cancelled
+ORD00994,2026-07-13,C006,Anita,Delhi,Delhi,P005,Keyboard,Accessories,4,1969.06,5,7876.24,393.81,7482.43,Debit Card,Cancelled
+ORD00995,2026-05-03,C010,Divya,Kochi,Kerala,P008,Desk,Furniture,3,11069.56,20,33208.68,6641.74,26566.94,Debit Card,Completed
+ORD00996,2026-06-08,C011,Ravi,Visakhapatnam,Andhra Pradesh,P009,Backpack,Accessories,1,1990.91,5,1990.91,99.55,1891.36,Net Banking,Completed
+ORD00997,2026-02-19,C006,Anita,Delhi,Delhi,P002,Smartphone,Electronics,3,28605.65,0,85816.95,0.0,85816.95,Cash,Cancelled
+ORD00998,2026-08-06,C004,Sneha,Mumbai,Maharashtra,P005,Keyboard,Accessories,2,1650.09,0,3300.18,0.0,3300.18,Credit Card,Completed
+ORD00999,2026-06-04,C009,Suresh,Jaipur,Rajasthan,P007,Office Chair,Furniture,2,8190.19,10,16380.38,1638.04,14742.34,Credit Card,Cancelled
+ORD01000,2026-04-20,C011,Ravi,Visakhapatnam,Andhra Pradesh,P006,Mouse,Accessories,4,938.87,0,3755.48,0.0,3755.48,Net Banking,Completed
+ORD01001,2026-04-25,C006,Anita,Delhi,Delhi,P001,Laptop,Electronics,3,53364.91,5,160094.73,8004.74,152089.99,Credit Card,Cancelled
+ORD01002,2026-07-26,C004,Sneha,Mumbai,Maharashtra,P008,Desk,Furniture,4,11492.72,10,45970.88,4597.09,41373.79,Net Banking,Returned
+ORD01003,2026-02-06,C012,Neha,Gurugram,Haryana,P007,Office Chair,Furniture,2,8666.49,15,17332.98,2599.95,14733.03,UPI,Completed
+ORD01004,2026-06-01,C008,Meena,Ahmedabad,Gujarat,P009,Backpack,Accessories,3,2390.59,0,7171.77,0.0,7171.77,Credit Card,Completed
+ORD01005,2026-04-29,C001,Arjun,Hyderabad,Telangana,P007,Office Chair,Furniture,3,7947.32,10,23841.96,2384.2,21457.76,Cash,Returned
+ORD01006,2026-05-06,C003,Rahul,Chennai,Tamil Nadu,P004,Monitor,Electronics,2,13410.5,10,26821.0,2682.1,24138.9,UPI,Completed
+ORD01007,2026-02-27,C010,Divya,Kochi,Kerala,P005,Keyboard,Accessories,4,1886.35,15,7545.4,1131.81,6413.59,Credit Card,Completed
+ORD01008,2026-05-01,C003,Rahul,Chennai,Tamil Nadu,P005,Keyboard,Accessories,3,1920.33,20,5760.99,1152.2,4608.79,UPI,Completed
+ORD01009,2026-01-08,C007,Kiran,Kolkata,West Bengal,P003,Headphones,Electronics,4,2572.39,20,10289.56,2057.91,8231.65,UPI,Completed
+ORD01010,2026-05-04,C008,Meena,Ahmedabad,Gujarat,P002,Smartphone,Electronics,5,27225.85,20,136129.25,27225.85,108903.4,Net Banking,Cancelled
+ORD01011,2026-05-28,C005,Vikram,Pune,Maharashtra,P008,Desk,Furniture,1,12030.06,5,12030.06,601.5,11428.56,UPI,Completed
+ORD01012,2026-08-13,C003,Rahul,Chennai,Tamil Nadu,P010,Tablet,Electronics,1,23134.47,0,23134.47,0.0,23134.47,Debit Card,Returned
+ORD01013,2026-06-12,C006,Anita,Delhi,Delhi,P003,Headphones,Electronics,1,2430.58,5,2430.58,121.53,2309.05,Credit Card,Completed
+ORD01014,2026-05-12,C005,Vikram,Pune,Maharashtra,P005,Keyboard,Accessories,5,1957.07,20,9785.35,1957.07,7828.28,Debit Card,Completed
+ORD01015,2026-03-22,C002,Priya,Bengaluru,Karnataka,P010,Tablet,Electronics,2,23148.51,15,46297.02,6944.55,39352.47,UPI,Returned
+ORD01016,2026-07-30,C005,Vikram,Pune,Maharashtra,P006,Mouse,Accessories,1,914.41,15,914.41,137.16,777.25,Credit Card,Completed
+ORD01017,2026-04-16,C003,Rahul,Chennai,Tamil Nadu,P009,Backpack,Accessories,3,2322.68,5,6968.04,348.4,6619.64,Debit Card,Completed
+ORD01018,2026-02-18,C002,Priya,Bengaluru,Karnataka,P004,Monitor,Electronics,2,13219.12,15,26438.24,3965.74,22472.5,Cash,Cancelled
+ORD01019,2026-07-13,C012,Neha,Gurugram,Haryana,P009,Backpack,Accessories,5,2222.49,20,11112.45,2222.49,8889.96,Net Banking,Completed
+ORD01020,2026-05-03,C008,Meena,Ahmedabad,Gujarat,P002,Smartphone,Electronics,1,30371.09,0,30371.09,0.0,30371.09,UPI,Completed
+ORD01021,2026-06-02,C012,Neha,Gurugram,Haryana,P006,Mouse,Accessories,2,970.15,10,1940.3,194.03,1746.27,UPI,Cancelled
+ORD01022,2026-02-26,C003,Rahul,Chennai,Tamil Nadu,P005,Keyboard,Accessories,1,1913.25,20,1913.25,382.65,1530.6,Debit Card,Completed
+ORD01023,2026-01-21,C012,Neha,Gurugram,Haryana,P004,Monitor,Electronics,3,13187.55,0,39562.65,0.0,39562.65,Credit Card,Completed
+ORD01024,2026-01-28,C002,Priya,Bengaluru,Karnataka,P001,Laptop,Electronics,4,49967.69,10,199870.76,19987.08,179883.68,Cash,Completed
+ORD01025,2026-01-12,C010,Divya,Kochi,Kerala,P001,Laptop,Electronics,4,59493.82,0,237975.28,0.0,237975.28,UPI,Completed
+ORD01026,2026-02-22,C011,Ravi,Visakhapatnam,Andhra Pradesh,P001,Laptop,Electronics,1,59621.08,0,59621.08,0.0,59621.08,Debit Card,Cancelled
+ORD01027,2026-07-11,C003,Rahul,Chennai,Tamil Nadu,P006,Mouse,Accessories,1,836.2,0,836.2,0.0,836.2,Cash,Completed
+ORD01028,2026-06-06,C006,Anita,Delhi,Delhi,P006,Mouse,Accessories,2,950.54,15,1901.08,285.16,1615.92,Cash,Completed
+ORD01029,2026-05-16,C010,Divya,Kochi,Kerala,P002,Smartphone,Electronics,1,29474.17,15,29474.17,4421.13,25053.04,Debit Card,Completed
+ORD01030,2026-01-26,C005,Vikram,Pune,Maharashtra,P003,Headphones,Electronics,5,2736.79,0,13683.95,0.0,13683.95,Cash,Completed
+ORD01031,2026-04-23,C012,Neha,Gurugram,Haryana,P008,Desk,Furniture,3,12214.51,20,36643.53,7328.71,29314.82,Credit Card,Returned
+ORD01032,2026-02-28,C003,Rahul,Chennai,Tamil Nadu,P006,Mouse,Accessories,4,848.57,10,3394.28,339.43,3054.85,Credit Card,Completed
+ORD01033,2026-05-07,C006,Anita,Delhi,Delhi,P002,Smartphone,Electronics,4,28110.47,0,112441.88,0.0,112441.88,UPI,Completed
+ORD01034,2026-04-09,C009,Suresh,Jaipur,Rajasthan,P001,Laptop,Electronics,1,54930.84,5,54930.84,2746.54,52184.3,Net Banking,Completed
+ORD01035,2026-03-16,C010,Divya,Kochi,Kerala,P005,Keyboard,Accessories,4,1819.41,0,7277.64,0.0,7277.64,Debit Card,Completed
+ORD01036,2026-06-22,C002,Priya,Bengaluru,Karnataka,P008,Desk,Furniture,3,10830.69,0,32492.07,0.0,32492.07,Credit Card,Completed
+ORD01037,2026-01-31,C007,Kiran,Kolkata,West Bengal,P008,Desk,Furniture,5,12423.64,20,62118.2,12423.64,49694.56,Net Banking,Completed
+ORD01038,2026-02-13,C007,Kiran,Kolkata,West Bengal,P010,Tablet,Electronics,1,26041.39,20,26041.39,5208.28,20833.11,UPI,Completed
+ORD01039,2026-04-14,C004,Sneha,Mumbai,Maharashtra,P006,Mouse,Accessories,2,961.93,15,1923.86,288.58,1635.28,Debit Card,Completed
+ORD01040,2026-06-01,C007,Kiran,Kolkata,West Bengal,P008,Desk,Furniture,3,12638.33,20,37914.99,7583.0,30331.99,Net Banking,Completed
+ORD01041,2026-05-11,C006,Anita,Delhi,Delhi,P008,Desk,Furniture,5,13170.06,10,65850.3,6585.03,59265.27,Debit Card,Completed
+ORD01042,2026-03-01,C008,Meena,Ahmedabad,Gujarat,P002,Smartphone,Electronics,1,27940.31,5,27940.31,1397.02,26543.29,Debit Card,Returned
+ORD01043,2026-01-07,C001,Arjun,Hyderabad,Telangana,P002,Smartphone,Electronics,1,27989.56,0,27989.56,0.0,27989.56,Net Banking,Completed
+ORD01044,2026-01-25,C010,Divya,Kochi,Kerala,P006,Mouse,Accessories,2,921.95,5,1843.9,92.19,1751.71,Cash,Completed
+ORD01045,2026-05-06,C008,Meena,Ahmedabad,Gujarat,P008,Desk,Furniture,2,12389.02,5,24778.04,1238.9,23539.14,UPI,Cancelled
+ORD01046,2026-07-15,C009,Suresh,Jaipur,Rajasthan,P006,Mouse,Accessories,5,813.18,15,4065.9,609.88,3456.02,Net Banking,Completed
+ORD01047,2026-04-24,C002,Priya,Bengaluru,Karnataka,P007,Office Chair,Furniture,4,9099.89,5,36399.56,1819.98,34579.58,Credit Card,Completed
+ORD01048,2026-03-19,C001,Arjun,Hyderabad,Telangana,P003,Headphones,Electronics,5,2680.18,20,13400.9,2680.18,10720.72,Debit Card,Returned
+ORD01049,2026-05-05,C008,Meena,Ahmedabad,Gujarat,P007,Office Chair,Furniture,2,8866.73,5,17733.46,886.67,16846.79,Cash,Completed
+ORD01050,2026-05-01,C011,Ravi,Visakhapatnam,Andhra Pradesh,P008,Desk,Furniture,5,12094.54,20,60472.7,12094.54,48378.16,Cash,Completed
+ORD01051,2026-06-01,C003,Rahul,Chennai,Tamil Nadu,P009,Backpack,Accessories,1,2095.89,10,2095.89,209.59,1886.3,Cash,Completed
+ORD01052,2026-06-01,C011,Ravi,Visakhapatnam,Andhra Pradesh,P006,Mouse,Accessories,3,821.06,5,2463.18,123.16,2340.02,Debit Card,Completed
+ORD01053,2026-06-10,C006,Anita,Delhi,Delhi,P006,Mouse,Accessories,5,947.73,0,4738.65,0.0,4738.65,Net Banking,Completed
+ORD01054,2026-01-15,C002,Priya,Bengaluru,Karnataka,P007,Office Chair,Furniture,3,8350.28,5,25050.84,1252.54,23798.3,Debit Card,Returned
+ORD01055,2026-06-26,C004,Sneha,Mumbai,Maharashtra,P004,Monitor,Electronics,3,12837.84,15,38513.52,5777.03,32736.49,UPI,Completed
+ORD01056,2026-01-10,C002,Priya,Bengaluru,Karnataka,P006,Mouse,Accessories,2,906.92,0,1813.84,0.0,1813.84,Net Banking,Completed
+ORD01057,2026-05-01,C010,Divya,Kochi,Kerala,P009,Backpack,Accessories,4,1988.98,5,7955.92,397.8,7558.12,Credit Card,Cancelled
+ORD01058,2026-01-26,C006,Anita,Delhi,Delhi,P007,Office Chair,Furniture,5,8198.12,10,40990.6,4099.06,36891.54,Credit Card,Completed
+ORD01059,2026-07-15,C012,Neha,Gurugram,Haryana,P004,Monitor,Electronics,3,14007.75,10,42023.25,4202.32,37820.93,UPI,Returned
+ORD01060,2026-02-21,C003,Rahul,Chennai,Tamil Nadu,P010,Tablet,Electronics,3,26253.25,5,78759.75,3937.99,74821.76,Credit Card,Completed
+ORD01061,2026-05-27,C009,Suresh,Jaipur,Rajasthan,P004,Monitor,Electronics,3,12733.09,5,38199.27,1909.96,36289.31,Debit Card,Completed
+ORD01062,2026-03-11,C010,Divya,Kochi,Kerala,P002,Smartphone,Electronics,5,28514.44,0,142572.2,0.0,142572.2,Cash,Completed
+ORD01063,2026-01-20,C009,Suresh,Jaipur,Rajasthan,P008,Desk,Furniture,4,11633.56,0,46534.24,0.0,46534.24,UPI,Returned
+ORD01064,2026-02-21,C009,Suresh,Jaipur,Rajasthan,P005,Keyboard,Accessories,4,1814.38,20,7257.52,1451.5,5806.02,Net Banking,Completed
+ORD01065,2026-05-21,C005,Vikram,Pune,Maharashtra,P010,Tablet,Electronics,5,24823.49,10,124117.45,12411.75,111705.7,Credit Card,Completed
+ORD01066,2026-06-19,C011,Ravi,Visakhapatnam,Andhra Pradesh,P009,Backpack,Accessories,2,2199.65,15,4399.3,659.89,3739.41,Net Banking,Returned
+ORD01067,2026-07-06,C005,Vikram,Pune,Maharashtra,P009,Backpack,Accessories,5,2391.24,10,11956.2,1195.62,10760.58,Credit Card,Returned
+ORD01068,2026-02-08,C009,Suresh,Jaipur,Rajasthan,P004,Monitor,Electronics,3,13013.68,10,39041.04,3904.1,35136.94,UPI,Returned
+ORD01069,2026-08-05,C007,Kiran,Kolkata,West Bengal,P007,Office Chair,Furniture,3,8727.68,0,26183.04,0.0,26183.04,UPI,Completed
+ORD01070,2026-04-14,C005,Vikram,Pune,Maharashtra,P003,Headphones,Electronics,3,2550.62,20,7651.86,1530.37,6121.49,Credit Card,Completed
+ORD01071,2026-03-21,C003,Rahul,Chennai,Tamil Nadu,P004,Monitor,Electronics,1,14831.73,0,14831.73,0.0,14831.73,Net Banking,Completed
+ORD01072,2026-02-21,C009,Suresh,Jaipur,Rajasthan,P007,Office Chair,Furniture,4,9189.61,20,36758.44,7351.69,29406.75,UPI,Completed
+ORD01073,2026-02-15,C003,Rahul,Chennai,Tamil Nadu,P001,Laptop,Electronics,3,56745.38,5,170236.14,8511.81,161724.33,Credit Card,Returned
+ORD01074,2026-01-22,C012,Neha,Gurugram,Haryana,P008,Desk,Furniture,1,12863.0,0,12863.0,0.0,12863.0,Cash,Completed
+ORD01075,2026-08-15,C005,Vikram,Pune,Maharashtra,P002,Smartphone,Electronics,4,28961.36,5,115845.44,5792.27,110053.17,Net Banking,Completed
+ORD01076,2026-05-09,C012,Neha,Gurugram,Haryana,P003,Headphones,Electronics,2,2535.49,0,5070.98,0.0,5070.98,Cash,Completed
+ORD01077,2026-01-24,C011,Ravi,Visakhapatnam,Andhra Pradesh,P010,Tablet,Electronics,5,23982.97,5,119914.85,5995.74,113919.11,Cash,Completed
+ORD01078,2026-07-26,C002,Priya,Bengaluru,Karnataka,P006,Mouse,Accessories,3,942.7,15,2828.1,424.21,2403.89,Debit Card,Returned
+ORD01079,2026-03-12,C007,Kiran,Kolkata,West Bengal,P004,Monitor,Electronics,2,13090.43,0,26180.86,0.0,26180.86,Net Banking,Completed
+ORD01080,2026-06-29,C005,Vikram,Pune,Maharashtra,P010,Tablet,Electronics,1,24160.66,10,24160.66,2416.07,21744.59,UPI,Completed
+ORD01081,2026-03-13,C009,Suresh,Jaipur,Rajasthan,P007,Office Chair,Furniture,4,8068.79,20,32275.16,6455.03,25820.13,UPI,Completed
+ORD01082,2026-08-20,C008,Meena,Ahmedabad,Gujarat,P006,Mouse,Accessories,3,926.17,0,2778.51,0.0,2778.51,Credit Card,Cancelled
+ORD01083,2026-03-21,C012,Neha,Gurugram,Haryana,P001,Laptop,Electronics,2,55580.01,5,111160.02,5558.0,105602.02,UPI,Returned
+ORD01084,2026-04-10,C011,Ravi,Visakhapatnam,Andhra Pradesh,P002,Smartphone,Electronics,5,30002.82,0,150014.1,0.0,150014.1,Net Banking,Completed
+ORD01085,2026-08-09,C005,Vikram,Pune,Maharashtra,P005,Keyboard,Accessories,1,1727.07,0,1727.07,0.0,1727.07,Net Banking,Completed
+ORD01086,2026-01-21,C011,Ravi,Visakhapatnam,Andhra Pradesh,P006,Mouse,Accessories,4,859.33,0,3437.32,0.0,3437.32,Net Banking,Completed
+ORD01087,2026-08-24,C012,Neha,Gurugram,Haryana,P007,Office Chair,Furniture,3,8368.02,20,25104.06,5020.81,20083.25,Debit Card,Completed
+ORD01088,2026-06-04,C012,Neha,Gurugram,Haryana,P005,Keyboard,Accessories,5,1746.67,0,8733.35,0.0,8733.35,Cash,Returned
+ORD01089,2026-01-14,C012,Neha,Gurugram,Haryana,P006,Mouse,Accessories,4,814.92,20,3259.68,651.94,2607.74,Debit Card,Returned
+ORD01090,2026-06-10,C011,Ravi,Visakhapatnam,Andhra Pradesh,P008,Desk,Furniture,2,11761.59,0,23523.18,0.0,23523.18,UPI,Completed
+ORD01091,2026-07-02,C010,Divya,Kochi,Kerala,P002,Smartphone,Electronics,1,26597.78,0,26597.78,0.0,26597.78,Debit Card,Returned
+ORD01092,2026-07-08,C010,Divya,Kochi,Kerala,P007,Office Chair,Furniture,3,8463.22,10,25389.66,2538.97,22850.69,UPI,Completed
+ORD01093,2026-04-17,C003,Rahul,Chennai,Tamil Nadu,P010,Tablet,Electronics,3,22553.59,5,67660.77,3383.04,64277.73,Debit Card,Completed
+ORD01094,2026-01-06,C007,Kiran,Kolkata,West Bengal,P007,Office Chair,Furniture,5,7685.25,0,38426.25,0.0,38426.25,Cash,Cancelled
+ORD01095,2026-06-29,C011,Ravi,Visakhapatnam,Andhra Pradesh,P004,Monitor,Electronics,1,13155.15,10,13155.15,1315.52,11839.63,Credit Card,Completed
+ORD01096,2026-01-23,C007,Kiran,Kolkata,West Bengal,P010,Tablet,Electronics,4,22848.76,15,91395.04,13709.26,77685.78,Debit Card,Completed
+ORD01097,2026-07-17,C010,Divya,Kochi,Kerala,P002,Smartphone,Electronics,1,28144.69,20,28144.69,5628.94,22515.75,Net Banking,Completed
+ORD01098,2026-07-28,C002,Priya,Bengaluru,Karnataka,P004,Monitor,Electronics,2,15248.95,0,30497.9,0.0,30497.9,UPI,Completed
+ORD01099,2026-02-22,C012,Neha,Gurugram,Haryana,P008,Desk,Furniture,4,11835.14,0,47340.56,0.0,47340.56,Debit Card,Cancelled
+ORD01100,2026-02-07,C005,Vikram,Pune,Maharashtra,P004,Monitor,Electronics,4,13743.87,0,54975.48,0.0,54975.48,UPI,Completed
+ORD01101,2026-04-05,C005,Vikram,Pune,Maharashtra,P004,Monitor,Electronics,5,15140.52,10,75702.6,7570.26,68132.34,Net Banking,Cancelled
+ORD01102,2026-06-27,C002,Priya,Bengaluru,Karnataka,P001,Laptop,Electronics,4,59085.88,0,236343.52,0.0,236343.52,Debit Card,Completed
+ORD01103,2026-01-19,C012,Neha,Gurugram,Haryana,P007,Office Chair,Furniture,4,8665.23,20,34660.92,6932.18,27728.74,Cash,Completed
+ORD01104,2026-04-01,C001,Arjun,Hyderabad,Telangana,P001,Laptop,Electronics,3,54680.26,0,164040.78,0.0,164040.78,Cash,Cancelled
+ORD01105,2026-04-08,C012,Neha,Gurugram,Haryana,P001,Laptop,Electronics,1,55049.96,5,55049.96,2752.5,52297.46,Net Banking,Completed
+ORD01106,2026-02-15,C011,Ravi,Visakhapatnam,Andhra Pradesh,P006,Mouse,Accessories,2,817.4,15,1634.8,245.22,1389.58,Debit Card,Completed
+ORD01107,2026-03-23,C009,Suresh,Jaipur,Rajasthan,P008,Desk,Furniture,3,11116.61,10,33349.83,3334.98,30014.85,Cash,Returned
+ORD01108,2026-02-02,C007,Kiran,Kolkata,West Bengal,P003,Headphones,Electronics,3,2406.63,0,7219.89,0.0,7219.89,UPI,Completed
+ORD01109,2026-03-09,C012,Neha,Gurugram,Haryana,P006,Mouse,Accessories,4,972.5,5,3890.0,194.5,3695.5,UPI,Cancelled
+ORD01110,2026-05-06,C009,Suresh,Jaipur,Rajasthan,P006,Mouse,Accessories,4,866.8,0,3467.2,0.0,3467.2,Cash,Completed
+ORD01111,2026-02-28,C011,Ravi,Visakhapatnam,Andhra Pradesh,P008,Desk,Furniture,1,11156.69,0,11156.69,0.0,11156.69,Credit Card,Completed
+ORD01112,2026-01-30,C008,Meena,Ahmedabad,Gujarat,P005,Keyboard,Accessories,2,1788.17,20,3576.34,715.27,2861.07,Credit Card,Completed
+ORD01113,2026-01-29,C008,Meena,Ahmedabad,Gujarat,P006,Mouse,Accessories,5,892.4,10,4462.0,446.2,4015.8,Debit Card,Returned
+ORD01114,2026-02-16,C002,Priya,Bengaluru,Karnataka,P006,Mouse,Accessories,1,966.27,0,966.27,0.0,966.27,Cash,Completed
+ORD01115,2026-01-02,C005,Vikram,Pune,Maharashtra,P010,Tablet,Electronics,5,24401.03,0,122005.15,0.0,122005.15,Cash,Cancelled
+ORD01116,2026-06-23,C003,Rahul,Chennai,Tamil Nadu,P007,Office Chair,Furniture,1,8956.03,0,8956.03,0.0,8956.03,UPI,Completed
+ORD01117,2026-08-26,C001,Arjun,Hyderabad,Telangana,P005,Keyboard,Accessories,1,1754.48,10,1754.48,175.45,1579.03,UPI,Completed
+ORD01118,2026-06-18,C003,Rahul,Chennai,Tamil Nadu,P001,Laptop,Electronics,1,58637.69,10,58637.69,5863.77,52773.92,Net Banking,Completed
+ORD01119,2026-01-12,C011,Ravi,Visakhapatnam,Andhra Pradesh,P005,Keyboard,Accessories,5,1622.09,20,8110.45,1622.09,6488.36,Cash,Returned
+ORD01120,2026-01-13,C008,Meena,Ahmedabad,Gujarat,P006,Mouse,Accessories,5,848.05,0,4240.25,0.0,4240.25,UPI,Returned
+ORD01121,2026-04-08,C006,Anita,Delhi,Delhi,P001,Laptop,Electronics,1,59970.9,15,59970.9,8995.64,50975.26,Net Banking,Completed
+ORD01122,2026-08-07,C005,Vikram,Pune,Maharashtra,P003,Headphones,Electronics,2,2294.59,10,4589.18,458.92,4130.26,Debit Card,Completed
+ORD01123,2026-06-17,C007,Kiran,Kolkata,West Bengal,P007,Office Chair,Furniture,3,8929.35,20,26788.05,5357.61,21430.44,Credit Card,Completed
+ORD01124,2026-03-21,C005,Vikram,Pune,Maharashtra,P008,Desk,Furniture,4,12735.25,20,50941.0,10188.2,40752.8,Cash,Returned
+ORD01125,2026-05-06,C003,Rahul,Chennai,Tamil Nadu,P006,Mouse,Accessories,1,902.28,5,902.28,45.11,857.17,Net Banking,Completed
+ORD01126,2026-07-13,C008,Meena,Ahmedabad,Gujarat,P005,Keyboard,Accessories,5,1772.31,15,8861.55,1329.23,7532.32,UPI,Completed
+ORD01127,2026-01-11,C010,Divya,Kochi,Kerala,P003,Headphones,Electronics,4,2463.01,20,9852.04,1970.41,7881.63,UPI,Cancelled
+ORD01128,2026-06-15,C008,Meena,Ahmedabad,Gujarat,P004,Monitor,Electronics,2,14076.38,10,28152.76,2815.28,25337.48,Credit Card,Cancelled
+ORD01129,2026-05-03,C005,Vikram,Pune,Maharashtra,P008,Desk,Furniture,4,12977.3,0,51909.2,0.0,51909.2,Debit Card,Completed
+ORD01130,2026-05-26,C003,Rahul,Chennai,Tamil Nadu,P005,Keyboard,Accessories,2,1773.98,15,3547.96,532.19,3015.77,Cash,Completed
+ORD01131,2026-04-16,C002,Priya,Bengaluru,Karnataka,P001,Laptop,Electronics,5,55117.17,0,275585.85,0.0,275585.85,Net Banking,Completed
+ORD01132,2026-01-21,C011,Ravi,Visakhapatnam,Andhra Pradesh,P010,Tablet,Electronics,3,22823.33,5,68469.99,3423.5,65046.49,Credit Card,Cancelled
+ORD01133,2026-01-12,C002,Priya,Bengaluru,Karnataka,P008,Desk,Furniture,2,12822.98,0,25645.96,0.0,25645.96,Net Banking,Completed
+ORD01134,2026-07-13,C012,Neha,Gurugram,Haryana,P005,Keyboard,Accessories,3,1880.67,15,5642.01,846.3,4795.71,Net Banking,Returned
+ORD01135,2026-01-21,C010,Divya,Kochi,Kerala,P005,Keyboard,Accessories,3,1695.98,0,5087.94,0.0,5087.94,Cash,Returned
+ORD01136,2026-04-12,C005,Vikram,Pune,Maharashtra,P002,Smartphone,Electronics,4,25300.33,15,101201.32,15180.2,86021.12,Credit Card,Completed
+ORD01137,2026-06-18,C003,Rahul,Chennai,Tamil Nadu,P008,Desk,Furniture,4,11772.22,20,47088.88,9417.78,37671.1,Cash,Returned
+ORD01138,2026-06-07,C012,Neha,Gurugram,Haryana,P008,Desk,Furniture,3,12751.52,15,38254.56,5738.18,32516.38,Net Banking,Completed
+ORD01139,2026-01-29,C005,Vikram,Pune,Maharashtra,P002,Smartphone,Electronics,2,25277.71,0,50555.42,0.0,50555.42,Debit Card,Completed
+ORD01140,2026-03-03,C001,Arjun,Hyderabad,Telangana,P004,Monitor,Electronics,4,13006.43,20,52025.72,10405.14,41620.58,Cash,Completed
+ORD01141,2026-04-19,C004,Sneha,Mumbai,Maharashtra,P002,Smartphone,Electronics,3,26029.73,10,78089.19,7808.92,70280.27,Credit Card,Completed
+ORD01142,2026-08-09,C003,Rahul,Chennai,Tamil Nadu,P003,Headphones,Electronics,4,2485.74,10,9942.96,994.3,8948.66,Cash,Completed
+ORD01143,2026-04-11,C004,Sneha,Mumbai,Maharashtra,P004,Monitor,Electronics,3,14922.46,15,44767.38,6715.11,38052.27,UPI,Completed
+ORD01144,2026-07-08,C001,Arjun,Hyderabad,Telangana,P002,Smartphone,Electronics,4,29952.25,10,119809.0,11980.9,107828.1,Cash,Cancelled
+ORD01145,2026-05-05,C012,Neha,Gurugram,Haryana,P009,Backpack,Accessories,3,2194.5,0,6583.5,0.0,6583.5,Cash,Cancelled
+ORD01146,2026-05-16,C012,Neha,Gurugram,Haryana,P010,Tablet,Electronics,4,25028.59,0,100114.36,0.0,100114.36,Net Banking,Completed
+ORD01147,2026-06-15,C010,Divya,Kochi,Kerala,P006,Mouse,Accessories,5,858.21,0,4291.05,0.0,4291.05,Net Banking,Completed
+ORD01148,2026-06-28,C002,Priya,Bengaluru,Karnataka,P008,Desk,Furniture,5,11632.23,20,58161.15,11632.23,46528.92,Credit Card,Completed
+ORD01149,2026-03-01,C003,Rahul,Chennai,Tamil Nadu,P005,Keyboard,Accessories,2,1743.79,10,3487.58,348.76,3138.82,Debit Card,Cancelled
+ORD01150,2026-02-03,C010,Divya,Kochi,Kerala,P006,Mouse,Accessories,5,928.25,20,4641.25,928.25,3713.0,Net Banking,Completed
+ORD01151,2026-03-14,C007,Kiran,Kolkata,West Bengal,P006,Mouse,Accessories,4,921.93,0,3687.72,0.0,3687.72,Credit Card,Returned
+ORD01152,2026-06-05,C011,Ravi,Visakhapatnam,Andhra Pradesh,P008,Desk,Furniture,2,11278.76,0,22557.52,0.0,22557.52,Credit Card,Completed
+ORD01153,2026-01-13,C007,Kiran,Kolkata,West Bengal,P008,Desk,Furniture,3,11302.64,0,33907.92,0.0,33907.92,UPI,Completed
+ORD01154,2026-08-17,C005,Vikram,Pune,Maharashtra,P006,Mouse,Accessories,2,959.03,0,1918.06,0.0,1918.06,Credit Card,Cancelled
+ORD01155,2026-01-31,C002,Priya,Bengaluru,Karnataka,P006,Mouse,Accessories,4,921.16,0,3684.64,0.0,3684.64,Debit Card,Cancelled
+ORD01156,2026-07-17,C008,Meena,Ahmedabad,Gujarat,P005,Keyboard,Accessories,3,1896.97,5,5690.91,284.55,5406.36,UPI,Cancelled
+ORD01157,2026-01-13,C003,Rahul,Chennai,Tamil Nadu,P009,Backpack,Accessories,5,2025.82,20,10129.1,2025.82,8103.28,Net Banking,Completed
+ORD01158,2026-08-31,C002,Priya,Bengaluru,Karnataka,P002,Smartphone,Electronics,5,29580.08,15,147900.4,22185.06,125715.34,Cash,Completed
+ORD01159,2026-08-11,C001,Arjun,Hyderabad,Telangana,P009,Backpack,Accessories,1,2257.17,0,2257.17,0.0,2257.17,UPI,Completed
+ORD01160,2026-08-11,C003,Rahul,Chennai,Tamil Nadu,P005,Keyboard,Accessories,4,1799.42,15,7197.68,1079.65,6118.03,Debit Card,Completed
+ORD01161,2026-02-21,C011,Ravi,Visakhapatnam,Andhra Pradesh,P006,Mouse,Accessories,3,832.14,0,2496.42,0.0,2496.42,Net Banking,Completed
+ORD01162,2026-02-13,C001,Arjun,Hyderabad,Telangana,P004,Monitor,Electronics,4,13402.92,5,53611.68,2680.58,50931.1,UPI,Completed
+ORD01163,2026-02-08,C006,Anita,Delhi,Delhi,P007,Office Chair,Furniture,3,8780.49,20,26341.47,5268.29,21073.18,Net Banking,Cancelled
+ORD01164,2026-08-18,C004,Sneha,Mumbai,Maharashtra,P003,Headphones,Electronics,4,2709.01,10,10836.04,1083.6,9752.44,Cash,Completed
+ORD01165,2026-01-03,C011,Ravi,Visakhapatnam,Andhra Pradesh,P006,Mouse,Accessories,1,836.21,10,836.21,83.62,752.59,Cash,Returned
+ORD01166,2026-07-17,C002,Priya,Bengaluru,Karnataka,P002,Smartphone,Electronics,3,27449.24,5,82347.72,4117.39,78230.33,Net Banking,Completed
+ORD01167,2026-02-08,C001,Arjun,Hyderabad,Telangana,P007,Office Chair,Furniture,1,9218.28,20,9218.28,1843.66,7374.62,Credit Card,Cancelled
+ORD01168,2026-06-24,C011,Ravi,Visakhapatnam,Andhra Pradesh,P009,Backpack,Accessories,3,2156.88,10,6470.64,647.06,5823.58,Cash,Returned
+ORD01169,2026-08-19,C005,Vikram,Pune,Maharashtra,P006,Mouse,Accessories,3,958.86,0,2876.58,0.0,2876.58,Cash,Cancelled
+ORD01170,2026-05-20,C003,Rahul,Chennai,Tamil Nadu,P007,Office Chair,Furniture,4,7998.73,20,31994.92,6398.98,25595.94,Cash,Cancelled
+ORD01171,2026-02-20,C011,Ravi,Visakhapatnam,Andhra Pradesh,P008,Desk,Furniture,3,11770.81,20,35312.43,7062.49,28249.94,Credit Card,Completed
+ORD01172,2026-07-09,C001,Arjun,Hyderabad,Telangana,P009,Backpack,Accessories,3,2299.04,10,6897.12,689.71,6207.41,Cash,Completed
+ORD01173,2026-03-21,C009,Suresh,Jaipur,Rajasthan,P005,Keyboard,Accessories,2,1804.2,0,3608.4,0.0,3608.4,UPI,Cancelled
+ORD01174,2026-05-19,C011,Ravi,Visakhapatnam,Andhra Pradesh,P003,Headphones,Electronics,1,2695.16,0,2695.16,0.0,2695.16,UPI,Cancelled
+ORD01175,2026-01-16,C004,Sneha,Mumbai,Maharashtra,P005,Keyboard,Accessories,4,1659.76,15,6639.04,995.86,5643.18,UPI,Completed
+ORD01176,2026-06-16,C011,Ravi,Visakhapatnam,Andhra Pradesh,P009,Backpack,Accessories,3,2001.0,0,6003.0,0.0,6003.0,Net Banking,Completed
+ORD01177,2026-03-02,C005,Vikram,Pune,Maharashtra,P010,Tablet,Electronics,1,23227.11,10,23227.11,2322.71,20904.4,Cash,Returned
+ORD01178,2026-03-14,C010,Divya,Kochi,Kerala,P009,Backpack,Accessories,5,2134.15,0,10670.75,0.0,10670.75,Cash,Returned
+ORD01179,2026-01-27,C011,Ravi,Visakhapatnam,Andhra Pradesh,P003,Headphones,Electronics,4,2618.76,15,10475.04,1571.26,8903.78,Cash,Completed
+ORD01180,2026-07-02,C010,Divya,Kochi,Kerala,P004,Monitor,Electronics,3,12874.37,10,38623.11,3862.31,34760.8,Net Banking,Completed
+ORD01181,2026-05-02,C002,Priya,Bengaluru,Karnataka,P002,Smartphone,Electronics,1,30175.65,10,30175.65,3017.57,27158.08,Net Banking,Completed
+ORD01182,2026-05-13,C002,Priya,Bengaluru,Karnataka,P006,Mouse,Accessories,5,915.88,10,4579.4,457.94,4121.46,UPI,Completed
+ORD01183,2026-08-31,C010,Divya,Kochi,Kerala,P008,Desk,Furniture,4,12453.64,10,49814.56,4981.46,44833.1,Net Banking,Completed
+ORD01184,2026-04-28,C003,Rahul,Chennai,Tamil Nadu,P003,Headphones,Electronics,5,2492.38,0,12461.9,0.0,12461.9,Cash,Completed
+ORD01185,2026-07-11,C009,Suresh,Jaipur,Rajasthan,P002,Smartphone,Electronics,2,27850.79,10,55701.58,5570.16,50131.42,Cash,Completed
+ORD01186,2026-04-05,C006,Anita,Delhi,Delhi,P002,Smartphone,Electronics,5,25817.88,10,129089.4,12908.94,116180.46,UPI,Cancelled
+ORD01187,2026-04-06,C001,Arjun,Hyderabad,Telangana,P009,Backpack,Accessories,2,2143.45,0,4286.9,0.0,4286.9,UPI,Completed
+ORD01188,2026-04-18,C008,Meena,Ahmedabad,Gujarat,P001,Laptop,Electronics,2,58121.72,0,116243.44,0.0,116243.44,UPI,Completed
+ORD01189,2026-02-01,C005,Vikram,Pune,Maharashtra,P004,Monitor,Electronics,2,13968.62,20,27937.24,5587.45,22349.79,UPI,Cancelled
+ORD01190,2026-05-25,C002,Priya,Bengaluru,Karnataka,P001,Laptop,Electronics,4,55803.65,10,223214.6,22321.46,200893.14,UPI,Completed
+ORD01191,2026-05-10,C007,Kiran,Kolkata,West Bengal,P008,Desk,Furniture,5,12628.68,0,63143.4,0.0,63143.4,Net Banking,Returned
+ORD01192,2026-07-24,C008,Meena,Ahmedabad,Gujarat,P008,Desk,Furniture,2,11580.52,20,23161.04,4632.21,18528.83,Cash,Cancelled
+ORD01193,2026-01-12,C007,Kiran,Kolkata,West Bengal,P007,Office Chair,Furniture,2,8226.3,10,16452.6,1645.26,14807.34,Net Banking,Returned
+ORD01194,2026-05-27,C012,Neha,Gurugram,Haryana,P005,Keyboard,Accessories,1,1874.6,0,1874.6,0.0,1874.6,UPI,Returned
+ORD01195,2026-06-08,C009,Suresh,Jaipur,Rajasthan,P002,Smartphone,Electronics,5,26277.59,0,131387.95,0.0,131387.95,Cash,Cancelled
+ORD01196,2026-05-09,C001,Arjun,Hyderabad,Telangana,P010,Tablet,Electronics,5,25202.68,0,126013.4,0.0,126013.4,Credit Card,Completed
+ORD01197,2026-02-22,C011,Ravi,Visakhapatnam,Andhra Pradesh,P009,Backpack,Accessories,2,2100.98,0,4201.96,0.0,4201.96,Cash,Completed
+ORD01198,2026-05-31,C008,Meena,Ahmedabad,Gujarat,P002,Smartphone,Electronics,5,26994.41,15,134972.05,20245.81,114726.24,Net Banking,Completed
+ORD01199,2026-08-09,C001,Arjun,Hyderabad,Telangana,P006,Mouse,Accessories,4,884.69,0,3538.76,0.0,3538.76,UPI,Cancelled
+ORD01200,2026-05-19,C007,Kiran,Kolkata,West Bengal,P005,Keyboard,Accessories,1,1972.72,0,1972.72,0.0,1972.72,UPI,Completed
+ORD01201,2026-04-15,C003,Rahul,Chennai,Tamil Nadu,P003,Headphones,Electronics,3,2327.11,0,6981.33,0.0,6981.33,Debit Card,Returned
+ORD01202,2026-01-15,C001,Arjun,Hyderabad,Telangana,P010,Tablet,Electronics,3,21730.42,0,65191.26,0.0,65191.26,Net Banking,Completed
+ORD01203,2026-03-08,C002,Priya,Bengaluru,Karnataka,P006,Mouse,Accessories,2,970.74,10,1941.48,194.15,1747.33,Credit Card,Completed
+ORD01204,2026-05-07,C001,Arjun,Hyderabad,Telangana,P004,Monitor,Electronics,2,14240.88,15,28481.76,4272.26,24209.5,Cash,Cancelled
+ORD01205,2026-05-22,C007,Kiran,Kolkata,West Bengal,P002,Smartphone,Electronics,3,26982.68,0,80948.04,0.0,80948.04,Credit Card,Completed
+ORD01206,2026-08-15,C008,Meena,Ahmedabad,Gujarat,P001,Laptop,Electronics,4,52071.15,20,208284.6,41656.92,166627.68,UPI,Completed
+ORD01207,2026-06-16,C009,Suresh,Jaipur,Rajasthan,P010,Tablet,Electronics,1,25262.3,0,25262.3,0.0,25262.3,UPI,Completed
+ORD01208,2026-05-09,C010,Divya,Kochi,Kerala,P007,Office Chair,Furniture,4,9088.67,0,36354.68,0.0,36354.68,Debit Card,Completed
+ORD01209,2026-04-19,C006,Anita,Delhi,Delhi,P009,Backpack,Accessories,2,2216.52,0,4433.04,0.0,4433.04,Net Banking,Cancelled
+ORD01210,2026-02-12,C001,Arjun,Hyderabad,Telangana,P001,Laptop,Electronics,4,52681.74,15,210726.96,31609.04,179117.92,Credit Card,Completed
+ORD01211,2026-04-08,C008,Meena,Ahmedabad,Gujarat,P005,Keyboard,Accessories,5,1922.22,5,9611.1,480.56,9130.54,Debit Card,Completed
+ORD01212,2026-05-17,C010,Divya,Kochi,Kerala,P009,Backpack,Accessories,3,2051.02,0,6153.06,0.0,6153.06,Credit Card,Cancelled
+ORD01213,2026-02-05,C005,Vikram,Pune,Maharashtra,P002,Smartphone,Electronics,4,25888.67,20,103554.68,20710.94,82843.74,Cash,Returned
+ORD01214,2026-07-25,C005,Vikram,Pune,Maharashtra,P007,Office Chair,Furniture,2,8508.19,15,17016.38,2552.46,14463.92,UPI,Completed
+ORD01215,2026-03-24,C011,Ravi,Visakhapatnam,Andhra Pradesh,P005,Keyboard,Accessories,4,1708.53,5,6834.12,341.71,6492.41,Debit Card,Completed
+ORD01216,2026-02-04,C008,Meena,Ahmedabad,Gujarat,P010,Tablet,Electronics,3,25987.29,0,77961.87,0.0,77961.87,Credit Card,Returned
+ORD01217,2026-04-16,C010,Divya,Kochi,Kerala,P008,Desk,Furniture,1,12414.5,0,12414.5,0.0,12414.5,Net Banking,Cancelled
+ORD01218,2026-05-18,C007,Kiran,Kolkata,West Bengal,P009,Backpack,Accessories,1,2266.56,20,2266.56,453.31,1813.25,Net Banking,Completed
+ORD01219,2026-04-02,C011,Ravi,Visakhapatnam,Andhra Pradesh,P002,Smartphone,Electronics,3,29833.81,10,89501.43,8950.14,80551.29,Debit Card,Completed
+ORD01220,2026-02-19,C012,Neha,Gurugram,Haryana,P001,Laptop,Electronics,1,53575.29,10,53575.29,5357.53,48217.76,Credit Card,Completed
+ORD01221,2026-04-02,C004,Sneha,Mumbai,Maharashtra,P001,Laptop,Electronics,3,59635.39,20,178906.17,35781.23,143124.94,Credit Card,Completed
+ORD01222,2026-04-03,C010,Divya,Kochi,Kerala,P005,Keyboard,Accessories,2,1972.84,0,3945.68,0.0,3945.68,UPI,Completed
+ORD01223,2026-07-30,C008,Meena,Ahmedabad,Gujarat,P010,Tablet,Electronics,2,22541.22,0,45082.44,0.0,45082.44,Net Banking,Returned
+ORD01224,2026-05-22,C002,Priya,Bengaluru,Karnataka,P005,Keyboard,Accessories,5,1797.84,15,8989.2,1348.38,7640.82,Cash,Completed
+ORD01225,2026-02-02,C011,Ravi,Visakhapatnam,Andhra Pradesh,P010,Tablet,Electronics,5,21913.73,0,109568.65,0.0,109568.65,Credit Card,Returned
+ORD01226,2026-07-06,C003,Rahul,Chennai,Tamil Nadu,P005,Keyboard,Accessories,5,1937.16,0,9685.8,0.0,9685.8,Debit Card,Completed
+ORD01227,2026-05-24,C011,Ravi,Visakhapatnam,Andhra Pradesh,P001,Laptop,Electronics,5,52282.13,15,261410.65,39211.6,222199.05,Credit Card,Completed
+ORD01228,2026-04-15,C007,Kiran,Kolkata,West Bengal,P001,Laptop,Electronics,3,58787.76,10,176363.28,17636.33,158726.95,Credit Card,Completed
+ORD01229,2026-07-14,C011,Ravi,Visakhapatnam,Andhra Pradesh,P009,Backpack,Accessories,4,2139.05,10,8556.2,855.62,7700.58,Debit Card,Completed
+ORD01230,2026-01-02,C001,Arjun,Hyderabad,Telangana,P005,Keyboard,Accessories,4,1781.59,15,7126.36,1068.95,6057.41,Debit Card,Completed
+ORD01231,2026-02-27,C006,Anita,Delhi,Delhi,P002,Smartphone,Electronics,5,30745.48,0,153727.4,0.0,153727.4,Net Banking,Returned
+ORD01232,2026-01-17,C002,Priya,Bengaluru,Karnataka,P004,Monitor,Electronics,2,13521.83,0,27043.66,0.0,27043.66,Credit Card,Returned
+ORD01233,2026-06-10,C001,Arjun,Hyderabad,Telangana,P008,Desk,Furniture,4,12222.07,0,48888.28,0.0,48888.28,UPI,Completed
+ORD01234,2026-08-02,C004,Sneha,Mumbai,Maharashtra,P002,Smartphone,Electronics,4,30569.29,0,122277.16,0.0,122277.16,UPI,Completed
+ORD01235,2026-07-15,C009,Suresh,Jaipur,Rajasthan,P004,Monitor,Electronics,1,14334.79,15,14334.79,2150.22,12184.57,Net Banking,Completed
+ORD01236,2026-04-07,C010,Divya,Kochi,Kerala,P002,Smartphone,Electronics,1,30333.6,0,30333.6,0.0,30333.6,Credit Card,Completed
+ORD01237,2026-06-10,C003,Rahul,Chennai,Tamil Nadu,P001,Laptop,Electronics,4,52816.18,0,211264.72,0.0,211264.72,Credit Card,Completed
+ORD01238,2026-04-08,C002,Priya,Bengaluru,Karnataka,P001,Laptop,Electronics,5,52744.08,0,263720.4,0.0,263720.4,Credit Card,Completed
+ORD01239,2026-06-09,C010,Divya,Kochi,Kerala,P007,Office Chair,Furniture,2,8988.71,15,17977.42,2696.61,15280.81,Net Banking,Completed
+ORD01240,2026-03-28,C007,Kiran,Kolkata,West Bengal,P008,Desk,Furniture,4,12286.15,15,49144.6,7371.69,41772.91,Credit Card,Returned
+ORD01241,2026-01-27,C008,Meena,Ahmedabad,Gujarat,P009,Backpack,Accessories,3,2064.69,15,6194.07,929.11,5264.96,Cash,Completed
+ORD01242,2026-02-02,C012,Neha,Gurugram,Haryana,P002,Smartphone,Electronics,5,30264.47,0,151322.35,0.0,151322.35,Cash,Returned
+ORD01243,2026-04-24,C005,Vikram,Pune,Maharashtra,P006,Mouse,Accessories,4,940.43,10,3761.72,376.17,3385.55,Debit Card,Completed
+ORD01244,2026-04-22,C003,Rahul,Chennai,Tamil Nadu,P001,Laptop,Electronics,1,52928.34,0,52928.34,0.0,52928.34,UPI,Cancelled
+ORD01245,2026-03-21,C005,Vikram,Pune,Maharashtra,P010,Tablet,Electronics,5,22307.56,0,111537.8,0.0,111537.8,UPI,Cancelled
+ORD01246,2026-06-23,C005,Vikram,Pune,Maharashtra,P006,Mouse,Accessories,1,915.56,15,915.56,137.33,778.23,Credit Card,Completed
+ORD01247,2026-02-20,C004,Sneha,Mumbai,Maharashtra,P009,Backpack,Accessories,5,2165.71,0,10828.55,0.0,10828.55,Debit Card,Completed
+ORD01248,2026-06-27,C002,Priya,Bengaluru,Karnataka,P006,Mouse,Accessories,2,895.63,20,1791.26,358.25,1433.01,Cash,Completed
+ORD01249,2026-06-07,C012,Neha,Gurugram,Haryana,P006,Mouse,Accessories,5,983.35,15,4916.75,737.51,4179.24,Net Banking,Completed
+ORD01250,2026-08-22,C006,Anita,Delhi,Delhi,P003,Headphones,Electronics,1,2688.05,10,2688.05,268.81,2419.24,Net Banking,Completed
+ORD01251,2026-06-09,C004,Sneha,Mumbai,Maharashtra,P001,Laptop,Electronics,2,52033.01,20,104066.02,20813.2,83252.82,Debit Card,Completed
+ORD01252,2026-07-31,C008,Meena,Ahmedabad,Gujarat,P006,Mouse,Accessories,4,882.06,0,3528.24,0.0,3528.24,UPI,Completed
+ORD01253,2026-02-06,C001,Arjun,Hyderabad,Telangana,P002,Smartphone,Electronics,3,28306.27,0,84918.81,0.0,84918.81,Net Banking,Completed
+ORD01254,2026-02-20,C004,Sneha,Mumbai,Maharashtra,P010,Tablet,Electronics,3,26281.48,0,78844.44,0.0,78844.44,UPI,Completed
+ORD01255,2026-08-05,C003,Rahul,Chennai,Tamil Nadu,P004,Monitor,Electronics,3,13088.0,20,39264.0,7852.8,31411.2,Debit Card,Cancelled
+ORD01256,2026-08-22,C003,Rahul,Chennai,Tamil Nadu,P004,Monitor,Electronics,1,14960.07,0,14960.07,0.0,14960.07,Credit Card,Completed
+ORD01257,2026-01-29,C011,Ravi,Visakhapatnam,Andhra Pradesh,P003,Headphones,Electronics,4,2643.71,20,10574.84,2114.97,8459.87,Debit Card,Completed
+ORD01258,2026-06-19,C005,Vikram,Pune,Maharashtra,P008,Desk,Furniture,2,12742.77,5,25485.54,1274.28,24211.26,Cash,Completed
+ORD01259,2026-08-25,C010,Divya,Kochi,Kerala,P007,Office Chair,Furniture,1,7895.53,0,7895.53,0.0,7895.53,Debit Card,Completed
+ORD01260,2026-06-03,C004,Sneha,Mumbai,Maharashtra,P009,Backpack,Accessories,4,2144.67,20,8578.68,1715.74,6862.94,Debit Card,Completed
+ORD01261,2026-03-17,C001,Arjun,Hyderabad,Telangana,P010,Tablet,Electronics,5,25701.29,0,128506.45,0.0,128506.45,UPI,Completed
+ORD01262,2026-05-30,C004,Sneha,Mumbai,Maharashtra,P001,Laptop,Electronics,3,58866.53,0,176599.59,0.0,176599.59,Debit Card,Completed
+ORD01263,2026-02-12,C012,Neha,Gurugram,Haryana,P002,Smartphone,Electronics,4,28643.36,20,114573.44,22914.69,91658.75,Net Banking,Cancelled
+ORD01264,2026-02-15,C011,Ravi,Visakhapatnam,Andhra Pradesh,P009,Backpack,Accessories,3,2208.31,10,6624.93,662.49,5962.44,UPI,Completed
+ORD01265,2026-04-13,C009,Suresh,Jaipur,Rajasthan,P008,Desk,Furniture,4,11444.01,10,45776.04,4577.6,41198.44,Cash,Returned
+ORD01266,2026-04-26,C011,Ravi,Visakhapatnam,Andhra Pradesh,P001,Laptop,Electronics,2,59343.73,0,118687.46,0.0,118687.46,Net Banking,Completed
+ORD01267,2026-08-28,C004,Sneha,Mumbai,Maharashtra,P005,Keyboard,Accessories,4,1825.69,10,7302.76,730.28,6572.48,UPI,Completed
+ORD01268,2026-05-13,C009,Suresh,Jaipur,Rajasthan,P002,Smartphone,Electronics,2,26852.27,0,53704.54,0.0,53704.54,Debit Card,Completed
+ORD01269,2026-04-20,C010,Divya,Kochi,Kerala,P001,Laptop,Electronics,4,56332.38,15,225329.52,33799.43,191530.09,Net Banking,Completed
+ORD01270,2026-04-08,C007,Kiran,Kolkata,West Bengal,P007,Office Chair,Furniture,3,8188.93,10,24566.79,2456.68,22110.11,Debit Card,Completed
+ORD01271,2026-08-19,C008,Meena,Ahmedabad,Gujarat,P004,Monitor,Electronics,3,12812.49,20,38437.47,7687.49,30749.98,UPI,Completed
+ORD01272,2026-03-12,C009,Suresh,Jaipur,Rajasthan,P009,Backpack,Accessories,5,2014.39,20,10071.95,2014.39,8057.56,Credit Card,Completed
+ORD01273,2026-03-27,C002,Priya,Bengaluru,Karnataka,P002,Smartphone,Electronics,3,28257.75,0,84773.25,0.0,84773.25,UPI,Completed
+ORD01274,2026-02-05,C005,Vikram,Pune,Maharashtra,P005,Keyboard,Accessories,3,1874.03,0,5622.09,0.0,5622.09,Cash,Returned
+ORD01275,2026-07-20,C005,Vikram,Pune,Maharashtra,P001,Laptop,Electronics,3,58545.4,5,175636.2,8781.81,166854.39,Net Banking,Completed
+ORD01276,2026-07-14,C010,Divya,Kochi,Kerala,P001,Laptop,Electronics,4,55139.12,20,220556.48,44111.3,176445.18,Net Banking,Completed
+ORD01277,2026-05-31,C004,Sneha,Mumbai,Maharashtra,P004,Monitor,Electronics,2,13254.42,10,26508.84,2650.88,23857.96,Net Banking,Cancelled
+ORD01278,2026-02-18,C012,Neha,Gurugram,Haryana,P008,Desk,Furniture,3,11551.38,0,34654.14,0.0,34654.14,Net Banking,Completed
+ORD01279,2026-02-05,C004,Sneha,Mumbai,Maharashtra,P008,Desk,Furniture,4,10872.25,15,43489.0,6523.35,36965.65,Debit Card,Cancelled
+ORD01280,2026-03-28,C005,Vikram,Pune,Maharashtra,P001,Laptop,Electronics,4,58677.29,20,234709.16,46941.83,187767.33,Net Banking,Completed
+ORD01281,2026-01-06,C007,Kiran,Kolkata,West Bengal,P007,Office Chair,Furniture,5,8204.34,5,41021.7,2051.09,38970.61,Credit Card,Cancelled
+ORD01282,2026-06-04,C003,Rahul,Chennai,Tamil Nadu,P003,Headphones,Electronics,3,2564.92,15,7694.76,1154.21,6540.55,Cash,Cancelled
+ORD01283,2026-04-09,C007,Kiran,Kolkata,West Bengal,P007,Office Chair,Furniture,2,7758.31,10,15516.62,1551.66,13964.96,Net Banking,Completed
+ORD01284,2026-03-19,C002,Priya,Bengaluru,Karnataka,P006,Mouse,Accessories,5,925.02,10,4625.1,462.51,4162.59,Debit Card,Completed
+ORD01285,2026-06-04,C002,Priya,Bengaluru,Karnataka,P009,Backpack,Accessories,2,2343.65,0,4687.3,0.0,4687.3,Credit Card,Completed
+ORD01286,2026-03-01,C003,Rahul,Chennai,Tamil Nadu,P004,Monitor,Electronics,1,13394.69,10,13394.69,1339.47,12055.22,Cash,Completed
+ORD01287,2026-02-13,C002,Priya,Bengaluru,Karnataka,P008,Desk,Furniture,1,12044.48,5,12044.48,602.22,11442.26,Net Banking,Completed
+ORD01288,2026-05-03,C007,Kiran,Kolkata,West Bengal,P003,Headphones,Electronics,1,2518.23,0,2518.23,0.0,2518.23,Credit Card,Returned
+ORD01289,2026-07-29,C007,Kiran,Kolkata,West Bengal,P004,Monitor,Electronics,2,13467.32,0,26934.64,0.0,26934.64,Net Banking,Returned
+ORD01290,2026-05-09,C003,Rahul,Chennai,Tamil Nadu,P010,Tablet,Electronics,5,24419.96,5,122099.8,6104.99,115994.81,Net Banking,Returned
+ORD01291,2026-07-31,C005,Vikram,Pune,Maharashtra,P004,Monitor,Electronics,1,13848.05,0,13848.05,0.0,13848.05,Cash,Completed
+ORD01292,2026-04-28,C004,Sneha,Mumbai,Maharashtra,P009,Backpack,Accessories,3,2366.87,15,7100.61,1065.09,6035.52,Cash,Completed
+ORD01293,2026-04-27,C001,Arjun,Hyderabad,Telangana,P002,Smartphone,Electronics,3,30133.57,20,90400.71,18080.14,72320.57,UPI,Completed
+ORD01294,2026-08-19,C007,Kiran,Kolkata,West Bengal,P010,Tablet,Electronics,2,22795.85,10,45591.7,4559.17,41032.53,Net Banking,Cancelled
+ORD01295,2026-04-11,C008,Meena,Ahmedabad,Gujarat,P007,Office Chair,Furniture,2,8616.65,20,17233.3,3446.66,13786.64,Credit Card,Returned
+ORD01296,2026-06-20,C004,Sneha,Mumbai,Maharashtra,P003,Headphones,Electronics,3,2518.87,20,7556.61,1511.32,6045.29,Debit Card,Completed
+ORD01297,2026-01-20,C008,Meena,Ahmedabad,Gujarat,P007,Office Chair,Furniture,5,9342.04,0,46710.2,0.0,46710.2,Cash,Completed
+ORD01298,2026-05-10,C006,Anita,Delhi,Delhi,P007,Office Chair,Furniture,4,8079.7,0,32318.8,0.0,32318.8,Net Banking,Completed
+ORD01299,2026-04-13,C001,Arjun,Hyderabad,Telangana,P002,Smartphone,Electronics,4,27124.48,10,108497.92,10849.79,97648.13,Net Banking,Completed
+ORD01300,2026-02-04,C001,Arjun,Hyderabad,Telangana,P001,Laptop,Electronics,3,57300.1,0,171900.3,0.0,171900.3,Net Banking,Completed
+ORD01301,2026-03-04,C008,Meena,Ahmedabad,Gujarat,P008,Desk,Furniture,1,12116.23,0,12116.23,0.0,12116.23,Net Banking,Returned
+ORD01302,2026-01-05,C003,Rahul,Chennai,Tamil Nadu,P008,Desk,Furniture,3,11209.41,0,33628.23,0.0,33628.23,Credit Card,Cancelled
+ORD01303,2026-02-13,C003,Rahul,Chennai,Tamil Nadu,P005,Keyboard,Accessories,1,1886.92,15,1886.92,283.04,1603.88,Credit Card,Completed
+ORD01304,2026-02-25,C011,Ravi,Visakhapatnam,Andhra Pradesh,P005,Keyboard,Accessories,2,1748.91,10,3497.82,349.78,3148.04,Credit Card,Returned
+ORD01305,2026-08-03,C011,Ravi,Visakhapatnam,Andhra Pradesh,P009,Backpack,Accessories,2,2286.57,10,4573.14,457.31,4115.83,Cash,Returned
+ORD01306,2026-01-14,C011,Ravi,Visakhapatnam,Andhra Pradesh,P002,Smartphone,Electronics,4,26926.62,20,107706.48,21541.3,86165.18,Credit Card,Cancelled
+ORD01307,2026-03-03,C001,Arjun,Hyderabad,Telangana,P007,Office Chair,Furniture,2,8286.9,0,16573.8,0.0,16573.8,Credit Card,Completed
+ORD01308,2026-02-19,C001,Arjun,Hyderabad,Telangana,P007,Office Chair,Furniture,1,8223.1,0,8223.1,0.0,8223.1,Credit Card,Returned
+ORD01309,2026-04-17,C004,Sneha,Mumbai,Maharashtra,P002,Smartphone,Electronics,2,26135.46,20,52270.92,10454.18,41816.74,Credit Card,Cancelled
+ORD01310,2026-02-23,C006,Anita,Delhi,Delhi,P006,Mouse,Accessories,5,844.12,20,4220.6,844.12,3376.48,Net Banking,Cancelled
+ORD01311,2026-03-24,C007,Kiran,Kolkata,West Bengal,P002,Smartphone,Electronics,2,25792.96,0,51585.92,0.0,51585.92,Credit Card,Completed
+ORD01312,2026-02-26,C007,Kiran,Kolkata,West Bengal,P006,Mouse,Accessories,1,848.3,10,848.3,84.83,763.47,UPI,Completed
+ORD01313,2026-02-25,C011,Ravi,Visakhapatnam,Andhra Pradesh,P010,Tablet,Electronics,3,21923.19,0,65769.57,0.0,65769.57,UPI,Completed
+ORD01314,2026-08-25,C010,Divya,Kochi,Kerala,P008,Desk,Furniture,1,12086.84,20,12086.84,2417.37,9669.47,Debit Card,Cancelled
+ORD01315,2026-06-28,C005,Vikram,Pune,Maharashtra,P002,Smartphone,Electronics,5,30695.93,5,153479.65,7673.98,145805.67,Debit Card,Completed
+ORD01316,2026-03-27,C006,Anita,Delhi,Delhi,P003,Headphones,Electronics,3,2491.07,20,7473.21,1494.64,5978.57,Cash,Completed
+ORD01317,2026-03-01,C010,Divya,Kochi,Kerala,P008,Desk,Furniture,4,12337.42,15,49349.68,7402.45,41947.23,Cash,Cancelled
+ORD01318,2026-08-18,C012,Neha,Gurugram,Haryana,P001,Laptop,Electronics,2,56279.84,0,112559.68,0.0,112559.68,UPI,Completed
+ORD01319,2026-02-05,C004,Sneha,Mumbai,Maharashtra,P007,Office Chair,Furniture,2,7784.96,15,15569.92,2335.49,13234.43,Net Banking,Completed
+ORD01320,2026-01-10,C005,Vikram,Pune,Maharashtra,P004,Monitor,Electronics,2,13172.28,10,26344.56,2634.46,23710.1,Cash,Completed
+ORD01321,2026-07-21,C008,Meena,Ahmedabad,Gujarat,P006,Mouse,Accessories,2,867.16,5,1734.32,86.72,1647.6,Cash,Completed
+ORD01322,2026-03-26,C007,Kiran,Kolkata,West Bengal,P005,Keyboard,Accessories,1,1924.9,0,1924.9,0.0,1924.9,Debit Card,Completed
+ORD01323,2026-07-25,C004,Sneha,Mumbai,Maharashtra,P009,Backpack,Accessories,1,2414.89,20,2414.89,482.98,1931.91,Debit Card,Returned
+ORD01324,2026-06-11,C010,Divya,Kochi,Kerala,P007,Office Chair,Furniture,5,7962.03,5,39810.15,1990.51,37819.64,Credit Card,Completed
+ORD01325,2026-02-06,C008,Meena,Ahmedabad,Gujarat,P002,Smartphone,Electronics,2,28752.45,0,57504.9,0.0,57504.9,Debit Card,Completed
+ORD01326,2026-08-27,C002,Priya,Bengaluru,Karnataka,P003,Headphones,Electronics,5,2665.61,15,13328.05,1999.21,11328.84,Debit Card,Completed
+ORD01327,2026-02-12,C009,Suresh,Jaipur,Rajasthan,P002,Smartphone,Electronics,4,27815.62,20,111262.48,22252.5,89009.98,Debit Card,Returned
+ORD01328,2026-03-15,C004,Sneha,Mumbai,Maharashtra,P007,Office Chair,Furniture,2,8073.25,15,16146.5,2421.97,13724.53,Net Banking,Cancelled
+ORD01329,2026-04-03,C011,Ravi,Visakhapatnam,Andhra Pradesh,P004,Monitor,Electronics,3,12824.04,10,38472.12,3847.21,34624.91,Net Banking,Completed
+ORD01330,2026-07-08,C003,Rahul,Chennai,Tamil Nadu,P008,Desk,Furniture,4,12012.7,10,48050.8,4805.08,43245.72,Debit Card,Completed
+ORD01331,2026-07-14,C008,Meena,Ahmedabad,Gujarat,P001,Laptop,Electronics,4,58894.46,10,235577.84,23557.78,212020.06,Cash,Completed
+ORD01332,2026-04-08,C009,Suresh,Jaipur,Rajasthan,P003,Headphones,Electronics,5,2337.85,20,11689.25,2337.85,9351.4,UPI,Completed
+ORD01333,2026-01-19,C008,Meena,Ahmedabad,Gujarat,P005,Keyboard,Accessories,4,1838.17,15,7352.68,1102.9,6249.78,Debit Card,Completed
+ORD01334,2026-01-02,C012,Neha,Gurugram,Haryana,P008,Desk,Furniture,2,12998.72,0,25997.44,0.0,25997.44,Cash,Completed
+ORD01335,2026-08-29,C012,Neha,Gurugram,Haryana,P006,Mouse,Accessories,4,976.62,10,3906.48,390.65,3515.83,UPI,Completed
+ORD01336,2026-01-19,C007,Kiran,Kolkata,West Bengal,P008,Desk,Furniture,3,13170.05,20,39510.15,7902.03,31608.12,Credit Card,Completed
+ORD01337,2026-04-22,C002,Priya,Bengaluru,Karnataka,P007,Office Chair,Furniture,5,7980.19,0,39900.95,0.0,39900.95,UPI,Completed
+ORD01338,2026-04-09,C009,Suresh,Jaipur,Rajasthan,P008,Desk,Furniture,3,10938.49,20,32815.47,6563.09,26252.38,Debit Card,Completed
+ORD01339,2026-06-23,C004,Sneha,Mumbai,Maharashtra,P008,Desk,Furniture,1,12314.29,5,12314.29,615.71,11698.58,Debit Card,Completed
+ORD01340,2026-03-05,C005,Vikram,Pune,Maharashtra,P010,Tablet,Electronics,4,22307.36,20,89229.44,17845.89,71383.55,Cash,Cancelled
+ORD01341,2026-06-14,C011,Ravi,Visakhapatnam,Andhra Pradesh,P003,Headphones,Electronics,1,2635.49,0,2635.49,0.0,2635.49,Net Banking,Returned
+ORD01342,2026-08-13,C007,Kiran,Kolkata,West Bengal,P010,Tablet,Electronics,1,25967.76,15,25967.76,3895.16,22072.6,Debit Card,Completed
+ORD01343,2026-06-18,C007,Kiran,Kolkata,West Bengal,P005,Keyboard,Accessories,3,1968.37,15,5905.11,885.77,5019.34,Cash,Completed
+ORD01344,2026-07-18,C005,Vikram,Pune,Maharashtra,P007,Office Chair,Furniture,1,8731.51,0,8731.51,0.0,8731.51,Debit Card,Completed
+ORD01345,2026-02-13,C005,Vikram,Pune,Maharashtra,P004,Monitor,Electronics,4,13462.68,20,53850.72,10770.14,43080.58,Credit Card,Completed
+ORD01346,2026-03-15,C002,Priya,Bengaluru,Karnataka,P002,Smartphone,Electronics,4,27534.32,15,110137.28,16520.59,93616.69,Net Banking,Returned
+ORD01347,2026-02-20,C003,Rahul,Chennai,Tamil Nadu,P003,Headphones,Electronics,3,2602.02,0,7806.06,0.0,7806.06,Debit Card,Completed
+ORD01348,2026-02-17,C009,Suresh,Jaipur,Rajasthan,P002,Smartphone,Electronics,4,29760.47,15,119041.88,17856.28,101185.6,Credit Card,Completed
+ORD01349,2026-08-12,C012,Neha,Gurugram,Haryana,P003,Headphones,Electronics,2,2741.47,5,5482.94,274.15,5208.79,Net Banking,Completed
+ORD01350,2026-03-17,C011,Ravi,Visakhapatnam,Andhra Pradesh,P010,Tablet,Electronics,1,22397.41,20,22397.41,4479.48,17917.93,Net Banking,Completed
+ORD01351,2026-03-02,C002,Priya,Bengaluru,Karnataka,P005,Keyboard,Accessories,1,1630.68,5,1630.68,81.53,1549.15,Net Banking,Completed
+ORD01352,2026-01-02,C011,Ravi,Visakhapatnam,Andhra Pradesh,P002,Smartphone,Electronics,1,26690.05,0,26690.05,0.0,26690.05,Cash,Returned
+ORD01353,2026-04-07,C001,Arjun,Hyderabad,Telangana,P002,Smartphone,Electronics,2,29634.0,15,59268.0,8890.2,50377.8,Cash,Cancelled
+ORD01354,2026-03-28,C005,Vikram,Pune,Maharashtra,P008,Desk,Furniture,4,12250.49,5,49001.96,2450.1,46551.86,UPI,Completed
+ORD01355,2026-06-06,C006,Anita,Delhi,Delhi,P004,Monitor,Electronics,3,13715.72,20,41147.16,8229.43,32917.73,UPI,Completed
+ORD01356,2026-04-13,C006,Anita,Delhi,Delhi,P002,Smartphone,Electronics,1,30075.03,10,30075.03,3007.5,27067.53,Debit Card,Returned
+ORD01357,2026-06-29,C001,Arjun,Hyderabad,Telangana,P010,Tablet,Electronics,1,22941.44,15,22941.44,3441.22,19500.22,UPI,Completed
+ORD01358,2026-02-18,C008,Meena,Ahmedabad,Gujarat,P010,Tablet,Electronics,4,23583.01,15,94332.04,14149.81,80182.23,UPI,Completed
+ORD01359,2026-04-24,C001,Arjun,Hyderabad,Telangana,P006,Mouse,Accessories,1,868.59,20,868.59,173.72,694.87,Cash,Completed
+ORD01360,2026-08-29,C008,Meena,Ahmedabad,Gujarat,P007,Office Chair,Furniture,5,8242.17,0,41210.85,0.0,41210.85,Credit Card,Completed
+ORD01361,2026-02-06,C012,Neha,Gurugram,Haryana,P007,Office Chair,Furniture,3,7981.63,15,23944.89,3591.73,20353.16,Cash,Cancelled
+ORD01362,2026-01-23,C012,Neha,Gurugram,Haryana,P009,Backpack,Accessories,1,2199.09,0,2199.09,0.0,2199.09,Cash,Completed
+ORD01363,2026-05-19,C008,Meena,Ahmedabad,Gujarat,P003,Headphones,Electronics,4,2491.08,0,9964.32,0.0,9964.32,Debit Card,Completed
+ORD01364,2026-07-03,C004,Sneha,Mumbai,Maharashtra,P003,Headphones,Electronics,1,2467.45,0,2467.45,0.0,2467.45,Debit Card,Completed
+ORD01365,2026-06-20,C006,Anita,Delhi,Delhi,P007,Office Chair,Furniture,3,8872.6,0,26617.8,0.0,26617.8,Credit Card,Completed
+ORD01366,2026-01-24,C011,Ravi,Visakhapatnam,Andhra Pradesh,P003,Headphones,Electronics,5,2612.71,20,13063.55,2612.71,10450.84,UPI,Returned
+ORD01367,2026-04-07,C004,Sneha,Mumbai,Maharashtra,P010,Tablet,Electronics,5,24691.14,0,123455.7,0.0,123455.7,Net Banking,Returned
+ORD01368,2026-01-30,C011,Ravi,Visakhapatnam,Andhra Pradesh,P009,Backpack,Accessories,4,2078.36,0,8313.44,0.0,8313.44,Credit Card,Completed
+ORD01369,2026-02-18,C002,Priya,Bengaluru,Karnataka,P002,Smartphone,Electronics,3,28516.32,20,85548.96,17109.79,68439.17,Credit Card,Returned
+ORD01370,2026-05-28,C010,Divya,Kochi,Kerala,P006,Mouse,Accessories,2,981.73,5,1963.46,98.17,1865.29,Credit Card,Returned
+ORD01371,2026-04-10,C005,Vikram,Pune,Maharashtra,P001,Laptop,Electronics,5,51588.43,15,257942.15,38691.32,219250.83,UPI,Completed
+ORD01372,2026-02-26,C006,Anita,Delhi,Delhi,P003,Headphones,Electronics,5,2550.81,20,12754.05,2550.81,10203.24,Net Banking,Completed
+ORD01373,2026-08-30,C001,Arjun,Hyderabad,Telangana,P009,Backpack,Accessories,4,2043.67,5,8174.68,408.73,7765.95,Debit Card,Completed
+ORD01374,2026-07-11,C008,Meena,Ahmedabad,Gujarat,P008,Desk,Furniture,2,11480.14,15,22960.28,3444.04,19516.24,Credit Card,Returned
+ORD01375,2026-02-01,C010,Divya,Kochi,Kerala,P006,Mouse,Accessories,3,988.26,15,2964.78,444.72,2520.06,Cash,Completed
+ORD01376,2026-04-07,C008,Meena,Ahmedabad,Gujarat,P004,Monitor,Electronics,4,14571.59,5,58286.36,2914.32,55372.04,UPI,Completed
+ORD01377,2026-08-25,C003,Rahul,Chennai,Tamil Nadu,P004,Monitor,Electronics,2,14660.03,20,29320.06,5864.01,23456.05,Net Banking,Completed
+ORD01378,2026-02-10,C012,Neha,Gurugram,Haryana,P007,Office Chair,Furniture,3,9201.04,20,27603.12,5520.62,22082.5,Cash,Completed
+ORD01379,2026-03-31,C007,Kiran,Kolkata,West Bengal,P006,Mouse,Accessories,4,895.22,20,3580.88,716.18,2864.7,Net Banking,Completed
+ORD01380,2026-02-19,C002,Priya,Bengaluru,Karnataka,P009,Backpack,Accessories,3,2286.41,5,6859.23,342.96,6516.27,Cash,Returned
+ORD01381,2026-05-29,C007,Kiran,Kolkata,West Bengal,P002,Smartphone,Electronics,2,29412.69,5,58825.38,2941.27,55884.11,UPI,Completed
+ORD01382,2026-05-04,C008,Meena,Ahmedabad,Gujarat,P003,Headphones,Electronics,5,2470.94,0,12354.7,0.0,12354.7,Debit Card,Completed
+ORD01383,2026-04-03,C004,Sneha,Mumbai,Maharashtra,P004,Monitor,Electronics,2,14423.47,20,28846.94,5769.39,23077.55,Cash,Returned
+ORD01384,2026-02-13,C002,Priya,Bengaluru,Karnataka,P003,Headphones,Electronics,4,2589.72,10,10358.88,1035.89,9322.99,Credit Card,Completed
+ORD01385,2026-05-12,C006,Anita,Delhi,Delhi,P008,Desk,Furniture,2,11081.63,0,22163.26,0.0,22163.26,UPI,Returned
+ORD01386,2026-03-04,C010,Divya,Kochi,Kerala,P007,Office Chair,Furniture,2,8878.34,20,17756.68,3551.34,14205.34,Credit Card,Completed
+ORD01387,2026-02-14,C004,Sneha,Mumbai,Maharashtra,P007,Office Chair,Furniture,4,8819.57,5,35278.28,1763.91,33514.37,Net Banking,Returned
+ORD01388,2026-06-11,C012,Neha,Gurugram,Haryana,P002,Smartphone,Electronics,4,27339.77,20,109359.08,21871.82,87487.26,Net Banking,Returned
+ORD01389,2026-05-06,C006,Anita,Delhi,Delhi,P001,Laptop,Electronics,1,50409.01,0,50409.01,0.0,50409.01,Cash,Returned
+ORD01390,2026-05-03,C004,Sneha,Mumbai,Maharashtra,P001,Laptop,Electronics,5,60360.84,15,301804.2,45270.63,256533.57,Credit Card,Completed
+ORD01391,2026-06-29,C010,Divya,Kochi,Kerala,P003,Headphones,Electronics,4,2749.98,10,10999.92,1099.99,9899.93,UPI,Completed
+ORD01392,2026-08-21,C010,Divya,Kochi,Kerala,P003,Headphones,Electronics,1,2281.75,5,2281.75,114.09,2167.66,Debit Card,Cancelled
+ORD01393,2026-07-20,C007,Kiran,Kolkata,West Bengal,P001,Laptop,Electronics,4,58492.09,15,233968.36,35095.25,198873.11,Net Banking,Cancelled
+ORD01394,2026-07-22,C002,Priya,Bengaluru,Karnataka,P009,Backpack,Accessories,5,2294.05,15,11470.25,1720.54,9749.71,Credit Card,Returned
+ORD01395,2026-01-02,C004,Sneha,Mumbai,Maharashtra,P002,Smartphone,Electronics,2,29093.21,15,58186.42,8727.96,49458.46,Net Banking,Cancelled
+ORD01396,2026-06-17,C006,Anita,Delhi,Delhi,P002,Smartphone,Electronics,1,28420.45,0,28420.45,0.0,28420.45,Credit Card,Completed
+ORD01397,2026-05-10,C009,Suresh,Jaipur,Rajasthan,P005,Keyboard,Accessories,1,1972.77,0,1972.77,0.0,1972.77,UPI,Completed
+ORD01398,2026-03-18,C009,Suresh,Jaipur,Rajasthan,P003,Headphones,Electronics,4,2250.04,20,9000.16,1800.03,7200.13,Cash,Completed
+ORD01399,2026-06-27,C005,Vikram,Pune,Maharashtra,P009,Backpack,Accessories,4,2233.91,0,8935.64,0.0,8935.64,Cash,Completed
+ORD01400,2026-01-26,C006,Anita,Delhi,Delhi,P010,Tablet,Electronics,5,22607.23,15,113036.15,16955.42,96080.73,Credit Card,Returned
+ORD01401,2026-08-02,C004,Sneha,Mumbai,Maharashtra,P001,Laptop,Electronics,2,52796.8,0,105593.6,0.0,105593.6,Debit Card,Completed
+ORD01402,2026-02-02,C010,Divya,Kochi,Kerala,P009,Backpack,Accessories,2,2137.99,15,4275.98,641.4,3634.58,Cash,Returned
+ORD01403,2026-06-16,C007,Kiran,Kolkata,West Bengal,P002,Smartphone,Electronics,5,26659.78,5,133298.9,6664.94,126633.96,Net Banking,Completed
+ORD01404,2026-06-27,C008,Meena,Ahmedabad,Gujarat,P002,Smartphone,Electronics,3,27581.92,20,82745.76,16549.15,66196.61,Cash,Completed
+ORD01405,2026-02-19,C004,Sneha,Mumbai,Maharashtra,P002,Smartphone,Electronics,3,29102.1,20,87306.3,17461.26,69845.04,UPI,Returned
+ORD01406,2026-02-09,C010,Divya,Kochi,Kerala,P009,Backpack,Accessories,5,2164.66,0,10823.3,0.0,10823.3,Net Banking,Completed
+ORD01407,2026-02-01,C007,Kiran,Kolkata,West Bengal,P001,Laptop,Electronics,5,50352.77,0,251763.85,0.0,251763.85,Credit Card,Cancelled
+ORD01408,2026-01-23,C011,Ravi,Visakhapatnam,Andhra Pradesh,P009,Backpack,Accessories,4,2124.92,0,8499.68,0.0,8499.68,UPI,Completed
+ORD01409,2026-04-07,C005,Vikram,Pune,Maharashtra,P003,Headphones,Electronics,2,2254.93,5,4509.86,225.49,4284.37,Net Banking,Completed
+ORD01410,2026-03-20,C002,Priya,Bengaluru,Karnataka,P002,Smartphone,Electronics,2,29278.63,15,58557.26,8783.59,49773.67,Net Banking,Cancelled
+ORD01411,2026-03-14,C002,Priya,Bengaluru,Karnataka,P009,Backpack,Accessories,3,2231.75,20,6695.25,1339.05,5356.2,UPI,Cancelled
+ORD01412,2026-07-12,C010,Divya,Kochi,Kerala,P002,Smartphone,Electronics,1,26980.78,0,26980.78,0.0,26980.78,Debit Card,Completed
+ORD01413,2026-04-14,C006,Anita,Delhi,Delhi,P009,Backpack,Accessories,5,2368.09,15,11840.45,1776.07,10064.38,Cash,Completed
+ORD01414,2026-02-09,C003,Rahul,Chennai,Tamil Nadu,P005,Keyboard,Accessories,1,1804.88,20,1804.88,360.98,1443.9,Debit Card,Returned
+ORD01415,2026-08-24,C003,Rahul,Chennai,Tamil Nadu,P007,Office Chair,Furniture,5,8104.53,20,40522.65,8104.53,32418.12,UPI,Returned
+ORD01416,2026-02-16,C012,Neha,Gurugram,Haryana,P004,Monitor,Electronics,5,14579.0,10,72895.0,7289.5,65605.5,UPI,Completed
+ORD01417,2026-05-14,C008,Meena,Ahmedabad,Gujarat,P009,Backpack,Accessories,3,2399.15,5,7197.45,359.87,6837.58,Debit Card,Returned
+ORD01418,2026-08-05,C005,Vikram,Pune,Maharashtra,P002,Smartphone,Electronics,3,29515.24,10,88545.72,8854.57,79691.15,Credit Card,Completed
+ORD01419,2026-01-22,C002,Priya,Bengaluru,Karnataka,P004,Monitor,Electronics,1,14210.89,0,14210.89,0.0,14210.89,UPI,Returned
+ORD01420,2026-08-27,C009,Suresh,Jaipur,Rajasthan,P008,Desk,Furniture,1,12424.88,10,12424.88,1242.49,11182.39,Debit Card,Returned
+ORD01421,2026-08-16,C008,Meena,Ahmedabad,Gujarat,P008,Desk,Furniture,5,13195.09,20,65975.45,13195.09,52780.36,Credit Card,Cancelled
+ORD01422,2026-07-10,C007,Kiran,Kolkata,West Bengal,P001,Laptop,Electronics,5,59519.75,0,297598.75,0.0,297598.75,Net Banking,Completed
+ORD01423,2026-06-19,C012,Neha,Gurugram,Haryana,P009,Backpack,Accessories,3,2417.46,0,7252.38,0.0,7252.38,Cash,Cancelled
+ORD01424,2026-08-14,C001,Arjun,Hyderabad,Telangana,P010,Tablet,Electronics,4,24837.71,0,99350.84,0.0,99350.84,Debit Card,Cancelled
+ORD01425,2026-01-14,C003,Rahul,Chennai,Tamil Nadu,P002,Smartphone,Electronics,3,28076.63,0,84229.89,0.0,84229.89,Net Banking,Completed
+ORD01426,2026-06-23,C007,Kiran,Kolkata,West Bengal,P003,Headphones,Electronics,3,2418.98,0,7256.94,0.0,7256.94,Cash,Completed
+ORD01427,2026-02-24,C002,Priya,Bengaluru,Karnataka,P005,Keyboard,Accessories,3,1725.68,10,5177.04,517.7,4659.34,Cash,Completed
+ORD01428,2026-08-17,C007,Kiran,Kolkata,West Bengal,P004,Monitor,Electronics,3,14043.48,20,42130.44,8426.09,33704.35,Net Banking,Completed
+ORD01429,2026-04-28,C010,Divya,Kochi,Kerala,P008,Desk,Furniture,1,10814.14,5,10814.14,540.71,10273.43,UPI,Completed
+ORD01430,2026-02-17,C006,Anita,Delhi,Delhi,P002,Smartphone,Electronics,1,30185.1,5,30185.1,1509.26,28675.84,UPI,Completed
+ORD01431,2026-05-16,C001,Arjun,Hyderabad,Telangana,P002,Smartphone,Electronics,4,26306.25,10,105225.0,10522.5,94702.5,Debit Card,Cancelled
+ORD01432,2026-06-18,C007,Kiran,Kolkata,West Bengal,P002,Smartphone,Electronics,4,26071.53,0,104286.12,0.0,104286.12,Debit Card,Completed
+ORD01433,2026-08-17,C008,Meena,Ahmedabad,Gujarat,P007,Office Chair,Furniture,3,8269.64,5,24808.92,1240.45,23568.47,Cash,Completed
+ORD01434,2026-02-11,C005,Vikram,Pune,Maharashtra,P002,Smartphone,Electronics,4,29900.4,20,119601.6,23920.32,95681.28,UPI,Completed
+ORD01435,2026-07-01,C012,Neha,Gurugram,Haryana,P007,Office Chair,Furniture,1,9152.08,5,9152.08,457.6,8694.48,Credit Card,Completed
+ORD01436,2026-07-10,C004,Sneha,Mumbai,Maharashtra,P005,Keyboard,Accessories,1,1762.04,0,1762.04,0.0,1762.04,Credit Card,Completed
+ORD01437,2026-01-31,C003,Rahul,Chennai,Tamil Nadu,P004,Monitor,Electronics,4,15352.2,20,61408.8,12281.76,49127.04,Net Banking,Completed
+ORD01438,2026-07-19,C009,Suresh,Jaipur,Rajasthan,P008,Desk,Furniture,2,12602.62,5,25205.24,1260.26,23944.98,Cash,Completed
+ORD01439,2026-07-22,C012,Neha,Gurugram,Haryana,P007,Office Chair,Furniture,2,9278.05,0,18556.1,0.0,18556.1,Debit Card,Completed
+ORD01440,2026-03-02,C003,Rahul,Chennai,Tamil Nadu,P006,Mouse,Accessories,5,948.13,0,4740.65,0.0,4740.65,UPI,Completed
+ORD01441,2026-03-14,C007,Kiran,Kolkata,West Bengal,P010,Tablet,Electronics,1,23904.93,10,23904.93,2390.49,21514.44,Credit Card,Completed
+ORD01442,2026-02-17,C007,Kiran,Kolkata,West Bengal,P004,Monitor,Electronics,5,14641.9,0,73209.5,0.0,73209.5,UPI,Completed
+ORD01443,2026-02-20,C002,Priya,Bengaluru,Karnataka,P005,Keyboard,Accessories,2,1915.42,20,3830.84,766.17,3064.67,Credit Card,Completed
+ORD01444,2026-08-07,C012,Neha,Gurugram,Haryana,P009,Backpack,Accessories,5,2063.01,0,10315.05,0.0,10315.05,Debit Card,Cancelled
+ORD01445,2026-02-19,C004,Sneha,Mumbai,Maharashtra,P002,Smartphone,Electronics,2,25414.85,10,50829.7,5082.97,45746.73,Net Banking,Completed
+ORD01446,2026-04-08,C001,Arjun,Hyderabad,Telangana,P010,Tablet,Electronics,2,25748.88,0,51497.76,0.0,51497.76,Cash,Completed
+ORD01447,2026-01-16,C005,Vikram,Pune,Maharashtra,P004,Monitor,Electronics,2,13793.01,5,27586.02,1379.3,26206.72,Net Banking,Cancelled
+ORD01448,2026-03-13,C011,Ravi,Visakhapatnam,Andhra Pradesh,P001,Laptop,Electronics,3,52461.71,0,157385.13,0.0,157385.13,Net Banking,Completed
+ORD01449,2026-01-14,C004,Sneha,Mumbai,Maharashtra,P006,Mouse,Accessories,1,817.36,0,817.36,0.0,817.36,UPI,Returned
+ORD01450,2026-01-26,C004,Sneha,Mumbai,Maharashtra,P005,Keyboard,Accessories,4,1947.05,5,7788.2,389.41,7398.79,Debit Card,Completed
+ORD01451,2026-01-25,C005,Vikram,Pune,Maharashtra,P008,Desk,Furniture,3,11530.46,5,34591.38,1729.57,32861.81,Credit Card,Returned
+ORD01452,2026-07-27,C011,Ravi,Visakhapatnam,Andhra Pradesh,P009,Backpack,Accessories,2,2138.65,5,4277.3,213.87,4063.43,Cash,Completed
+ORD01453,2026-02-23,C009,Suresh,Jaipur,Rajasthan,P010,Tablet,Electronics,3,24721.19,0,74163.57,0.0,74163.57,Net Banking,Cancelled
+ORD01454,2026-01-31,C002,Priya,Bengaluru,Karnataka,P002,Smartphone,Electronics,2,29358.49,20,58716.98,11743.4,46973.58,Cash,Completed
+ORD01455,2026-01-26,C011,Ravi,Visakhapatnam,Andhra Pradesh,P004,Monitor,Electronics,2,13848.16,20,27696.32,5539.26,22157.06,Cash,Completed
+ORD01456,2026-07-14,C010,Divya,Kochi,Kerala,P006,Mouse,Accessories,3,895.36,20,2686.08,537.22,2148.86,Cash,Completed
+ORD01457,2026-05-21,C012,Neha,Gurugram,Haryana,P003,Headphones,Electronics,1,2345.85,0,2345.85,0.0,2345.85,UPI,Returned
+ORD01458,2026-01-31,C009,Suresh,Jaipur,Rajasthan,P006,Mouse,Accessories,3,923.38,10,2770.14,277.01,2493.13,Credit Card,Completed
+ORD01459,2026-02-12,C008,Meena,Ahmedabad,Gujarat,P007,Office Chair,Furniture,5,8994.5,15,44972.5,6745.88,38226.62,UPI,Cancelled
+ORD01460,2026-01-16,C012,Neha,Gurugram,Haryana,P003,Headphones,Electronics,3,2727.9,0,8183.7,0.0,8183.7,Debit Card,Returned
+ORD01461,2026-05-12,C012,Neha,Gurugram,Haryana,P007,Office Chair,Furniture,4,8555.2,20,34220.8,6844.16,27376.64,Debit Card,Completed
+ORD01462,2026-04-13,C008,Meena,Ahmedabad,Gujarat,P009,Backpack,Accessories,4,2322.92,15,9291.68,1393.75,7897.93,UPI,Cancelled
+ORD01463,2026-06-01,C004,Sneha,Mumbai,Maharashtra,P003,Headphones,Electronics,1,2535.95,0,2535.95,0.0,2535.95,Credit Card,Returned
+ORD01464,2026-03-08,C009,Suresh,Jaipur,Rajasthan,P008,Desk,Furniture,5,12529.39,20,62646.95,12529.39,50117.56,Debit Card,Completed
+ORD01465,2026-01-12,C005,Vikram,Pune,Maharashtra,P005,Keyboard,Accessories,5,1681.6,0,8408.0,0.0,8408.0,Debit Card,Cancelled
+ORD01466,2026-03-11,C005,Vikram,Pune,Maharashtra,P001,Laptop,Electronics,2,59699.73,5,119399.46,5969.97,113429.49,Debit Card,Completed
+ORD01467,2026-06-11,C004,Sneha,Mumbai,Maharashtra,P009,Backpack,Accessories,1,2265.4,0,2265.4,0.0,2265.4,UPI,Cancelled
+ORD01468,2026-04-15,C006,Anita,Delhi,Delhi,P002,Smartphone,Electronics,5,29243.65,5,146218.25,7310.91,138907.34,UPI,Cancelled
+ORD01469,2026-03-13,C006,Anita,Delhi,Delhi,P001,Laptop,Electronics,1,51912.08,5,51912.08,2595.6,49316.48,UPI,Completed
+ORD01470,2026-06-26,C001,Arjun,Hyderabad,Telangana,P009,Backpack,Accessories,5,2297.94,0,11489.7,0.0,11489.7,UPI,Completed
+ORD01471,2026-02-26,C011,Ravi,Visakhapatnam,Andhra Pradesh,P010,Tablet,Electronics,5,25520.87,0,127604.35,0.0,127604.35,UPI,Completed
+ORD01472,2026-07-06,C004,Sneha,Mumbai,Maharashtra,P010,Tablet,Electronics,4,23741.07,0,94964.28,0.0,94964.28,Net Banking,Returned
+ORD01473,2026-04-28,C006,Anita,Delhi,Delhi,P003,Headphones,Electronics,4,2497.98,0,9991.92,0.0,9991.92,Debit Card,Completed
+ORD01474,2026-03-14,C004,Sneha,Mumbai,Maharashtra,P010,Tablet,Electronics,4,22465.95,20,89863.8,17972.76,71891.04,UPI,Completed
+ORD01475,2026-01-18,C003,Rahul,Chennai,Tamil Nadu,P003,Headphones,Electronics,4,2553.91,20,10215.64,2043.13,8172.51,Credit Card,Completed
+ORD01476,2026-01-26,C007,Kiran,Kolkata,West Bengal,P004,Monitor,Electronics,4,15317.08,20,61268.32,12253.66,49014.66,Cash,Returned
+ORD01477,2026-01-06,C003,Rahul,Chennai,Tamil Nadu,P001,Laptop,Electronics,5,53656.63,0,268283.15,0.0,268283.15,Credit Card,Completed
+ORD01478,2026-03-10,C011,Ravi,Visakhapatnam,Andhra Pradesh,P001,Laptop,Electronics,2,57971.29,0,115942.58,0.0,115942.58,Cash,Completed
+ORD01479,2026-03-28,C001,Arjun,Hyderabad,Telangana,P001,Laptop,Electronics,1,57597.45,15,57597.45,8639.62,48957.83,Credit Card,Returned
+ORD01480,2026-07-28,C004,Sneha,Mumbai,Maharashtra,P003,Headphones,Electronics,4,2696.2,15,10784.8,1617.72,9167.08,UPI,Completed
+ORD01481,2026-06-27,C006,Anita,Delhi,Delhi,P008,Desk,Furniture,2,10934.1,0,21868.2,0.0,21868.2,Cash,Completed
+ORD01482,2026-01-27,C002,Priya,Bengaluru,Karnataka,P001,Laptop,Electronics,1,55491.06,0,55491.06,0.0,55491.06,Net Banking,Cancelled
+ORD01483,2026-04-09,C003,Rahul,Chennai,Tamil Nadu,P001,Laptop,Electronics,2,51993.43,0,103986.86,0.0,103986.86,UPI,Completed
+ORD01484,2026-08-15,C011,Ravi,Visakhapatnam,Andhra Pradesh,P005,Keyboard,Accessories,2,1758.51,20,3517.02,703.4,2813.62,Credit Card,Returned
+ORD01485,2026-03-14,C008,Meena,Ahmedabad,Gujarat,P003,Headphones,Electronics,1,2300.87,0,2300.87,0.0,2300.87,Credit Card,Completed
+ORD01486,2026-08-24,C010,Divya,Kochi,Kerala,P006,Mouse,Accessories,1,976.2,5,976.2,48.81,927.39,Credit Card,Completed
+ORD01487,2026-06-03,C010,Divya,Kochi,Kerala,P003,Headphones,Electronics,2,2515.24,10,5030.48,503.05,4527.43,Net Banking,Completed
+ORD01488,2026-01-27,C003,Rahul,Chennai,Tamil Nadu,P005,Keyboard,Accessories,5,1745.42,5,8727.1,436.36,8290.74,Net Banking,Completed
+ORD01489,2026-07-21,C011,Ravi,Visakhapatnam,Andhra Pradesh,P006,Mouse,Accessories,3,953.76,20,2861.28,572.26,2289.02,Debit Card,Completed
+ORD01490,2026-07-04,C011,Ravi,Visakhapatnam,Andhra Pradesh,P003,Headphones,Electronics,3,2445.3,0,7335.9,0.0,7335.9,Credit Card,Completed
+ORD01491,2026-01-24,C002,Priya,Bengaluru,Karnataka,P010,Tablet,Electronics,0,22936.69,20,91746.76,18349.35,73397.41,Debit Card,Completed
+ORD01492,2026-05-04,C003,Rahul,Chennai,Tamil Nadu,P007,Office Chair,Furniture,0,8490.15,5,25470.45,1273.52,24196.93,Net Banking,Returned
+ORD01493,2026-04-09,C010,Divya,Kochi,Kerala,P006,Mouse,Accessories,-1,975.89,20,1951.78,390.36,-100.0,Cash,Completed
+ORD01494,2026-07-30,,Meena,Ahmedabad,Gujarat,P009,Backpack,Accessories,-1,2214.29,10,11071.45,1107.14,9964.31,Net Banking,Completed
+ORD01495,2026-06-27,C002,Priya,Bengaluru,Karnataka,UNKNOWN,Tablet,Electronics,-1,24373.81,15,97495.24,14624.29,82870.95,Debit Card,Returned
+ORD01496,2026-08-06,C012,Neha,Gurugram,Haryana,P002,Smartphone,Electronics,2,25216.05,5,50432.1,2521.61,47910.49,UPI,Completed
+ORD01497,2026-03-31,C009,Suresh,Jaipur,Rajasthan,P008,Desk,Furniture,2,10942.99,0,21885.98,0.0,21885.98,Debit Card,Completed
+ORD01498,2026-08-22,C005,Vikram,Pune,Maharashtra,P008,Desk,Furniture,2,13132.37,15,26264.74,3939.71,22325.03,Debit Card,Completed
+ORD01499,2026-06-28,C004,Sneha,Mumbai,Maharashtra,P004,Monitor,Electronics,1,12985.84,20,12985.84,2597.17,10388.67,Debit Card,Returned
+ORD01500,2026-01-28,C007,Kiran,Kolkata,West Bengal,P001,Laptop,Electronics,4,50094.92,5,200379.68,10018.98,190360.7,Cash,Returned

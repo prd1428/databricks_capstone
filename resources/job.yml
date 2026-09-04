@@ -1,0 +1,67 @@
+resources:
+  jobs:
+    sales_job:
+      name: sales_cicd_job
+
+      tasks:
+
+        # =====================================================
+        # 1. Bronze Ingestion
+        # =====================================================
+
+        - task_key: bronze_ingestion
+
+          spark_python_task:
+            python_file: ../src/01_bronze_ingestion.py
+            parameters:
+              - ${workspace.file_path}/data/sales_source_1500.csv
+          environment_key: default
+
+        # =====================================================
+        # 2. Data Quality Report
+        # =====================================================
+
+        - task_key: data_quality
+
+          depends_on:
+            - task_key: bronze_ingestion
+
+          spark_python_task:
+            python_file: ../src/00_data_quality_report.py
+
+          environment_key: default
+
+        # =====================================================
+        # 3. Silver Cleaning
+        # =====================================================
+
+        - task_key: silver_cleaning
+
+          depends_on:
+            - task_key: data_quality
+
+          spark_python_task:
+            python_file: ../src/02_silver_cleaning.py
+
+          environment_key: default
+
+        # =====================================================
+        # 4. Gold Analytics
+        # =====================================================
+
+        - task_key: gold_analytics
+
+          depends_on:
+            - task_key: silver_cleaning
+
+          spark_python_task:
+            python_file: ../src/03_gold_analytics.py
+
+          environment_key: default
+
+      environments:
+        - environment_key: default
+
+          spec:
+            client: "2"
+          

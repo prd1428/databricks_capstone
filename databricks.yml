@@ -1,0 +1,15 @@
+bundle:
+  name: databricks_cicd_demo
+
+include:
+  - resources/*.yml
+
+sync:
+  include:
+    - data/**
+
+targets:
+
+  dev:
+    mode: development
+    default: true
