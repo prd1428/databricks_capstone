@@ -3,22 +3,15 @@ from pyspark.sql.functions import col, when
 
 spark = SparkSession.builder.getOrCreate()
 
-# ============================================================
-# 1. Bronze table
-# ============================================================
-
+# Bronze table
 bronze_table = "workspace.default.capstone_bronze_sales"
 
-# ============================================================
-# 2. Read Bronze table
-# ============================================================
 
+# Read Bronze table
 df = spark.table(bronze_table)
 
-# ============================================================
-# 3. Create data quality flags
-# ============================================================
 
+# Create data quality flags
 dq_df = (
     df
     .withColumn(
@@ -31,16 +24,11 @@ dq_df = (
     )
 )
 
-# ============================================================
-# 4. Display records with quality flags
-# ============================================================
 
 display(dq_df)
 
-# ============================================================
-# 5. Data Quality Summary
-# ============================================================
 
+# Data Quality Summary
 dq_summary = (
     dq_df
     .groupBy("dq_flag")
@@ -51,18 +39,12 @@ dq_summary = (
 print("Data Quality Summary")
 display(dq_summary)
 
-# ============================================================
-# 6. Total records
-# ============================================================
 
+# Total records
 total_records = df.count()
-
 print(f"Total Bronze records: {total_records}")
 
-# ============================================================
-# 7. Invalid records
-# ============================================================
-
+# Invalid records
 invalid_records = (
     dq_df
     .filter(col("dq_flag") != "VALID")
@@ -71,10 +53,7 @@ invalid_records = (
 
 print(f"Total invalid records: {invalid_records}")
 
-# ============================================================
-# 8. Valid records
-# ============================================================
-
+# Valid records
 valid_records = (
     dq_df
     .filter(col("dq_flag") == "VALID")

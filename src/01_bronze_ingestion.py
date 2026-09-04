@@ -3,24 +3,16 @@ from pyspark.sql import SparkSession
 
 spark = SparkSession.builder.getOrCreate()
 
-# ============================================================
-# 1. Source CSV path
-# ============================================================
 
+# Source CSV path
 # source_path = "/Workspace/Users/dnyprasad14@gmail.com/databricks_capstone/data/sales_source_1500.csv"
-
 source_path = sys.argv[1]
 
-# ============================================================
-# 2. Bronze table
-# ============================================================
-
+# Bronze table
 bronze_table = "workspace.default.capstone_bronze_sales"
 
-# ============================================================
-# 3. Read raw CSV
-# ============================================================
 
+# Read raw CSV
 df = (
     spark.read
     .option("header", "true")
@@ -28,10 +20,8 @@ df = (
     .csv(source_path)
 )
 
-# ============================================================
-# 4. Write to Bronze Delta table
-# ============================================================
 
+# Write to Bronze Delta table
 (
     df.write
     .format("delta")
@@ -39,12 +29,9 @@ df = (
     .saveAsTable(bronze_table)
 )
 
-# ============================================================
-# 5. Verification
-# ============================================================
 
+# Verification
 print("Bronze ingestion completed successfully.")
 print(f"Bronze table: {bronze_table}")
 print(f"Record count: {df.count()}")
-
 display(spark.table(bronze_table))

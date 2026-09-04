@@ -5,10 +5,7 @@ resources:
 
       tasks:
 
-        # =====================================================
-        # 1. Bronze Ingestion
-        # =====================================================
-
+        # Bronze Ingestion
         - task_key: bronze_ingestion
 
           spark_python_task:
@@ -17,10 +14,8 @@ resources:
               - ${workspace.file_path}/data/sales_source_1500.csv
           environment_key: default
 
-        # =====================================================
-        # 2. Data Quality Report
-        # =====================================================
-
+        
+        # Data Quality Report
         - task_key: data_quality
 
           depends_on:
@@ -31,10 +26,8 @@ resources:
 
           environment_key: default
 
-        # =====================================================
-        # 3. Silver Cleaning
-        # =====================================================
-
+        
+        # Silver Cleaning
         - task_key: silver_cleaning
 
           depends_on:
@@ -45,10 +38,8 @@ resources:
 
           environment_key: default
 
-        # =====================================================
-        # 4. Gold Analytics
-        # =====================================================
-
+        
+        # Gold Analytics
         - task_key: gold_analytics
 
           depends_on:

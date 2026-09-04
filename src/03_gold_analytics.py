@@ -8,24 +8,17 @@ from pyspark.sql.functions import (
 
 spark = SparkSession.builder.getOrCreate()
 
-# ============================================================
-# 1. Source and target tables
-# ============================================================
-
+# Source and target tables
 silver_table = "workspace.default.capstone_silver_sales"
 gold_table = "workspace.default.capstone_gold_sales_summary"
 
-# ============================================================
-# 2. Read Silver table
-# ============================================================
 
+# Read Silver table
 df = spark.table(silver_table)
-
 print(f"Silver record count: {df.count()}")
 
-# ============================================================
-# 3. Create Gold sales summary
-# ============================================================
+
+# Create Gold sales summary
 # Keep year/month for monthly analysis
 # Keep state/category for dashboard analysis
 
@@ -54,10 +47,7 @@ gold_df = (
     )
 )
 
-# ============================================================
-# 4. Write Gold Delta table
-# ============================================================
-
+# Write Gold Delta table
 (
     gold_df.write
     .format("delta")
@@ -66,13 +56,7 @@ gold_df = (
     .saveAsTable(gold_table)
 )
 
-# ============================================================
-# 5. Verification
-# ============================================================
-
 print("Gold analytics completed successfully.")
 print(f"Gold table: {gold_table}")
-
 print(f"Gold record count: {gold_df.count()}")
-
 display(spark.table(gold_table))

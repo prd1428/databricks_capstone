@@ -10,25 +10,16 @@ from pyspark.sql.functions import (
 
 spark = SparkSession.builder.getOrCreate()
 
-# ============================================================
-# 1. Source and target tables
-# ============================================================
-
+# Source and target tables
 bronze_table = "workspace.default.capstone_bronze_sales"
 silver_table = "workspace.default.capstone_silver_sales"
 
-# ============================================================
-# 2. Read Bronze
-# ============================================================
-
+# Read Bronze
 df = spark.table(bronze_table)
-
 print(f"Bronze record count: {df.count()}")
 
-# ============================================================
-# 3. Trim string columns
-# ============================================================
 
+# Trim string columns
 df = (
     df
     .withColumn("order_id", trim(col("order_id")))
@@ -40,9 +31,8 @@ df = (
     .withColumn("order_status", trim(col("order_status")))
 )
 
-# ============================================================
-# 4. Convert data types
-# ============================================================
+
+# Convert data types
 
 df = (
     df
@@ -54,10 +44,8 @@ df = (
     .withColumn("net_amount", col("net_amount").cast("double"))
 )
 
-# ============================================================
-# 5. Remove invalid business records
-# ============================================================
 
+# Remove invalid business records
 df = (
     df
     .filter(col("customer_id").isNotNull())
@@ -66,10 +54,8 @@ df = (
     .filter(col("product_id") != "UNKNOWN")
 )
 
-# ============================================================
-# 6. Create year, month and month_name
-# ============================================================
 
+# Create year, month and month_name
 df = (
     df
     .withColumn("year", year(col("order_date")))
@@ -77,10 +63,8 @@ df = (
     .withColumn("month_name", date_format(col("order_date"), "MMMM"))
 )
 
-# ============================================================
-# 7. Write Silver Delta table
-# ============================================================
 
+# Write Silver Delta table
 (
     df.write
     .format("delta")
@@ -88,12 +72,7 @@ df = (
     .saveAsTable(silver_table)
 )
 
-# ============================================================
-# 8. Verification
-# ============================================================
-
 print("Silver cleaning completed successfully.")
 print(f"Silver table: {silver_table}")
 print(f"Silver record count: {df.count()}")
-
 display(spark.table(silver_table))
